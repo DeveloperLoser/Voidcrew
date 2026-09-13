@@ -24,7 +24,6 @@
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "bl" = (
 /obj/structure/bed,
-/obj/item/bedsheet/random,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "br" = (
@@ -79,11 +78,8 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/box/rndboards{
-	desc = "A box containing a gift for worthy russians.";
-	name = "\proper russian science program"
-	},
 /obj/structure/cable,
+/obj/item/storage/box/rndboards/all,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/voidcrew/bogatyr/laboratory)
 "dH" = (
@@ -98,12 +94,7 @@
 /obj/item/gun/ballistic/shotgun/doublebarrel{
 	name = "\improper TOZ-1"
 	},
-/obj/item/ammo_casing/shotgun/laserslug{
-	pixel_x = 2;
-	pixel_y = 1
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_casing/shotgun/improvised,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/armory)
@@ -254,7 +245,6 @@
 /obj/item/reagent_containers/cup/glass/flask/gold{
 	list_reagents = list(/datum/reagent/consumable/ethanol/sbiten=30)
 	},
-/obj/item/areaeditor/shuttle,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "on" = (
@@ -286,10 +276,11 @@
 /obj/structure/closet/crate/radiation{
 	name = "fuel crate"
 	},
-/obj/item/stack/sheet/mineral/uranium/five,
-/obj/item/stack/sheet/mineral/uranium/five,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "pF" = (
@@ -390,8 +381,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/item/ammo_box/a762,
-/obj/item/ammo_box/a762,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/armory)
 "sx" = (
@@ -513,9 +502,7 @@
 /area/shuttle/voidcrew/bogatyr/cargo)
 "yR" = (
 /obj/structure/table,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 5
-	},
+/obj/item/surgery_tray/full,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "zc" = (
@@ -545,6 +532,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/armory)
+"zK" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
 "zL" = (
 /obj/structure/table,
 /obj/item/toy/figure/secofficer{
@@ -683,10 +673,6 @@
 "DN" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants/dead{
-	desc = "A little bit of nature contained in a pot. It looks dead, and reeks of potato liquor.";
-	name = "potted plant"
-	},
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
@@ -1148,9 +1134,12 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "XL" = (
-/obj/machinery/modular_computer/console/preset/command,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/voidcrew/bogatyr/bridge)
+/obj/machinery/computer/helm/viewscreen{
+	pixel_y = -30;
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
 "Yr" = (
 /obj/machinery/light/broken{
 	dir = 1
@@ -1303,7 +1292,7 @@ Zr
 "}
 (5,1,1) = {"
 WR
-OY
+zK
 lJ
 qo
 zf
@@ -1325,7 +1314,7 @@ Zr
 "}
 (6,1,1) = {"
 WR
-XL
+cL
 AR
 qo
 Sl
@@ -1347,7 +1336,7 @@ Zr
 "}
 (7,1,1) = {"
 WR
-cL
+OY
 NW
 To
 xb
@@ -1361,7 +1350,7 @@ bC
 EN
 By
 JP
-JP
+XL
 VM
 pV
 NC
