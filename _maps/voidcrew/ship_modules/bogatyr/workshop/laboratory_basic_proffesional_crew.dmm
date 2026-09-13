@@ -1,0 +1,87 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"gnl" = (
+/obj/item/radio/intercom/directional/north,
+/obj/structure/frame/machine,
+/turf/template_noop,
+/area/template_noop)
+"icr" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"mul" = (
+/obj/structure/table_frame,
+/turf/template_noop,
+/area/template_noop)
+"oZn" = (
+/obj/structure/frame/computer,
+/turf/template_noop,
+/area/template_noop)
+"pQR" = (
+/turf/template_noop,
+/area/template_noop)
+"rKT" = (
+/obj/structure/frame/machine,
+/turf/template_noop,
+/area/template_noop)
+"umV" = (
+/obj/structure/closet/crate/science,
+/obj/item/stack/cable_coil,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/storage/box/rndboards/all,
+/turf/template_noop,
+/area/template_noop)
+"vOh" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+pQR
+pQR
+pQR
+pQR
+vOh
+"}
+(2,1,1) = {"
+pQR
+rKT
+pQR
+pQR
+pQR
+"}
+(3,1,1) = {"
+pQR
+oZn
+pQR
+pQR
+icr
+"}
+(4,1,1) = {"
+pQR
+gnl
+pQR
+pQR
+pQR
+"}
+(5,1,1) = {"
+pQR
+pQR
+pQR
+pQR
+pQR
+"}
+(6,1,1) = {"
+pQR
+mul
+pQR
+umV
+pQR
+"}
+(7,1,1) = {"
+pQR
+pQR
+pQR
+pQR
+pQR
+"}

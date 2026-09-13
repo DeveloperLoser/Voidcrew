@@ -1,0 +1,105 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bpY" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"bIF" = (
+/obj/structure/table,
+/turf/template_noop,
+/area/template_noop)
+"hDn" = (
+/obj/structure/bed,
+/turf/template_noop,
+/area/template_noop)
+"iMC" = (
+/obj/structure/closet/crate/freezer/blood,
+/turf/template_noop,
+/area/template_noop)
+"jDx" = (
+/obj/structure/table,
+/obj/item/toy/plush/moth{
+	name = "emotional support moth plushie"
+	},
+/turf/template_noop,
+/area/template_noop)
+"kKl" = (
+/obj/structure/table,
+/obj/item/storage/medkit/toxin{
+	pixel_y = 8
+	},
+/obj/item/storage/medkit/o2{
+	pixel_y = -1
+	},
+/turf/template_noop,
+/area/template_noop)
+"mdI" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"nuS" = (
+/turf/template_noop,
+/area/template_noop)
+"reO" = (
+/obj/machinery/iv_drip,
+/turf/template_noop,
+/area/template_noop)
+"sXA" = (
+/obj/structure/bed,
+/obj/item/radio/intercom/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"tGi" = (
+/obj/structure/table,
+/obj/item/storage/medkit/regular,
+/turf/template_noop,
+/area/template_noop)
+"vGX" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+bpY
+nuS
+nuS
+nuS
+nuS
+nuS
+mdI
+"}
+(2,1,1) = {"
+nuS
+jDx
+nuS
+nuS
+nuS
+tGi
+nuS
+"}
+(3,1,1) = {"
+nuS
+iMC
+nuS
+reO
+nuS
+kKl
+nuS
+"}
+(4,1,1) = {"
+nuS
+nuS
+sXA
+bIF
+hDn
+bpY
+nuS
+"}
+(5,1,1) = {"
+nuS
+nuS
+nuS
+vGX
+nuS
+nuS
+nuS
+"}

@@ -1,0 +1,1345 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ahH" = (
+/obj/machinery/computer/helm,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"alL" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"asX" = (
+/obj/structure/sign/poster/contraband/free_tonto,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/central)
+"auS" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"awr" = (
+/obj/machinery/door/airlock{
+	name = "Dormitories"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"aKe" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"aMc" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"bmR" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/vest/russian{
+	pixel_x = 8
+	},
+/obj/item/clothing/suit/armor/vest/russian{
+	pixel_x = -7
+	},
+/obj/item/clothing/suit/armor/vest/russian{
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"bps" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"bvB" = (
+/obj/machinery/vending/cigarette,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"byX" = (
+/obj/modular_map_root/ship_upgrade{
+	key = "medical"
+	},
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/armory)
+"bLy" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"bNO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"bQW" = (
+/obj/effect/decal/cleanable/food/egg_smudge,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"cdA" = (
+/obj/item/cigbutt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"cok" = (
+/obj/machinery/computer/communications,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"cAl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"cGP" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engines"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"cUN" = (
+/obj/structure/cable,
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"cZm" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"dbc" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"dpm" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"dpE" = (
+/obj/machinery/door/airlock/command{
+	name = "Bridge"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"dti" = (
+/mob/living/basic/mining/wolf{
+	faction = list("neutral");
+	name = "Anastasia"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"dzJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"ebq" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"elJ" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"emQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"emX" = (
+/obj/machinery/autolathe,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"eAB" = (
+/obj/machinery/door/airlock/medical{
+	name = "Infirmary"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"eIK" = (
+/obj/structure/table,
+/obj/item/toy/cards/deck/syndicate{
+	pixel_y = 3
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"eTi" = (
+/obj/machinery/door/poddoor{
+	id = "blastdoors"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"fhb" = (
+/obj/machinery/vending/sustenance,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"fhz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"fpl" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"fvV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"fwV" = (
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"fEX" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"fJM" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"fSv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"fTs" = (
+/obj/structure/sign/poster/random,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"gdc" = (
+/obj/machinery/airalarm/directional/north,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"gyI" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"gBs" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "bogatyr_bridge"
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"gGJ" = (
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"gJD" = (
+/obj/structure/closet{
+	name = "mastercraft traditional russian clothes"
+	},
+/obj/item/clothing/under/pants/track,
+/obj/item/clothing/under/pants/track,
+/obj/item/clothing/under/pants/track,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/head/costume/ushanka,
+/obj/item/clothing/head/costume/ushanka,
+/obj/item/clothing/head/costume/ushanka,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"gQu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"hBh" = (
+/obj/structure/table,
+/obj/item/toy/figure/secofficer{
+	pixel_x = -7
+	},
+/obj/item/toy/figure/assistant{
+	pixel_x = 6
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"hGv" = (
+/obj/machinery/vending/sovietsoda,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"hZC" = (
+/turf/template_noop,
+/area/template_noop)
+"idX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"iQB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/dogbed{
+	name = "Anastasia's bed"
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"iXZ" = (
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"jgv" = (
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"jht" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"jkX" = (
+/obj/structure/sign/poster/official/wtf_is_co2,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"jvS" = (
+/obj/machinery/door/airlock/science{
+	name = "Laboratory"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"jBY" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"kvj" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"kzf" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"kFe" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"kOw" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"kVE" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"laY" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/armory)
+"lcl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"ljh" = (
+/obj/machinery/door/poddoor{
+	id = "blastdoors"
+	},
+/obj/modular_map_root/ship_upgrade{
+	key = "cargo_bay"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"lAk" = (
+/obj/machinery/light,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"lEC" = (
+/obj/machinery/door/poddoor{
+	id = "blastdoors"
+	},
+/obj/docking_port/mobile/voidcrew/bogatyr{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"lFc" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"mjX" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"mnA" = (
+/obj/structure/rack,
+/obj/item/knife/hunting{
+	pixel_y = -1
+	},
+/obj/item/knife/hunting{
+	pixel_y = 7
+	},
+/obj/item/knife/hunting{
+	pixel_y = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"mJG" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"nlS" = (
+/obj/structure/chair,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"nro" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"nsH" = (
+/obj/structure/cable,
+/obj/item/storage/backpack/satchel/flat,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"nZk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"oms" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"oAu" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"oCl" = (
+/obj/structure/table,
+/obj/item/food/meat/slab/bear,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"oDc" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+	dir = 1
+	},
+/obj/modular_map_root/ship_upgrade{
+	key = "engines"
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"oRB" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"oVO" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/central)
+"oWT" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"pbs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"pji" = (
+/obj/structure/sign/poster/contraband/syndicate_recruitment{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/armory)
+"psf" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"pwi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"pJs" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"pSe" = (
+/obj/machinery/light/small/broken{
+	dir = 4;
+	name = "light fixture"
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"pZu" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"qah" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"qfn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"qgY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"qjE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"qof" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"qqV" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"qBp" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "bogatyr_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/central)
+"qCb" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"qDM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/holopad,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"qFU" = (
+/obj/structure/sign/poster/random,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"qOx" = (
+/obj/machinery/light/broken,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"qOQ" = (
+/obj/machinery/computer/cryopod{
+	pixel_y = 28
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"qPz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"qVc" = (
+/obj/machinery/cryopod,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"reT" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"rkl" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"rqq" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"rrx" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"rxb" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"rBG" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"rZY" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"saQ" = (
+/obj/machinery/door/poddoor{
+	id = "bogatyr_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"ssy" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"stc" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/melee/chainofcommand,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"suS" = (
+/obj/structure/rack,
+/obj/item/gun/ballistic/rifle/boltaction{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"sPV" = (
+/obj/structure/closet/secure_closet/captains,
+/obj/item/clothing/head/helmet/rus_ushanka,
+/obj/item/clothing/shoes/russian,
+/obj/item/clothing/under/costume/russian_officer,
+/obj/item/clothing/suit/jacket/officer/tan,
+/obj/item/reagent_containers/cup/glass/flask/gold{
+	list_reagents = list(/datum/reagent/consumable/ethanol/sbiten=30)
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"sRK" = (
+/obj/machinery/atmospherics/components/tank/air{
+	dir = 4;
+	piping_layer = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"sVu" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"sWF" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "bogatyr_windows";
+	name = "Window Lockdown";
+	pixel_x = -24;
+	pixel_y = 7
+	},
+/obj/machinery/button/door{
+	id = "bogatyr_bridge";
+	name = "Bridge Lockdown";
+	pixel_x = -24;
+	pixel_y = -5
+	},
+/obj/machinery/light/small,
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"sYj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"tdC" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"tqj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"tyR" = (
+/obj/structure/rack,
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"tEz" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"tJL" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"tMQ" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"ugp" = (
+/obj/machinery/door/airlock/vault{
+	name = "Armory"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"ulz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"uny" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"uuz" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"vaZ" = (
+/obj/structure/rack,
+/obj/item/gun/ballistic/shotgun/doublebarrel{
+	name = "\improper TOZ-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/armory)
+"vle" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/voidcrew/bogatyr/infirmary)
+"vuA" = (
+/obj/modular_map_root/ship_upgrade{
+	key = "laboratory"
+	},
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+"vxl" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
+"vDK" = (
+/obj/structure/sign/poster/contraband/d_day_promo,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"vUw" = (
+/obj/structure/table,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"vUy" = (
+/obj/structure/table,
+/obj/item/gun/ballistic/revolver/russian,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"waH" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"wmF" = (
+/obj/structure/chair,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/central)
+"woq" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"wwh" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"wJz" = (
+/obj/structure/bed,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"wQw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/dormitories)
+"wRB" = (
+/obj/structure/sign/poster/official/twelve_gauge,
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/armory)
+"wTu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"xfB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/cigbutt{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"xMo" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/voidcrew/bogatyr/central)
+"yhI" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/voidcrew/bogatyr/laboratory)
+
+(1,1,1) = {"
+hZC
+hZC
+hZC
+oVO
+oVO
+oVO
+qBp
+qBp
+qBp
+asX
+oVO
+oWT
+oWT
+eTi
+lEC
+ljh
+oWT
+hZC
+hZC
+hZC
+"}
+(2,1,1) = {"
+hZC
+hZC
+hZC
+oVO
+wwh
+pbs
+gyI
+oRB
+fSv
+gyI
+emX
+gGJ
+kzf
+kzf
+kzf
+kzf
+vDK
+mjX
+mjX
+hZC
+"}
+(3,1,1) = {"
+hZC
+hZC
+hZC
+oVO
+sVu
+qgY
+kVE
+qDM
+qCb
+jht
+xMo
+psf
+lFc
+iXZ
+qah
+oms
+mjX
+sRK
+jkX
+hZC
+"}
+(4,1,1) = {"
+alL
+alL
+alL
+fTs
+bNO
+nlS
+hBh
+oCl
+vUw
+bQW
+xfB
+kzf
+rZY
+rZY
+rZY
+rZY
+cGP
+wTu
+mjX
+hZC
+"}
+(5,1,1) = {"
+gBs
+tMQ
+sWF
+alL
+rrx
+wmF
+vUy
+eIK
+bps
+lcl
+lAk
+oWT
+cZm
+rxb
+bLy
+iXZ
+mjX
+pwi
+mjX
+hZC
+"}
+(6,1,1) = {"
+gBs
+cok
+ulz
+alL
+qPz
+oAu
+cdA
+fJM
+dbc
+cAl
+oRB
+oWT
+dzJ
+iXZ
+qqV
+qOx
+mjX
+sYj
+mjX
+hZC
+"}
+(7,1,1) = {"
+gBs
+ahH
+qfn
+dpE
+xMo
+nsH
+dti
+gyI
+fvV
+bNO
+fEX
+oWT
+ssy
+idX
+iXZ
+iXZ
+mjX
+sYj
+woq
+hZC
+"}
+(8,1,1) = {"
+gBs
+sPV
+vxl
+alL
+xMo
+iQB
+kvj
+bvB
+fhb
+hGv
+xMo
+oWT
+iXZ
+iXZ
+iXZ
+iXZ
+mjX
+sYj
+mjX
+hZC
+"}
+(9,1,1) = {"
+alL
+alL
+alL
+alL
+jvS
+vuA
+awr
+waH
+waH
+qFU
+xMo
+laY
+wRB
+laY
+pji
+mjX
+mjX
+aMc
+aKe
+oDc
+"}
+(10,1,1) = {"
+hZC
+mJG
+gdc
+pJs
+gQu
+mJG
+emQ
+tJL
+gJD
+waH
+qjE
+laY
+vaZ
+suS
+mnA
+mjX
+rBG
+kOw
+reT
+cUN
+"}
+(11,1,1) = {"
+hZC
+mJG
+pJs
+yhI
+nro
+mJG
+qof
+uny
+wJz
+waH
+elJ
+ugp
+tqj
+nZk
+fhz
+mjX
+auS
+kOw
+reT
+cUN
+"}
+(12,1,1) = {"
+hZC
+mJG
+fwV
+kFe
+gQu
+mJG
+qOQ
+wQw
+wJz
+waH
+bNO
+laY
+tyR
+bmR
+stc
+mjX
+uuz
+kOw
+reT
+cUN
+"}
+(13,1,1) = {"
+hZC
+mJG
+jgv
+jgv
+pJs
+mJG
+qVc
+waH
+waH
+waH
+eAB
+laY
+laY
+byX
+laY
+mjX
+mjX
+mjX
+mjX
+hZC
+"}
+(14,1,1) = {"
+hZC
+mJG
+jgv
+jBY
+pJs
+mJG
+waH
+dpm
+pZu
+ebq
+rkl
+tdC
+tdC
+dpm
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+"}
+(15,1,1) = {"
+hZC
+mJG
+mJG
+mJG
+mJG
+mJG
+hZC
+dpm
+tdC
+tEz
+fpl
+vle
+tdC
+dpm
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+"}
+(16,1,1) = {"
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+dpm
+dpm
+pSe
+tdC
+rqq
+dpm
+dpm
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+"}
+(17,1,1) = {"
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+dpm
+dpm
+saQ
+dpm
+dpm
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+hZC
+"}

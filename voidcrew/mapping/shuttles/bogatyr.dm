@@ -1,4 +1,5 @@
 /datum/map_template/shuttle/voidcrew/bogatyr
+	available_themes = list("proffesional_crew", "bogatyr")
 	has_upgrade_slots = TRUE
 	upgrade_slot_ids = list("laboratory", "cargo_bay", "engines", "medical")
 	name = "Bogatyr-class Explorator"

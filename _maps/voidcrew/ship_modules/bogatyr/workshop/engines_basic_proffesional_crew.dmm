@@ -1,0 +1,90 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"hFF" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"kVa" = (
+/obj/structure/window/reinforced/spawner,
+/turf/template_noop,
+/area/template_noop)
+"noQ" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -1
+	},
+/obj/item/clothing/under/rank/engineering/engineer,
+/obj/item/clothing/gloves/color/yellow,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/clothing/head/utility/welding,
+/turf/template_noop,
+/area/template_noop)
+"nLb" = (
+/obj/effect/turf_decal/box,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"pTl" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"rhc" = (
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+rhc
+rhc
+rhc
+rhc
+pTl
+"}
+(2,1,1) = {"
+rhc
+rhc
+rhc
+kVa
+rhc
+"}
+(3,1,1) = {"
+hFF
+rhc
+rhc
+kVa
+rhc
+"}
+(4,1,1) = {"
+rhc
+nLb
+noQ
+kVa
+rhc
+"}
+(5,1,1) = {"
+rhc
+rhc
+rhc
+rhc
+rhc
+"}
+(6,1,1) = {"
+rhc
+rhc
+rhc
+rhc
+rhc
+"}
+(7,1,1) = {"
+rhc
+rhc
+rhc
+rhc
+rhc
+"}
+(8,1,1) = {"
+rhc
+rhc
+rhc
+rhc
+rhc
+"}
