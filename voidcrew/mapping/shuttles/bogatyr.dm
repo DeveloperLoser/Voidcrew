@@ -1,4 +1,6 @@
 /datum/map_template/shuttle/voidcrew/bogatyr
+	has_upgrade_slots = TRUE
+	upgrade_slot_ids = list("laboratory", "cargo_bay", "engines", "medical")
 	name = "Bogatyr-class Explorator"
 	suffix = "bogatyr"
 	short_name = "Bogatyr-class"

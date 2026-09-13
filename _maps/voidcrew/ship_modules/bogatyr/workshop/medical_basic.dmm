@@ -1,0 +1,112 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ais" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/template_noop,
+/area/template_noop)
+"amz" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"aCJ" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"bRY" = (
+/turf/template_noop,
+/area/template_noop)
+"jNb" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/bed,
+/obj/item/radio/intercom/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"obb" = (
+/obj/machinery/iv_drip,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"rOi" = (
+/obj/structure/table,
+/obj/item/storage/medkit/toxin{
+	pixel_y = 8
+	},
+/obj/item/storage/medkit/o2{
+	pixel_y = -1
+	},
+/turf/template_noop,
+/area/template_noop)
+"sMe" = (
+/obj/structure/table,
+/turf/template_noop,
+/area/template_noop)
+"tmt" = (
+/obj/structure/table,
+/obj/item/storage/medkit/regular,
+/turf/template_noop,
+/area/template_noop)
+"tvj" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/bed,
+/turf/template_noop,
+/area/template_noop)
+"vdq" = (
+/obj/structure/closet/crate/freezer/blood,
+/turf/template_noop,
+/area/template_noop)
+"wXq" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"xOC" = (
+/obj/structure/table,
+/obj/item/toy/plush/moth{
+	name = "emotional support moth plushie"
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+wXq
+bRY
+bRY
+bRY
+bRY
+bRY
+aCJ
+"}
+(2,1,1) = {"
+bRY
+xOC
+bRY
+amz
+amz
+tmt
+bRY
+"}
+(3,1,1) = {"
+bRY
+vdq
+amz
+obb
+bRY
+rOi
+bRY
+"}
+(4,1,1) = {"
+bRY
+bRY
+jNb
+sMe
+tvj
+wXq
+bRY
+"}
+(5,1,1) = {"
+bRY
+bRY
+bRY
+ais
+bRY
+bRY
+bRY
+"}

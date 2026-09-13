@@ -1,0 +1,137 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"arh" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/template_noop,
+/area/template_noop)
+"bdd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table_frame,
+/turf/template_noop,
+/area/template_noop)
+"bZF" = (
+/obj/effect/decal/cleanable/blood/innards,
+/obj/effect/decal/cleanable/blood,
+/turf/template_noop,
+/area/template_noop)
+"fat" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/frame/machine,
+/turf/template_noop,
+/area/template_noop)
+"fsE" = (
+/obj/effect/decal/cleanable/blood,
+/turf/template_noop,
+/area/template_noop)
+"fTs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"hjX" = (
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"ihy" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"iUs" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"lzq" = (
+/obj/structure/barricade/wooden/crude,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"nPT" = (
+/obj/item/clothing/suit/toggle/labcoat/science,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"pCY" = (
+/mob/living/basic/blankbody{
+	health = 200;
+	name = "Chief Science Officer"
+	},
+/turf/template_noop,
+/area/template_noop)
+"voF" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"xah" = (
+/obj/structure/closet/crate/science,
+/obj/item/stack/cable_coil,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/rndboards/all,
+/turf/template_noop,
+/area/template_noop)
+"xsW" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"xAE" = (
+/obj/structure/frame/computer,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/template_noop,
+/area/template_noop)
+"xUG" = (
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+xUG
+xUG
+xUG
+lzq
+iUs
+"}
+(2,1,1) = {"
+xUG
+ihy
+xAE
+voF
+xUG
+"}
+(3,1,1) = {"
+xUG
+fat
+nPT
+voF
+xsW
+"}
+(4,1,1) = {"
+xUG
+fTs
+hjX
+fsE
+xUG
+"}
+(5,1,1) = {"
+xUG
+arh
+pCY
+fat
+xUG
+"}
+(6,1,1) = {"
+xUG
+bdd
+bZF
+xah
+xUG
+"}
+(7,1,1) = {"
+xUG
+xUG
+xUG
+xUG
+xUG
+"}

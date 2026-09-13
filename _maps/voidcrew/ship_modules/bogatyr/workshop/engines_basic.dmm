@@ -1,0 +1,99 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"kGW" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"oNs" = (
+/obj/effect/turf_decal/box,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"oOu" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"pHp" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -1
+	},
+/obj/item/clothing/under/rank/engineering/engineer,
+/obj/item/clothing/gloves/color/yellow,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/clothing/head/utility/welding,
+/turf/template_noop,
+/area/template_noop)
+"rlr" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"spO" = (
+/turf/template_noop,
+/area/template_noop)
+"tfC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/template_noop,
+/area/template_noop)
+"tlr" = (
+/obj/structure/window/reinforced/spawner,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+spO
+spO
+rlr
+spO
+oOu
+"}
+(2,1,1) = {"
+spO
+spO
+rlr
+tlr
+spO
+"}
+(3,1,1) = {"
+kGW
+rlr
+tfC
+tlr
+spO
+"}
+(4,1,1) = {"
+spO
+oNs
+pHp
+tlr
+spO
+"}
+(5,1,1) = {"
+spO
+spO
+spO
+spO
+spO
+"}
+(6,1,1) = {"
+spO
+spO
+spO
+spO
+spO
+"}
+(7,1,1) = {"
+spO
+spO
+spO
+spO
+spO
+"}
+(8,1,1) = {"
+spO
+spO
+spO
+spO
+spO
+"}

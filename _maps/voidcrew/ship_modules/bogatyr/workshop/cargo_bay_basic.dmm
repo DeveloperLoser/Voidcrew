@@ -1,0 +1,193 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cYN" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"dGz" = (
+/obj/structure/closet/crate/miningcar{
+	name = "traditional russian storage apparatus"
+	},
+/obj/item/pickaxe/improvised,
+/obj/item/pickaxe/improvised,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/turf/template_noop,
+/area/template_noop)
+"ePm" = (
+/obj/structure/closet/crate{
+	name = "authentic russian cuisine crate"
+	},
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/turf/template_noop,
+/area/template_noop)
+"fEb" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"gmx" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/template_noop,
+/area/template_noop)
+"hzL" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/template_noop,
+/area/template_noop)
+"ivi" = (
+/obj/structure/closet/crate/radiation{
+	name = "fuel crate"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/turf/template_noop,
+/area/template_noop)
+"jww" = (
+/turf/template_noop,
+/area/template_noop)
+"kyk" = (
+/obj/structure/closet/crate/critter{
+	name = "rare and exotic russian native animals"
+	},
+/obj/item/food/deadmouse,
+/mob/living/basic/cockroach/glockroach,
+/mob/living/basic/pet/dog/corgi,
+/turf/template_noop,
+/area/template_noop)
+"lOm" = (
+/obj/machinery/computer/helm/viewscreen{
+	pixel_y = -30;
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"lXJ" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/effect/spawner/random/maintenance/three,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/radio/intercom/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"puO" = (
+/obj/structure/closet/crate/internals,
+/obj/effect/spawner/random/maintenance/three,
+/turf/template_noop,
+/area/template_noop)
+"qMk" = (
+/obj/machinery/button/door{
+	id = "blastdoors";
+	name = "Cargo Bay Blast Doors";
+	pixel_x = -24
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"rWG" = (
+/obj/structure/tank_dispenser,
+/turf/template_noop,
+/area/template_noop)
+"sVp" = (
+/obj/machinery/mineral/ore_redemption{
+	req_access = null
+	},
+/turf/template_noop,
+/area/template_noop)
+"tcz" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/template_noop,
+/area/template_noop)
+"uAp" = (
+/obj/structure/fans/tiny,
+/turf/template_noop,
+/area/template_noop)
+"vir" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/syndi_cakes,
+/turf/template_noop,
+/area/template_noop)
+"weU" = (
+/obj/structure/fans/tiny,
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"xpX" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/template_noop,
+/area/template_noop)
+"xBz" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+jww
+jww
+uAp
+uAp
+weU
+"}
+(2,1,1) = {"
+gmx
+qMk
+jww
+jww
+fEb
+"}
+(3,1,1) = {"
+fEb
+fEb
+jww
+jww
+vir
+"}
+(4,1,1) = {"
+sVp
+tcz
+kyk
+fEb
+jww
+"}
+(5,1,1) = {"
+jww
+hzL
+puO
+fEb
+dGz
+"}
+(6,1,1) = {"
+jww
+lXJ
+ivi
+tcz
+ePm
+"}
+(7,1,1) = {"
+cYN
+jww
+fEb
+jww
+lOm
+"}
+(8,1,1) = {"
+jww
+rWG
+xpX
+xBz
+xBz
+"}
