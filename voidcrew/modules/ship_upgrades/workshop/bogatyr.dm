@@ -54,3 +54,25 @@
 	is_default = TRUE
 	desc = "A ratty, badly wired, unwelcoming pirate ship. Crewed by a rag tag group of Space Russians, this heap comes with a durable reinforced hull, defensible entry points, and a bare bones armory."
 	upgrade_slot_ids = list("laboratory", "cargo_bay", "engines", "medical")
+
+/datum/ship_upgrade_module/workshop_bogatyr_salvage_bay
+	part_cost = list()
+	id = "salvage_bay"
+	name = "Salvage Bay"
+	slot = "cargo_bay"
+	for_ship = /datum/map_template/shuttle/voidcrew/bogatyr
+	for_theme = list("bogatyr", "proffesional_crew")
+	map_file = "bogatyr/workshop/salvage_bay.dmm"
+	is_default = FALSE
+	desc = "A Salvage Bay. Comes equipped with 2 Miner MOD's, 2 EVA suits, and a toolbox."
+
+/datum/ship_upgrade_module/workshop_bogatyr_chemistry_suite
+	part_cost = list()
+	id = "chemistry_suite"
+	name = "Chemistry Suite"
+	slot = "medical"
+	for_ship = /datum/map_template/shuttle/voidcrew/bogatyr
+	for_theme = list("bogatyr")
+	map_file = "bogatyr/workshop/chemistry_suite.dmm"
+	is_default = FALSE
+	desc = "Comes with a bomb makers dream chemistry setup."

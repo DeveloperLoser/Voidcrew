@@ -1,0 +1,90 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dJR" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"giF" = (
+/obj/structure/closet/secure_closet/chemical,
+/turf/template_noop,
+/area/template_noop)
+"gQc" = (
+/turf/template_noop,
+/area/template_noop)
+"gUN" = (
+/obj/structure/sign/departments/chemistry,
+/turf/template_noop,
+/area/template_noop)
+"iEy" = (
+/obj/structure/bed,
+/turf/template_noop,
+/area/template_noop)
+"kLJ" = (
+/obj/machinery/chem_dispenser,
+/turf/template_noop,
+/area/template_noop)
+"ngP" = (
+/obj/machinery/chem_master,
+/turf/template_noop,
+/area/template_noop)
+"rwd" = (
+/obj/machinery/chem_heater,
+/turf/template_noop,
+/area/template_noop)
+"tcM" = (
+/obj/machinery/smartfridge/chemistry/preloaded,
+/turf/template_noop,
+/area/template_noop)
+"uor" = (
+/obj/structure/closet/secure_closet/chemical/heisenberg,
+/turf/template_noop,
+/area/template_noop)
+"uJq" = (
+/obj/item/book/manual/wiki/chemistry,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+gQc
+gQc
+gQc
+gQc
+gQc
+gQc
+dJR
+"}
+(2,1,1) = {"
+gQc
+uor
+gQc
+gQc
+gQc
+kLJ
+gQc
+"}
+(3,1,1) = {"
+gUN
+iEy
+uJq
+gQc
+gQc
+ngP
+gQc
+"}
+(4,1,1) = {"
+gQc
+gQc
+giF
+tcM
+rwd
+gQc
+gQc
+"}
+(5,1,1) = {"
+gQc
+gQc
+gQc
+gQc
+gQc
+gQc
+gQc
+"}

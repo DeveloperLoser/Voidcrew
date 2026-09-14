@@ -1,0 +1,159 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aMl" = (
+/obj/structure/closet/crate{
+	name = "authentic russian cuisine crate"
+	},
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/turf/template_noop,
+/area/template_noop)
+"aUj" = (
+/obj/machinery/suit_storage_unit/mining,
+/turf/template_noop,
+/area/template_noop)
+"bnt" = (
+/obj/machinery/button/door{
+	id = "blastdoors";
+	name = "Cargo Bay Blast Doors";
+	pixel_x = -24
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/tank_dispenser/oxygen,
+/turf/template_noop,
+/area/template_noop)
+"bok" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/template_noop,
+/area/template_noop)
+"ckf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/template_noop,
+/area/template_noop)
+"dxc" = (
+/obj/machinery/computer/helm/viewscreen{
+	pixel_y = -30;
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/template_noop,
+/area/template_noop)
+"gua" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/template_noop,
+/area/template_noop)
+"hiL" = (
+/obj/effect/spawner/random/maintenance/three,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/radio/intercom/directional/north,
+/obj/item/storage/toolbox/syndicate,
+/obj/structure/closet/crate/engineering,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/turf/template_noop,
+/area/template_noop)
+"iIB" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/template_noop,
+/area/template_noop)
+"jKu" = (
+/obj/machinery/mineral/ore_redemption{
+	req_access = null
+	},
+/turf/template_noop,
+/area/template_noop)
+"niL" = (
+/obj/structure/closet/crate/miningcar{
+	name = "traditional russian storage apparatus"
+	},
+/obj/item/pickaxe/improvised,
+/obj/item/pickaxe/improvised,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/turf/template_noop,
+/area/template_noop)
+"obS" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"phh" = (
+/turf/template_noop,
+/area/template_noop)
+"qpQ" = (
+/obj/structure/fans/tiny,
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"ubr" = (
+/obj/structure/fans/tiny,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+phh
+phh
+ubr
+ubr
+qpQ
+"}
+(2,1,1) = {"
+bok
+bnt
+phh
+phh
+ckf
+"}
+(3,1,1) = {"
+ckf
+ckf
+phh
+phh
+ckf
+"}
+(4,1,1) = {"
+jKu
+phh
+phh
+phh
+phh
+"}
+(5,1,1) = {"
+phh
+iIB
+phh
+phh
+niL
+"}
+(6,1,1) = {"
+phh
+hiL
+phh
+phh
+aMl
+"}
+(7,1,1) = {"
+obS
+aUj
+phh
+phh
+dxc
+"}
+(8,1,1) = {"
+phh
+aUj
+phh
+phh
+gua
+"}
