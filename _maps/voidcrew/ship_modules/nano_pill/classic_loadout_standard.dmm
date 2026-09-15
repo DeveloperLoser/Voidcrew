@@ -57,7 +57,7 @@
 /turf/open/floor/carpet/blue,
 /area/template_noop)
 "uLC" = (
-/obj/machinery/suit_storage_unit,
+/obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/floor/plating/reinforced,
 /area/template_noop)
 

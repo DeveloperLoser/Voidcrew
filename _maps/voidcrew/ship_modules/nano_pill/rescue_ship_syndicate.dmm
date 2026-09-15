@@ -51,7 +51,11 @@
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
 "rMF" = (
-/obj/machinery/suit_storage_unit,
+/obj/machinery/suit_storage_unit/cmo,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"tNR" = (
+/obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/floor/plating/reinforced,
 /area/template_noop)
 "uaD" = (
@@ -82,7 +86,7 @@ oEI
 "}
 (2,1,1) = {"
 qSb
-rMF
+tNR
 gPY
 gPY
 xKE
@@ -91,7 +95,7 @@ qSb
 "}
 (3,1,1) = {"
 xtJ
-rMF
+tNR
 gPY
 gPY
 gaq

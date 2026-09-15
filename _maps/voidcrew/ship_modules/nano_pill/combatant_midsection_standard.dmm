@@ -78,7 +78,7 @@
 /turf/open/floor/plating,
 /area/template_noop)
 "vji" = (
-/obj/machinery/suit_storage_unit/security,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/plating/reinforced,
 /area/template_noop)
 "xGn" = (

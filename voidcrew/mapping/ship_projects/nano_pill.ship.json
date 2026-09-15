@@ -56,7 +56,7 @@
         "Name": "Classic Loadout",
         "Slot": "mid_section",
         "File": "nano_pill/classic_loadout.dmm",
-        "Description": "The standard. Comes with a ORM on the exterior and some supplies.",
+        "Description": "The standard. Comes with some mining and medical supplies, as well as 1 MOD and 2 Space suits.",
         "Themes": [
           "standard",
           "syndicate"
@@ -92,7 +92,7 @@
         "Name": "Rescue Ship",
         "Slot": "mid_section",
         "File": "nano_pill/rescue_ship.dmm",
-        "Description": "A refit oriented towards providing emergency medical support. Comes with everything needed to revive a corpse, and a Medic!",
+        "Description": "A refit oriented towards providing emergency medical support. Comes with everything needed to revive a corpse, and a Medic! The mining MOD is replaced with the CMO's.",
         "Themes": [
           "standard",
           "syndicate"
@@ -128,7 +128,7 @@
         "Name": "Combatant Midsection",
         "Slot": "mid_section",
         "File": "nano_pill/combatant_midsection.dmm",
-        "Description": "Basically an armory. Comes with two MOD's, subpar mining equipment.",
+        "Description": "Basically an armory, with 7/8ths of its stock missing. Comes with two Syndi-MOD's and subpar mining equipment.",
         "Themes": [
           "standard",
           "syndicate"
@@ -138,7 +138,7 @@
     ]
   },
   "Crew": 4,
-  "Hidden": true,
+  "Hidden": false,
   "Cost": 0,
   "PartCosts": {
     "module/advanced_engine_bay": {
@@ -161,6 +161,7 @@
       "science": 1,
       "trade": 2
     },
+    "ship": {},
     "theme/syndicate": {
       "combat": 1
     }

@@ -35,7 +35,7 @@
 	for_theme = list("standard", "syndicate")
 	map_file = "nano_pill/classic_loadout.dmm"
 	is_default = TRUE
-	desc = "The standard. Comes with a ORM on the exterior and some supplies."
+	desc = "The standard. Comes with some mining and medical supplies, as well as 1 MOD and 2 Space suits."
 
 /datum/ship_upgrade_module/nano_pill_engineering_basic
 	id = "engineering_basic"
@@ -68,7 +68,7 @@
 	for_theme = list("standard", "syndicate")
 	map_file = "nano_pill/rescue_ship.dmm"
 	is_default = FALSE
-	desc = "A refit oriented towards providing emergency medical support. Comes with everything needed to revive a corpse, and a Medic!"
+	desc = "A refit oriented towards providing emergency medical support. Comes with everything needed to revive a corpse, and a Medic! The mining MOD is replaced with the CMO's."
 
 /datum/ship_upgrade_module/nano_pill_questers_helm
 	part_cost = list(PART_CLASS_TRADE = 2, PART_CLASS_MISC = 1)
@@ -101,4 +101,4 @@
 	for_theme = list("standard", "syndicate")
 	map_file = "nano_pill/combatant_midsection.dmm"
 	is_default = FALSE
-	desc = "Basically an armory. Comes with two MOD's, subpar mining equipment."
+	desc = "Basically an armory, with 7/8ths of its stock missing. Comes with two Syndi-MOD's and subpar mining equipment."

@@ -46,6 +46,10 @@
 "riK" = (
 /turf/template_noop,
 /area/template_noop)
+"tNA" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
 "udm" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/template_noop,
@@ -72,7 +76,7 @@ cys
 "}
 (2,1,1) = {"
 udm
-vAG
+tNA
 fNG
 fNG
 fNG

@@ -20,7 +20,7 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "hgV" = (
-/obj/machinery/suit_storage_unit,
+/obj/machinery/suit_storage_unit/cmo,
 /turf/open/floor/plating/reinforced,
 /area/template_noop)
 "hoy" = (
@@ -29,6 +29,10 @@
 /area/template_noop)
 "hql" = (
 /turf/template_noop,
+/area/template_noop)
+"hIu" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/plating/reinforced,
 /area/template_noop)
 "ifj" = (
 /obj/structure/table/optable,
@@ -82,7 +86,7 @@ ebs
 "}
 (2,1,1) = {"
 rYH
-hgV
+hIu
 qBJ
 qBJ
 fit
@@ -91,7 +95,7 @@ rYH
 "}
 (3,1,1) = {"
 hql
-hgV
+hIu
 qBJ
 qBJ
 hoy
