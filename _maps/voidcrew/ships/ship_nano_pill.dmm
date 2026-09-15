@@ -21,7 +21,7 @@
 	key = "engineering"
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/nano_pill/hull)
 "mxG" = (
 /obj/machinery/cryopod,
 /obj/machinery/computer/cryopod{
@@ -33,7 +33,11 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/autolathe/hacked,
 /turf/open/floor/plating,
+/area/shuttle/voidcrew/nano_pill/hull)
+"nWT" = (
+/turf/template_noop,
 /area/shuttle/voidcrew/nano_pill/hull)
 "oux" = (
 /obj/docking_port/mobile/voidcrew/nano_pill{
@@ -60,7 +64,10 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/voidcrew/nano_pill/hull)
 "uFV" = (
-/turf/template_noop,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/shuttle/voidcrew/nano_pill/hull)
 
 (1,1,1) = {"
@@ -305,12 +312,12 @@ oRO
 oRO
 oRO
 oRO
-oRO
-oRO
-uFV
-uFV
-uFV
-oRO
+nWT
+nWT
+nWT
+nWT
+nWT
+nWT
 eNy
 oRO
 oRO
@@ -331,13 +338,13 @@ oRO
 oRO
 oRO
 oRO
-oRO
+nWT
 snO
-uFV
-uFV
-uFV
+nWT
+nWT
+nWT
 snO
-oRO
+nWT
 oRO
 oRO
 oRO
@@ -359,9 +366,9 @@ oRO
 oRO
 snO
 ueX
-uFV
-uFV
-uFV
+nWT
+nWT
+nWT
 ueX
 snO
 oRO
@@ -384,7 +391,7 @@ oRO
 oRO
 oRO
 snO
-ntN
+uFV
 bwW
 bwW
 bwW
@@ -467,7 +474,7 @@ bwW
 bwW
 bwW
 bwW
-uFV
+nWT
 oRO
 oRO
 oRO
@@ -565,13 +572,13 @@ oRO
 oRO
 oRO
 oRO
-uFV
+nWT
 bwW
 bwW
 bwW
 bwW
 bwW
-uFV
+nWT
 oRO
 oRO
 oRO
@@ -591,13 +598,13 @@ oRO
 oRO
 oRO
 oRO
-uFV
-uFV
+nWT
+nWT
 bwW
 bwW
 bwW
-uFV
-uFV
+nWT
+nWT
 oRO
 oRO
 oRO
