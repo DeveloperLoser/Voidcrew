@@ -1,0 +1,76 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aKM" = (
+/obj/machinery/power/smes/ship,
+/obj/structure/window/plasma/spawner/directional/west,
+/obj/structure/cable,
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"fnV" = (
+/obj/structure/cable,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"gIA" = (
+/turf/closed/wall/mineral/titanium,
+/area/template_noop)
+"gMf" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"hts" = (
+/turf/template_noop,
+/area/template_noop)
+"pVz" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"sgD" = (
+/obj/structure/closet/crate/engineering,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/circuitboard/machine/autolathe,
+/obj/item/circuitboard/machine/ore_redemption,
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"vjR" = (
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+
+(1,1,1) = {"
+hts
+hts
+hts
+vjR
+hts
+hts
+pVz
+"}
+(2,1,1) = {"
+hts
+hts
+gIA
+aKM
+gIA
+hts
+hts
+"}
+(3,1,1) = {"
+hts
+hts
+gMf
+fnV
+sgD
+hts
+hts
+"}

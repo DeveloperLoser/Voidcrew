@@ -1,0 +1,19 @@
+{
+  "Rosters": {
+    "module/rescue_ship": [
+      {
+        "ID": "job_1",
+        "Name": "New job",
+        "Outfit": "/datum/outfit/job/assistant",
+        "BaseOutfit": "",
+        "Category": "Medical",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ]
+  }
+}

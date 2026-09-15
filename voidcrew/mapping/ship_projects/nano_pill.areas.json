@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Ship": "/datum/map_template/shuttle/voidcrew/nano_pill",
+  "Areas": [
+    {
+      "Path": "/area/shuttle/voidcrew/nano_pill/hull",
+      "Name": "Hull",
+      "IconState": "commons"
+    }
+  ]
+}

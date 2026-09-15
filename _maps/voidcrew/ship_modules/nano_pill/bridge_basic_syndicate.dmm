@@ -1,0 +1,63 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaV" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"ada" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"eOv" = (
+/turf/template_noop,
+/area/template_noop)
+"igU" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"pAR" = (
+/obj/structure/table,
+/obj/item/storage/box/rndboards/all{
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"uPd" = (
+/obj/modular_map_connector,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+"xVQ" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+xVQ
+xVQ
+pAR
+igU
+aaV
+xVQ
+uPd
+"}
+(2,1,1) = {"
+eOv
+xVQ
+xVQ
+ada
+xVQ
+xVQ
+eOv
+"}
+(3,1,1) = {"
+eOv
+eOv
+xVQ
+xVQ
+xVQ
+eOv
+eOv
+"}

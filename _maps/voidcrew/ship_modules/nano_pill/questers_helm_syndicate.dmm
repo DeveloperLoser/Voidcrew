@@ -1,0 +1,62 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"chs" = (
+/obj/machinery/computer/mission_board,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"hgl" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"ihb" = (
+/turf/template_noop,
+/area/template_noop)
+"kIW" = (
+/obj/modular_map_connector,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+"mIj" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/obj/item/disk/star_chart/green,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"tRf" = (
+/obj/machinery/mission_pad,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"ylE" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+ylE
+ylE
+chs
+hgl
+tRf
+ylE
+kIW
+"}
+(2,1,1) = {"
+ihb
+ylE
+ylE
+mIj
+ylE
+ylE
+ihb
+"}
+(3,1,1) = {"
+ihb
+ihb
+ylE
+ylE
+ylE
+ihb
+ihb
+"}

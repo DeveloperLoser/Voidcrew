@@ -1,0 +1,117 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cys" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"eIG" = (
+/obj/structure/fans/tiny,
+/obj/machinery/mineral/ore_redemption,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/machinery/door/window,
+/turf/open/floor/plating,
+/area/template_noop)
+"fNG" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"klI" = (
+/obj/structure/closet/crate/science,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/brute,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"ohY" = (
+/obj/structure/fans/tiny,
+/turf/template_noop,
+/area/template_noop)
+"oyA" = (
+/obj/machinery/suit_storage_unit/mining/eva,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"rgj" = (
+/obj/structure/closet/crate/cargo/mining,
+/obj/item/pickaxe/drill,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/gps/mining,
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"riK" = (
+/turf/template_noop,
+/area/template_noop)
+"udm" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+"vAG" = (
+/obj/machinery/suit_storage_unit,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"wuW" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+
+(1,1,1) = {"
+riK
+oyA
+fNG
+fNG
+fNG
+klI
+cys
+"}
+(2,1,1) = {"
+udm
+vAG
+fNG
+fNG
+fNG
+fNG
+udm
+"}
+(3,1,1) = {"
+riK
+vAG
+fNG
+fNG
+fNG
+rgj
+riK
+"}
+(4,1,1) = {"
+riK
+fNG
+fNG
+fNG
+fNG
+fNG
+eIG
+"}
+(5,1,1) = {"
+ohY
+fNG
+fNG
+fNG
+fNG
+fNG
+ohY
+"}
+(6,1,1) = {"
+riK
+wuW
+fNG
+fNG
+fNG
+wuW
+riK
+"}

@@ -1,0 +1,93 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ahy" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"cfa" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"fsx" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"hCj" = (
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"okp" = (
+/turf/closed/wall/r_wall/plastitanium,
+/area/template_noop)
+"pGJ" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"sur" = (
+/turf/template_noop,
+/area/template_noop)
+"wbC" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/machinery/power/rtg,
+/obj/structure/cable,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"wca" = (
+/obj/structure/closet/crate/engineering,
+/obj/item/circuitboard/machine/autolathe,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 25
+	},
+/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"xOM" = (
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/closed/wall/mineral/plastitanium,
+/area/template_noop)
+
+(1,1,1) = {"
+sur
+sur
+hCj
+okp
+xOM
+sur
+cfa
+"}
+(2,1,1) = {"
+sur
+sur
+wbC
+ahy
+wbC
+sur
+sur
+"}
+(3,1,1) = {"
+sur
+sur
+fsx
+pGJ
+wca
+sur
+sur
+"}

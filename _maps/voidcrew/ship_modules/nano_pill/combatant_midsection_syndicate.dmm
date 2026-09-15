@@ -1,0 +1,144 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dDU" = (
+/obj/structure/closet/secure_closet/security,
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun,
+/obj/item/spear/grey_tide,
+/obj/item/grenade/smokebomb,
+/obj/item/grenade/smokebomb,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"eLZ" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"fLH" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"gzi" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"hEJ" = (
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/storage/belt/military/assault,
+/obj/item/storage/belt/military/assault,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"inq" = (
+/obj/structure/fans/tiny,
+/obj/machinery/mineral/ore_redemption,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/machinery/door/window,
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = nano_midsection
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"kKr" = (
+/obj/machinery/suit_storage_unit/security,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"mto" = (
+/obj/machinery/door/poddoor/preopen{
+	id_tag = nano_doors
+	},
+/turf/template_noop,
+/area/template_noop)
+"nIb" = (
+/turf/template_noop,
+/area/template_noop)
+"ppH" = (
+/obj/machinery/button/door{
+	id = nano_midsection;
+	name = "Window Shutters";
+	pixel_x = -5
+	},
+/obj/machinery/button/door{
+	pixel_x = 5;
+	name = "Blast Doors";
+	id_tag = nano_doors
+	},
+/turf/template_noop,
+/area/template_noop)
+"teI" = (
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"uQg" = (
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = nano_midsection
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+"wEe" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"xVG" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+
+(1,1,1) = {"
+nIb
+kKr
+teI
+teI
+teI
+dDU
+eLZ
+"}
+(2,1,1) = {"
+uQg
+kKr
+teI
+teI
+teI
+hEJ
+uQg
+"}
+(3,1,1) = {"
+ppH
+wEe
+teI
+xVG
+teI
+teI
+nIb
+"}
+(4,1,1) = {"
+nIb
+fLH
+teI
+gzi
+teI
+fLH
+inq
+"}
+(5,1,1) = {"
+mto
+teI
+teI
+teI
+teI
+teI
+mto
+"}
+(6,1,1) = {"
+nIb
+teI
+teI
+teI
+teI
+teI
+nIb
+"}

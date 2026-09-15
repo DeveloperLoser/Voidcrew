@@ -1,0 +1,63 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"hOy" = (
+/turf/template_noop,
+/area/template_noop)
+"iyC" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"pXK" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"rJw" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"sAs" = (
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"sHA" = (
+/obj/structure/table,
+/obj/item/storage/box/rndboards/all{
+	pixel_y = 5
+	},
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"tUh" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+
+(1,1,1) = {"
+rJw
+rJw
+sHA
+pXK
+sAs
+rJw
+iyC
+"}
+(2,1,1) = {"
+hOy
+rJw
+rJw
+tUh
+rJw
+rJw
+hOy
+"}
+(3,1,1) = {"
+hOy
+hOy
+rJw
+rJw
+rJw
+hOy
+hOy
+"}

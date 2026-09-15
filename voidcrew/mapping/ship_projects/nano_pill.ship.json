@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "ID": "nano_pill",
+  "Description": "",
+  "Hull": {
+    "Type": "/datum/map_template/shuttle/voidcrew/nano_pill",
+    "Name": "Nano-Pill",
+    "Prefix": "_maps/voidcrew/ships/",
+    "Port": "ship",
+    "Suffix": "nano_pill",
+    "Slots": [
+      "bridge",
+      "mid_section",
+      "engineering"
+    ],
+    "Themes": [
+      {
+        "ID": "standard",
+        "Name": "Standard",
+        "Suffix": "nano_pill",
+        "Slots": [
+          "bridge",
+          "mid_section",
+          "engineering"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "syndicate",
+        "Name": "Syndicate",
+        "Suffix": "nano_pill_syndicate",
+        "Description": "Some careless NT Representatives left the keys on the helm. Whoops!",
+        "Slots": [
+          "bridge",
+          "mid_section",
+          "engineering"
+        ],
+        "Default": false
+      }
+    ],
+    "Modules": [
+      {
+        "ID": "bridge_basic",
+        "Name": "Bridge",
+        "Slot": "bridge",
+        "File": "nano_pill/bridge_basic.dmm",
+        "Description": "A standard, well kept bridge. What a view!",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "mid_section_basic",
+        "Name": "Classic Loadout",
+        "Slot": "mid_section",
+        "File": "nano_pill/classic_loadout.dmm",
+        "Description": "The standard. Comes with a ORM on the exterior and some supplies.",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "engineering_basic",
+        "Name": "Standard.",
+        "Slot": "engineering",
+        "File": "nano_pill/standard.dmm",
+        "Description": "Standard loadout. Comes with a single ion engine and a supply crate.",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": true
+      },
+      {
+        "ID": "advanced_engine_bay",
+        "Name": "Advanced Engine Bay",
+        "Slot": "engineering",
+        "File": "nano_pill/advanced_engine_bay.dmm",
+        "Description": "Comes with TWICE the engine power, and a RTG. Adds an engineer to the team.",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "rescue_ship",
+        "Name": "Rescue Ship",
+        "Slot": "mid_section",
+        "File": "nano_pill/rescue_ship.dmm",
+        "Description": "A refit oriented towards providing emergency medical support. Comes with everything needed to revive a corpse, and a Medic!",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "questers_helm",
+        "Name": "Questers Helm.",
+        "Slot": "bridge",
+        "File": "nano_pill/questers_helm.dmm",
+        "Description": "Comes with a missions board and a star chart! Live out your merchant mariner dreams.\n",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "combatant_bridge",
+        "Name": "Combatant Bridge",
+        "Slot": "bridge",
+        "File": "nano_pill/combatant_bridge.dmm",
+        "Description": "This varient comes with a weapons officer and shutters over the windows, as well as extra console space.",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": false
+      },
+      {
+        "ID": "combatant_midsection",
+        "Name": "Combatant Midsection",
+        "Slot": "mid_section",
+        "File": "nano_pill/combatant_midsection.dmm",
+        "Description": "Basically an armory. Comes with two MOD's, subpar mining equipment.",
+        "Themes": [
+          "standard",
+          "syndicate"
+        ],
+        "Default": false
+      }
+    ]
+  },
+  "Crew": 4,
+  "Hidden": true,
+  "Cost": 0,
+  "PartCosts": {
+    "module/advanced_engine_bay": {
+      "science": 2
+    },
+    "module/combatant_bridge": {
+      "combat": 2
+    },
+    "module/combatant_midsection": {
+      "combat": 2,
+      "misc": 2,
+      "science": 1
+    },
+    "module/questers_helm": {
+      "misc": 1,
+      "trade": 2
+    },
+    "module/rescue_ship": {
+      "misc": 1,
+      "science": 1,
+      "trade": 2
+    },
+    "theme/syndicate": {
+      "combat": 1
+    }
+  },
+  "PortDirection": 2
+}

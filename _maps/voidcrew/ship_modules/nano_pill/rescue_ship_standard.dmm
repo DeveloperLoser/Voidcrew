@@ -1,0 +1,127 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aMh" = (
+/obj/structure/fans/tiny,
+/obj/machinery/mineral/ore_redemption,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/machinery/door/window,
+/turf/open/floor/plating,
+/area/template_noop)
+"dtT" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/template_noop)
+"ebs" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"fit" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/mineral/titanium/blue,
+/area/template_noop)
+"hgV" = (
+/obj/machinery/suit_storage_unit,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"hoy" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/mineral/titanium/blue,
+/area/template_noop)
+"hql" = (
+/turf/template_noop,
+/area/template_noop)
+"ifj" = (
+/obj/structure/table/optable,
+/turf/open/floor/mineral/titanium/blue,
+/area/template_noop)
+"lOb" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/sec/surgery,
+/obj/item/autopsy_scanner,
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = -28
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/template_noop)
+"qsu" = (
+/obj/structure/closet/crate/cargo/mining,
+/obj/item/pickaxe/drill,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/gps/mining,
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"qBJ" = (
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"rYH" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"whN" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/machinery/shower/directional/north,
+/obj/machinery/stasis,
+/turf/open/floor/mineral/titanium/blue,
+/area/template_noop)
+
+(1,1,1) = {"
+hql
+hgV
+qBJ
+qBJ
+dtT
+lOb
+ebs
+"}
+(2,1,1) = {"
+rYH
+hgV
+qBJ
+qBJ
+fit
+ifj
+rYH
+"}
+(3,1,1) = {"
+hql
+hgV
+qBJ
+qBJ
+hoy
+whN
+hql
+"}
+(4,1,1) = {"
+hql
+qBJ
+qBJ
+qBJ
+qBJ
+qsu
+aMh
+"}
+(5,1,1) = {"
+hql
+qBJ
+qBJ
+qBJ
+qBJ
+qBJ
+hql
+"}
+(6,1,1) = {"
+hql
+qBJ
+qBJ
+qBJ
+qBJ
+qBJ
+hql
+"}

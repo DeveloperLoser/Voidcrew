@@ -1,0 +1,117 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aox" = (
+/obj/structure/fans/tiny,
+/turf/template_noop,
+/area/template_noop)
+"cRq" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"ilx" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"lVO" = (
+/obj/machinery/suit_storage_unit/mining/eva,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"nzC" = (
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"qos" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"sbJ" = (
+/obj/structure/closet/crate/science,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/brute,
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"sHe" = (
+/turf/template_noop,
+/area/template_noop)
+"sXE" = (
+/obj/structure/fans/tiny,
+/obj/machinery/mineral/ore_redemption,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/machinery/door/window,
+/turf/open/floor/plating,
+/area/template_noop)
+"uAe" = (
+/obj/structure/closet/crate/cargo/mining,
+/obj/item/pickaxe/drill,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/gps/mining,
+/turf/open/floor/carpet/blue,
+/area/template_noop)
+"uLC" = (
+/obj/machinery/suit_storage_unit,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+
+(1,1,1) = {"
+sHe
+lVO
+nzC
+nzC
+nzC
+sbJ
+ilx
+"}
+(2,1,1) = {"
+cRq
+uLC
+nzC
+nzC
+nzC
+nzC
+cRq
+"}
+(3,1,1) = {"
+sHe
+uLC
+nzC
+nzC
+nzC
+uAe
+sHe
+"}
+(4,1,1) = {"
+sHe
+nzC
+nzC
+nzC
+nzC
+nzC
+sXE
+"}
+(5,1,1) = {"
+aox
+nzC
+nzC
+nzC
+nzC
+nzC
+aox
+"}
+(6,1,1) = {"
+sHe
+qos
+nzC
+nzC
+nzC
+qos
+sHe
+"}

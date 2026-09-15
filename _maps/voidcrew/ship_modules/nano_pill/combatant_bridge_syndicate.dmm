@@ -1,0 +1,112 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dag" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/item/gun/energy/laser,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"eFG" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/helm/viewscreen{
+	dir = 4;
+	pixel_y = 3
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"hkP" = (
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"idk" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"kxM" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"qmF" = (
+/obj/structure/frame/computer,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"res" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = nano_bridge;
+	name = "Bridge Shutters"
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"rof" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = nano_bridge
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/template_noop)
+"sPc" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"vMe" = (
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = nano_bridge
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/template_noop)
+"vRR" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = nano_bridge
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+"xEJ" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"xKd" = (
+/obj/modular_map_connector,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = nano_bridge
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+vRR
+qmF
+kxM
+dag
+kxM
+hkP
+xKd
+"}
+(2,1,1) = {"
+rof
+idk
+xEJ
+res
+sPc
+eFG
+rof
+"}
+(3,1,1) = {"
+rof
+rof
+vMe
+vMe
+vMe
+rof
+rof
+"}

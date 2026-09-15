@@ -1,0 +1,144 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"fdV" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/template_noop)
+"feG" = (
+/turf/template_noop,
+/area/template_noop)
+"iFJ" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"keY" = (
+/obj/structure/closet/secure_closet/security,
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun,
+/obj/item/spear/grey_tide,
+/obj/item/grenade/smokebomb,
+/obj/item/grenade/smokebomb,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"ksJ" = (
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = nano_midsection
+	},
+/obj/structure/window/reinforced/shuttle,
+/turf/template_noop,
+/area/template_noop)
+"kUY" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"naW" = (
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"nBg" = (
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/storage/belt/military/assault,
+/obj/item/storage/belt/military/assault,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"piX" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"qWz" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"svq" = (
+/obj/machinery/button/door{
+	id = nano_midsection;
+	name = "Window Shutters";
+	pixel_x = -5
+	},
+/obj/machinery/button/door{
+	pixel_x = 5;
+	name = "Blast Doors";
+	id_tag = nano_doors
+	},
+/turf/template_noop,
+/area/template_noop)
+"tre" = (
+/obj/structure/fans/tiny,
+/obj/machinery/mineral/ore_redemption,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/machinery/door/window,
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = nano_midsection
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"vji" = (
+/obj/machinery/suit_storage_unit/security,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"xGn" = (
+/obj/machinery/door/poddoor/preopen{
+	id_tag = nano_doors
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+feG
+vji
+naW
+naW
+naW
+keY
+piX
+"}
+(2,1,1) = {"
+ksJ
+vji
+naW
+naW
+naW
+nBg
+ksJ
+"}
+(3,1,1) = {"
+svq
+fdV
+naW
+iFJ
+naW
+naW
+feG
+"}
+(4,1,1) = {"
+feG
+kUY
+naW
+qWz
+naW
+kUY
+tre
+"}
+(5,1,1) = {"
+xGn
+naW
+naW
+naW
+naW
+naW
+xGn
+"}
+(6,1,1) = {"
+feG
+naW
+naW
+naW
+naW
+naW
+feG
+"}

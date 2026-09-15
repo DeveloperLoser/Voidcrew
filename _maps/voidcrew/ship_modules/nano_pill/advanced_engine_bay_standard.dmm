@@ -1,0 +1,86 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aPn" = (
+/obj/structure/closet/crate/engineering,
+/obj/item/circuitboard/machine/autolathe,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 25
+	},
+/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"gWt" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"hWZ" = (
+/turf/closed/wall/mineral/titanium,
+/area/template_noop)
+"mwZ" = (
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"mxa" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/machinery/power/rtg,
+/obj/structure/cable,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"qQe" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"tts" = (
+/turf/template_noop,
+/area/template_noop)
+"vhn" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"yjU" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+
+(1,1,1) = {"
+tts
+tts
+mwZ
+hWZ
+mwZ
+tts
+vhn
+"}
+(2,1,1) = {"
+tts
+tts
+mxa
+qQe
+mxa
+tts
+tts
+"}
+(3,1,1) = {"
+tts
+tts
+yjU
+gWt
+aPn
+tts
+tts
+"}

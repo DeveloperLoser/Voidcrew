@@ -1,0 +1,112 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"azy" = (
+/obj/structure/frame/computer,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"aSK" = (
+/obj/modular_map_connector,
+/obj/structure/window/reinforced/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = nano_bridge
+	},
+/turf/template_noop,
+/area/template_noop)
+"ePA" = (
+/obj/structure/window/reinforced/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = nano_bridge
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"fAm" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"gFe" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"haa" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/item/gun/energy/laser,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"ioC" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = nano_bridge;
+	name = "Bridge Shutters"
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"jbW" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/helm/viewscreen{
+	dir = 4;
+	pixel_y = 3
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"jAY" = (
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"mvC" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"nbt" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
+"rvz" = (
+/obj/structure/window/reinforced/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = nano_bridge
+	},
+/turf/template_noop,
+/area/template_noop)
+"snQ" = (
+/obj/structure/window/reinforced/shuttle,
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id_tag = nano_bridge
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+
+(1,1,1) = {"
+rvz
+azy
+nbt
+haa
+nbt
+jAY
+aSK
+"}
+(2,1,1) = {"
+ePA
+gFe
+fAm
+ioC
+mvC
+jbW
+ePA
+"}
+(3,1,1) = {"
+ePA
+ePA
+snQ
+snQ
+snQ
+ePA
+ePA
+"}
