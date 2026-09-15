@@ -1,8 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aox" = (
-/obj/structure/fans/tiny,
-/turf/template_noop,
-/area/template_noop)
 "cRq" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/template_noop,
@@ -98,13 +94,13 @@ nzC
 sXE
 "}
 (5,1,1) = {"
-aox
+sHe
 nzC
 nzC
 nzC
 nzC
 nzC
-aox
+sHe
 "}
 (6,1,1) = {"
 sHe

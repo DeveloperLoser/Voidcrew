@@ -22,6 +22,9 @@
 	dir = 8
 	},
 /obj/item/disk/star_chart/green,
+/obj/item/storage/box/rndboards/all{
+	pixel_y = 5
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "tRf" = (

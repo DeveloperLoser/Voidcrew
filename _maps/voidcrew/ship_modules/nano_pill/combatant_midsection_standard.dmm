@@ -5,6 +5,20 @@
 "feG" = (
 /turf/template_noop,
 /area/template_noop)
+"fKj" = (
+/obj/structure/closet/crate/cargo/mining,
+/obj/item/pickaxe/drill,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/gps/mining,
+/turf/open/floor/plating/reinforced,
+/area/template_noop)
 "iFJ" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -20,10 +34,10 @@
 /turf/open/floor/plating/reinforced,
 /area/template_noop)
 "ksJ" = (
-/obj/machinery/door/poddoor/shutters/window/preopen{
-	id_tag = nano_midsection
-	},
 /obj/structure/window/reinforced/shuttle,
+/obj/machinery/door/poddoor/shutters/window/preopen{
+	id = "nano_midsection"
+	},
 /turf/template_noop,
 /area/template_noop)
 "kUY" = (
@@ -54,14 +68,14 @@
 /area/template_noop)
 "svq" = (
 /obj/machinery/button/door{
-	id = nano_midsection;
+	id = "nano_midsection";
 	name = "Window Shutters";
 	pixel_x = -5
 	},
 /obj/machinery/button/door{
 	pixel_x = 5;
 	name = "Blast Doors";
-	id_tag = nano_doors
+	id = "nano_doors"
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -73,7 +87,7 @@
 	},
 /obj/machinery/door/window,
 /obj/machinery/door/poddoor/shutters/window/preopen{
-	id_tag = nano_midsection
+	id = "nano_midsection"
 	},
 /turf/open/floor/plating,
 /area/template_noop)
@@ -83,7 +97,7 @@
 /area/template_noop)
 "xGn" = (
 /obj/machinery/door/poddoor/preopen{
-	id_tag = nano_doors
+	id = "nano_doors"
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -112,7 +126,7 @@ fdV
 naW
 iFJ
 naW
-naW
+fKj
 feG
 "}
 (4,1,1) = {"

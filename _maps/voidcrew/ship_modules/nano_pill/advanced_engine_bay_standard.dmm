@@ -1,5 +1,30 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aPn" = (
+/turf/open/floor/engine,
+/area/template_noop)
+"hWZ" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/machinery/power/smes/ship{
+	cable_layer = 1
+	},
+/turf/open/floor/engine,
+/area/template_noop)
+"mwZ" = (
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 4;
+	cable_layer = 1
+	},
+/turf/open/floor/engine,
+/area/template_noop)
+"mxa" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/machinery/power/rtg,
+/obj/structure/cable,
+/turf/open/floor/engine,
+/area/template_noop)
+"qQe" = (
 /obj/structure/closet/crate/engineering,
 /obj/item/circuitboard/machine/autolathe,
 /obj/item/storage/toolbox/mechanical,
@@ -11,36 +36,11 @@
 	},
 /obj/item/storage/belt/utility,
 /obj/item/storage/belt/utility,
-/turf/open/floor/plating/reinforced,
-/area/template_noop)
-"gWt" = (
-/obj/machinery/power/smes,
-/obj/structure/cable,
-/turf/open/floor/plating/reinforced,
-/area/template_noop)
-"hWZ" = (
-/turf/closed/wall/mineral/titanium,
-/area/template_noop)
-"mwZ" = (
-/obj/machinery/power/shuttle_engine/ship/electric{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"mxa" = (
-/obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/machinery/power/rtg,
-/obj/structure/cable,
-/turf/open/floor/plating/reinforced,
-/area/template_noop)
-"qQe" = (
-/obj/structure/cable,
 /obj/machinery/power/terminal{
-	dir = 4
+	dir = 8
 	},
-/obj/structure/window/reinforced/plasma/spawner/directional/west,
-/turf/open/floor/plating/reinforced,
+/obj/structure/cable,
+/turf/open/floor/engine,
 /area/template_noop)
 "tts" = (
 /turf/template_noop,
@@ -51,10 +51,8 @@
 /area/template_noop)
 "yjU" = (
 /obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/turf/open/floor/plating/reinforced,
+/obj/structure/cable,
+/turf/open/floor/engine,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -79,7 +77,7 @@ tts
 tts
 tts
 yjU
-gWt
+aPn
 aPn
 tts
 tts

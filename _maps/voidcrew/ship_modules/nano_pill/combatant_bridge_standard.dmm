@@ -7,14 +7,14 @@
 /obj/modular_map_connector,
 /obj/structure/window/reinforced/shuttle,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id_tag = nano_bridge
+	id = "nano_bridge"
 	},
 /turf/template_noop,
 /area/template_noop)
 "ePA" = (
 /obj/structure/window/reinforced/shuttle,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id_tag = nano_bridge
+	id = "nano_bridge"
 	},
 /turf/open/floor/plating,
 /area/template_noop)
@@ -32,12 +32,15 @@
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/item/gun/energy/laser,
+/obj/item/storage/box/rndboards/all{
+	pixel_y = 5
+	},
 /turf/open/floor/plating/reinforced,
 /area/template_noop)
 "ioC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
-	id = nano_bridge;
+	id = "nano_bridge";
 	name = "Bridge Shutters"
 	},
 /turf/open/floor/plating/reinforced,
@@ -71,14 +74,14 @@
 "rvz" = (
 /obj/structure/window/reinforced/shuttle,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id_tag = nano_bridge
+	id = "nano_bridge"
 	},
 /turf/template_noop,
 /area/template_noop)
 "snQ" = (
 /obj/structure/window/reinforced/shuttle,
 /obj/machinery/door/poddoor/shutters/window/preopen{
-	id_tag = nano_bridge
+	id = "nano_bridge"
 	},
 /turf/open/floor/plating,
 /area/template_noop)

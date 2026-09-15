@@ -30,6 +30,9 @@
 	dir = 8
 	},
 /obj/item/disk/star_chart/green,
+/obj/item/storage/box/rndboards/all{
+	pixel_y = 5
+	},
 /turf/open/floor/carpet/blue,
 /area/template_noop)
 

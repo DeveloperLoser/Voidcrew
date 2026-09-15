@@ -30,7 +30,12 @@
 /area/shuttle/voidcrew/nano_pill/hull)
 "dCu" = (
 /obj/machinery/door/airlock/security/glass,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
+/area/shuttle/voidcrew/nano_pill/hull)
+"eJF" = (
+/obj/structure/fans/tiny,
+/turf/template_noop,
 /area/shuttle/voidcrew/nano_pill/hull)
 "fJG" = (
 /obj/machinery/light,
@@ -471,7 +476,7 @@ jRU
 jRU
 jRU
 jRU
-deW
+eJF
 kWf
 kWf
 kWf

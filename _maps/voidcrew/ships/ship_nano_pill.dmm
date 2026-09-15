@@ -8,6 +8,7 @@
 /area/shuttle/voidcrew/nano_pill/hull)
 "cvI" = (
 /obj/machinery/door/airlock/titanium/glass,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/nano_pill/hull)
 "dUu" = (
@@ -46,6 +47,7 @@
 	preferred_direction = 1
 	},
 /obj/machinery/door/airlock/titanium/glass,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/nano_pill/hull)
 "oRO" = (
@@ -68,6 +70,10 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
+/area/shuttle/voidcrew/nano_pill/hull)
+"ykz" = (
+/obj/structure/fans/tiny,
+/turf/template_noop,
 /area/shuttle/voidcrew/nano_pill/hull)
 
 (1,1,1) = {"
@@ -474,7 +480,7 @@ bwW
 bwW
 bwW
 bwW
-nWT
+ykz
 oRO
 oRO
 oRO

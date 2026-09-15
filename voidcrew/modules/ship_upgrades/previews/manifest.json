@@ -227,7 +227,7 @@
      7
     ]
    },
-   "src_md5": "2af4b68ab397631f8c74480d2fa612ee"
+   "src_md5": "09796ee032e8749cddd344630639bbf1"
   },
   "kilo_b": {
    "png": "ship_kilo_b.png",
@@ -247,7 +247,7 @@
      7
     ]
    },
-   "src_md5": "a1c85c7047c3fca6c21cc45f431b04f0"
+   "src_md5": "00d98af180647014875aa298ae5a2210"
   },
   "kilo_c": {
    "png": "ship_kilo_c.png",
@@ -267,7 +267,7 @@
      7
     ]
    },
-   "src_md5": "eb53bd833146914a6282b06611d60ca8"
+   "src_md5": "649b4433ed18392982c1c1c566ef1ea2"
   },
   "kilo_d": {
    "png": "ship_kilo_d.png",
@@ -287,7 +287,7 @@
      7
     ]
    },
-   "src_md5": "c94b1963573afb99a371e0406dd2ba84"
+   "src_md5": "cfbbc8e989d046040e70d5f5f15976c7"
   },
   "nano_phalanx_a": {
    "png": "ship_nano_phalanx_a.png",
@@ -401,6 +401,46 @@
    },
    "src_md5": "3e5781e14bb25e01cd34b5f1c31cba45"
   },
+  "nano_pill": {
+   "png": "ship_nano_pill.png",
+   "width": 24,
+   "height": 24,
+   "slots": {
+    "engineering": [
+     10,
+     11
+    ],
+    "mid_section": [
+     13,
+     11
+    ],
+    "bridge": [
+     19,
+     11
+    ]
+   },
+   "src_md5": "586db202719845ed522369acc3bd764d"
+  },
+  "nano_pill_syndicate": {
+   "png": "ship_nano_pill_syndicate.png",
+   "width": 24,
+   "height": 24,
+   "slots": {
+    "engineering": [
+     10,
+     11
+    ],
+    "mid_section": [
+     13,
+     11
+    ],
+    "bridge": [
+     19,
+     11
+    ]
+   },
+   "src_md5": "9130c8fb37171b5f897d7b3988eaf6c4"
+  },
   "pill": {
    "png": "ship_pill.png",
    "width": 4,
@@ -442,7 +482,7 @@
      7
     ]
    },
-   "src_md5": "5f38590742794e6cfe7660b5c984eb3e"
+   "src_md5": "df7344b3ef406e640d1fef565058234c"
   },
   "scarab_b": {
    "png": "ship_scarab_b.png",
@@ -466,7 +506,7 @@
      7
     ]
    },
-   "src_md5": "8e2b39eebdb2cd59c2b18f890cbe4b08"
+   "src_md5": "363697945e0f5d6c93f4238c0d4a0916"
   },
   "scarab_c": {
    "png": "ship_scarab_c.png",
@@ -490,7 +530,7 @@
      7
     ]
    },
-   "src_md5": "250efd19fcf01d79756a98e68ca8af2e"
+   "src_md5": "f9c0406dac6267d3f0b450e7fd30e604"
   },
   "test_modular": {
    "png": "ship_test_modular.png",
@@ -1983,6 +2023,246 @@
      ],
      "png": "kilo_kilo_hold_vault_saloon.png",
      "src_md5": "a1d13a7ae08536648e098af69aaab49f"
+    }
+   }
+  },
+  "nano_pill/bridge_basic.dmm": {
+   "width": 3,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_bridge_basic_standard.png",
+     "src_md5": "e948b9c202fe4add7b2d1b154cb0d5b0"
+    },
+    "syndicate": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_bridge_basic_syndicate.png",
+     "src_md5": "cadc291c13eced188ad42534a1b3294f"
+    }
+   }
+  },
+  "nano_pill/classic_loadout.dmm": {
+   "width": 6,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 6,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_classic_loadout_standard.png",
+     "src_md5": "a0f9b5ccb408fc8da5bc352102b95d08"
+    },
+    "syndicate": {
+     "width": 6,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_classic_loadout_syndicate.png",
+     "src_md5": "a7c21f68785ffee26a31c308374a0100"
+    }
+   }
+  },
+  "nano_pill/standard.dmm": {
+   "width": 3,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_standard_standard.png",
+     "src_md5": "762110d4daa8ade1ee0a48ccca01a1cc"
+    },
+    "syndicate": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_standard_syndicate.png",
+     "src_md5": "726967bb4dd0d4fb99883f0408f2b4d7"
+    }
+   }
+  },
+  "nano_pill/advanced_engine_bay.dmm": {
+   "width": 3,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_advanced_engine_bay_standard.png",
+     "src_md5": "02a751b7fcaca674e5db94c01f9013ba"
+    },
+    "syndicate": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_advanced_engine_bay_syndicate.png",
+     "src_md5": "daedce6cbbdbf9805cc99cf2b24faa35"
+    }
+   }
+  },
+  "nano_pill/rescue_ship.dmm": {
+   "width": 6,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 6,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_rescue_ship_standard.png",
+     "src_md5": "b43442e1ecb7a20bbbf974b513291ea3"
+    },
+    "syndicate": {
+     "width": 6,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_rescue_ship_syndicate.png",
+     "src_md5": "32b564fea671c7c9f7741a909cede5ce"
+    }
+   }
+  },
+  "nano_pill/questers_helm.dmm": {
+   "width": 3,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_questers_helm_standard.png",
+     "src_md5": "7311751b7f4af6bdb1d1f05fd934270d"
+    },
+    "syndicate": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_questers_helm_syndicate.png",
+     "src_md5": "316e6bc8f964552dd5761f61257f6e91"
+    }
+   }
+  },
+  "nano_pill/combatant_bridge.dmm": {
+   "width": 3,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_combatant_bridge_standard.png",
+     "src_md5": "7765019156563b21ff38a22f1dc4c491"
+    },
+    "syndicate": {
+     "width": 3,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_combatant_bridge_syndicate.png",
+     "src_md5": "8f23c9fbd76494833526ebdda2bca06e"
+    }
+   }
+  },
+  "nano_pill/combatant_midsection.dmm": {
+   "width": 6,
+   "height": 7,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "standard": {
+     "width": 6,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_combatant_midsection_standard.png",
+     "src_md5": "208e8b534fbcc4188ee2f3739148f8a4"
+    },
+    "syndicate": {
+     "width": 6,
+     "height": 7,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "nano_pill_combatant_midsection_syndicate.png",
+     "src_md5": "d9c7a0ffcd213a9c109dfbf36e71cf41"
     }
    }
   },
