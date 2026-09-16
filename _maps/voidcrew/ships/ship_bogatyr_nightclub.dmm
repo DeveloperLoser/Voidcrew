@@ -82,6 +82,7 @@
 /area/shuttle/voidcrew/bogatyr/armory)
 "dqS" = (
 /obj/modular_map_root/ship_upgrade{
+	footprint = "#####/#####/#####/#####/####.";
 	key = "engineering"
 	},
 /turf/template_noop,
