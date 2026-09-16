@@ -1,0 +1,77 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cJe" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"fJB" = (
+/obj/structure/table_frame,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"geu" = (
+/obj/modular_map_connector,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"jqx" = (
+/obj/item/radio/intercom/directional/north,
+/obj/machinery/light/blacklight{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"jRk" = (
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"lmM" = (
+/obj/structure/frame/machine,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"qUy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/frame/machine,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"qWP" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"tJM" = (
+/obj/structure/frame/computer,
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+"wEo" = (
+/obj/structure/closet/crate/science,
+/obj/item/stack/cable_coil,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/storage/box/rndboards{
+	desc = "A box containing a gift for worthy russians.";
+	name = "\proper russian science program"
+	},
+/turf/open/floor/mineral/titanium/purple,
+/area/template_noop)
+
+(1,1,1) = {"
+cJe
+tJM
+geu
+"}
+(2,1,1) = {"
+qUy
+jRk
+jRk
+"}
+(3,1,1) = {"
+jqx
+jRk
+jRk
+"}
+(4,1,1) = {"
+jRk
+jRk
+lmM
+"}
+(5,1,1) = {"
+fJB
+qWP
+wEo
+"}

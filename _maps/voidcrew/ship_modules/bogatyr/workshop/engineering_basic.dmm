@@ -1,0 +1,159 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bfw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/template_noop)
+"dYU" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
+/area/template_noop)
+"exA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"ePt" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -1
+	},
+/obj/item/clothing/under/rank/engineering/engineer,
+/obj/item/clothing/gloves/color/yellow,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/obj/item/clothing/head/utility/welding,
+/turf/open/floor/plating,
+/area/template_noop)
+"eYo" = (
+/obj/structure/cable,
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"gCW" = (
+/turf/template_noop,
+/area/template_noop)
+"gWB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"imp" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"jNA" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+	dir = 1
+	},
+/obj/modular_map_connector,
+/turf/open/floor/plating,
+/area/template_noop)
+"kLp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"lxr" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"oOM" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+"pmE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"sTI" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/effect/turf_decal/box,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+
+(1,1,1) = {"
+gCW
+imp
+bfw
+kLp
+jNA
+"}
+(2,1,1) = {"
+gCW
+lxr
+gWB
+dYU
+eYo
+"}
+(3,1,1) = {"
+oOM
+exA
+pmE
+dYU
+eYo
+"}
+(4,1,1) = {"
+gCW
+sTI
+ePt
+dYU
+eYo
+"}
+(5,1,1) = {"
+gCW
+imp
+imp
+imp
+gCW
+"}
+(6,1,1) = {"
+gCW
+gCW
+gCW
+gCW
+gCW
+"}
+(7,1,1) = {"
+gCW
+gCW
+gCW
+gCW
+gCW
+"}
+(8,1,1) = {"
+gCW
+gCW
+gCW
+gCW
+gCW
+"}
+(9,1,1) = {"
+gCW
+gCW
+gCW
+gCW
+gCW
+"}

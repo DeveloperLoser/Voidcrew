@@ -1,0 +1,310 @@
+{
+  "Rosters": {
+    "module/builders_guild": [
+      {
+        "ID": "job_7",
+        "Name": "Engineer",
+        "Outfit": "/datum/outfit/job/engineer/syndicate",
+        "BaseOutfit": "",
+        "Category": "Engineering",
+        "Slots": 2,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/engineering_basic": [
+      {
+        "ID": "job_8",
+        "Name": "Engines Guy",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_8",
+        "BaseOutfit": "/datum/outfit/job/engineer/syndicate",
+        "Category": "Engineering",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": {},
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/eva_bay_basic": [
+      {
+        "ID": "job_5",
+        "Name": "Guy Given a Pickaxe",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_5",
+        "BaseOutfit": "/datum/outfit/job/miner/equipped",
+        "Category": "Assistant",
+        "Slots": 3,
+        "Officer": false,
+        "Equipment": {
+          "r_pocket": ""
+        },
+        "Backpack": {
+          "/obj/item/knife/combat/survival": 1
+        },
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/laboratory_basic": [
+      {
+        "ID": "job_4",
+        "Name": "Lab Specialist",
+        "Outfit": "/datum/outfit/job/scientist",
+        "BaseOutfit": "",
+        "Category": "Science",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/medical_bay_basic": [
+      {
+        "ID": "job_3",
+        "Name": "New job",
+        "Outfit": "/datum/outfit/job/doctor",
+        "BaseOutfit": "",
+        "Category": "Medical",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/microbiological_lab": [
+      {
+        "ID": "job_2",
+        "Name": "Plauge Master",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_2",
+        "BaseOutfit": "/datum/outfit/centcom/ert/marine/medic",
+        "Category": "Medical",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": {
+          "ears": "/obj/item/radio/headset",
+          "gloves": "/obj/item/clothing/gloves/latex/nitrile",
+          "head": "",
+          "id": "/obj/item/card/id/advanced",
+          "suit": "",
+          "suit_store": ""
+        },
+        "Backpack": {
+          "/obj/item/storage/medkit/regular": 1
+        },
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/mining_bay": [
+      {
+        "ID": "job_6",
+        "Name": "Specialized Miner",
+        "Outfit": "/datum/outfit/job/miner/equipped",
+        "BaseOutfit": "",
+        "Category": "Cargo",
+        "Slots": 2,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/pre_configured": [
+      {
+        "ID": "job_9",
+        "Name": "Scientist",
+        "Outfit": "/datum/outfit/job/scientist",
+        "BaseOutfit": "",
+        "Category": "Science",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "module/surgical_suite": [
+      {
+        "ID": "job_1",
+        "Name": "Real Doctor",
+        "Outfit": "/datum/outfit/job/doctor",
+        "BaseOutfit": "",
+        "Category": "Medical",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ],
+    "theme/freshen_up": [
+      {
+        "ID": "job_17",
+        "Name": "Captain",
+        "Outfit": "/datum/outfit/job/captain",
+        "BaseOutfit": "",
+        "Category": "Command",
+        "Slots": 1,
+        "Officer": true,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_22",
+        "Name": "Pomoshchnik",
+        "Outfit": "/datum/outfit/job/assistant",
+        "BaseOutfit": "",
+        "Category": "Assistant",
+        "Slots": 4,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      }
+    ],
+    "theme/nightclub": [
+      {
+        "ID": "job_10",
+        "Name": "The DJ",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_10",
+        "BaseOutfit": "/datum/outfit/job/captain",
+        "Category": "Command",
+        "Slots": 1,
+        "Officer": true,
+        "Equipment": {
+          "belt": "/obj/item/modular_computer/pda/clear",
+          "id": "/obj/item/card/id/advanced/rainbow",
+          "neck": "/obj/item/bedsheet/cosmos"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_11",
+        "Name": "The Lights and Sound Guy",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_11",
+        "BaseOutfit": "/datum/outfit/job/scientist",
+        "Category": "Science",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": {
+          "belt": "/obj/item/modular_computer/pda/clear",
+          "id": "/obj/item/card/id/advanced/rainbow"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_12",
+        "Name": "Urbexer's",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_12",
+        "BaseOutfit": "/datum/outfit/job/miner",
+        "Category": "Cargo",
+        "Slots": 2,
+        "Officer": false,
+        "Equipment": {
+          "belt": "/obj/item/modular_computer/pda/clear",
+          "id": "/obj/item/card/id/advanced/rainbow"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_13",
+        "Name": "The Drug Dealer",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_13",
+        "BaseOutfit": "/datum/outfit/job/doctor",
+        "Category": "Medical",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": {
+          "belt": "/obj/item/modular_computer/pda/clear",
+          "id": "/obj/item/card/id/advanced/rainbow"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_14",
+        "Name": "The Supplier",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_14",
+        "BaseOutfit": "/datum/outfit/job/cargo_tech",
+        "Category": "Cargo",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": {
+          "belt": "/obj/item/modular_computer/pda/clear",
+          "id": "/obj/item/card/id/advanced/rainbow"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_15",
+        "Name": "Clubber",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_15",
+        "BaseOutfit": "/datum/outfit/job/assistant",
+        "Category": "Assistant",
+        "Slots": 20,
+        "Officer": false,
+        "Equipment": {
+          "belt": "/obj/item/modular_computer/pda/clear",
+          "head": "/obj/item/clothing/head/wig/random",
+          "id": "/obj/item/card/id/advanced/rainbow",
+          "shoes": "/obj/item/clothing/shoes/sneakers/random",
+          "uniform": "/obj/item/clothing/under/color/random"
+        },
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      }
+    ],
+    "theme/trashed": [
+      {
+        "ID": "job_16",
+        "Name": "Captain",
+        "Outfit": "/datum/outfit/job/captain",
+        "BaseOutfit": "",
+        "Category": "Command",
+        "Slots": 1,
+        "Officer": true,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": {}
+      },
+      {
+        "ID": "job_18",
+        "Name": "Pomoshchnik",
+        "Outfit": "/datum/outfit/job/assistant",
+        "BaseOutfit": "",
+        "Category": "Assistant",
+        "Slots": 4,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": null,
+        "Belt": null,
+        "Extra": null
+      }
+    ]
+  }
+}

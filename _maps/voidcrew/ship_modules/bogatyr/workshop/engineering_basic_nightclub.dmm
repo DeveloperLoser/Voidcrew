@@ -1,0 +1,148 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bgp" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/template_noop)
+"bEX" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"eDz" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -1
+	},
+/obj/item/clothing/under/rank/engineering/engineer,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/obj/item/clothing/head/utility/welding,
+/turf/open/floor/plating,
+/area/template_noop)
+"eEk" = (
+/obj/structure/cable,
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"hjS" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+	dir = 1
+	},
+/obj/modular_map_connector,
+/turf/open/floor/plating,
+/area/template_noop)
+"ijW" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/effect/turf_decal/box,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"iNx" = (
+/turf/template_noop,
+/area/template_noop)
+"kxA" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"mSp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"nif" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"rfz" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
+/area/template_noop)
+"svQ" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/light/blacklight{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"xZI" = (
+/obj/structure/sign/poster/random,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+iNx
+nif
+bgp
+mSp
+hjS
+"}
+(2,1,1) = {"
+iNx
+bEX
+kxA
+rfz
+eEk
+"}
+(3,1,1) = {"
+xZI
+svQ
+kxA
+rfz
+eEk
+"}
+(4,1,1) = {"
+iNx
+ijW
+eDz
+rfz
+eEk
+"}
+(5,1,1) = {"
+iNx
+nif
+nif
+nif
+iNx
+"}
+(6,1,1) = {"
+iNx
+iNx
+iNx
+iNx
+iNx
+"}
+(7,1,1) = {"
+iNx
+iNx
+iNx
+iNx
+iNx
+"}
+(8,1,1) = {"
+iNx
+iNx
+iNx
+iNx
+iNx
+"}
+(9,1,1) = {"
+iNx
+iNx
+iNx
+iNx
+iNx
+"}

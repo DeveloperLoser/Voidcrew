@@ -1,6 +1,78 @@
 {
  "tile_px": 32,
  "hulls": {
+  "bogatyr": {
+   "png": "ship_bogatyr.png",
+   "width": 17,
+   "height": 20,
+   "slots": {
+    "eva_bay": [
+     2,
+     5
+    ],
+    "engineering": [
+     9,
+     1
+    ],
+    "laboratory": [
+     10,
+     16
+    ],
+    "medical_bay": [
+     14,
+     8
+    ]
+   },
+   "src_md5": "d640231311d6932a1bfbc7a0bd9199bb"
+  },
+  "bogatyr_freshen_up": {
+   "png": "ship_bogatyr_freshen_up.png",
+   "width": 17,
+   "height": 20,
+   "slots": {
+    "eva_bay": [
+     2,
+     5
+    ],
+    "engineering": [
+     9,
+     1
+    ],
+    "laboratory": [
+     10,
+     16
+    ],
+    "medical_bay": [
+     14,
+     8
+    ]
+   },
+   "src_md5": "758c4ab706b785e41fe548ea70642031"
+  },
+  "bogatyr_nightclub": {
+   "png": "ship_bogatyr_nightclub.png",
+   "width": 17,
+   "height": 20,
+   "slots": {
+    "eva_bay": [
+     2,
+     5
+    ],
+    "engineering": [
+     9,
+     1
+    ],
+    "laboratory": [
+     10,
+     16
+    ],
+    "medical_bay": [
+     14,
+     8
+    ]
+   },
+   "src_md5": "67fd3880afb3fef6310c287bf52b9f46"
+  },
   "delta_a": {
    "png": "ship_delta_a.png",
    "width": 28,
