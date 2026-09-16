@@ -63,17 +63,6 @@
 	is_default = FALSE
 	desc = "Are you lazy? Well worry no more with this Pre-Configured lab!"
 
-/datum/ship_upgrade_module/workshop_bogatyr_builders_guild
-	job_slots_add = list(list(name = "Engineer", officer = FALSE, outfit = /datum/outfit/job/engineer/syndicate, category = "Engineering", slots = 2))
-	part_cost = list(PART_CLASS_TRADE = 1, PART_CLASS_MISC = 2)
-	id = "builders_guild"
-	name = "Builders Guild"
-	slot = "engineering"
-	for_ship = /datum/map_template/shuttle/voidcrew/bogatyr
-	for_theme = list("trashed", "freshen_up", "nightclub")
-	map_file = "bogatyr/workshop/builders_guild.dmm"
-	is_default = FALSE
-	desc = "Comes with the same old, slow propulsion system, and some goodies plus 2 engineers."
 
 /datum/ship_upgrade_module/workshop_bogatyr_mining_bay
 	job_slots_add = list(list(name = "Specialized Miner", officer = FALSE, outfit = /datum/outfit/job/miner/equipped, category = "Cargo", slots = 2))

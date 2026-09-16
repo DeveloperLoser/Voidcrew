@@ -1,20 +1,5 @@
 {
   "Rosters": {
-    "module/builders_guild": [
-      {
-        "ID": "job_7",
-        "Name": "Engineer",
-        "Outfit": "/datum/outfit/job/engineer/syndicate",
-        "BaseOutfit": "",
-        "Category": "Engineering",
-        "Slots": 2,
-        "Officer": false,
-        "Equipment": null,
-        "Backpack": null,
-        "Belt": null,
-        "Extra": null
-      }
-    ],
     "module/engineering_basic": [
       {
         "ID": "job_8",
@@ -27,7 +12,7 @@
         "Equipment": null,
         "Backpack": {},
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/eva_bay_basic": [
@@ -46,12 +31,12 @@
           "/obj/item/knife/combat/survival": 1
         },
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/laboratory_basic": [
       {
-        "ID": "job_4",
+        "ID": "",
         "Name": "Lab Specialist",
         "Outfit": "/datum/outfit/job/scientist",
         "BaseOutfit": "",
@@ -61,12 +46,12 @@
         "Equipment": null,
         "Backpack": null,
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/medical_bay_basic": [
       {
-        "ID": "job_3",
+        "ID": "",
         "Name": "New job",
         "Outfit": "/datum/outfit/job/doctor",
         "BaseOutfit": "",
@@ -76,7 +61,7 @@
         "Equipment": null,
         "Backpack": null,
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/microbiological_lab": [
@@ -100,12 +85,12 @@
           "/obj/item/storage/medkit/regular": 1
         },
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/mining_bay": [
       {
-        "ID": "job_6",
+        "ID": "",
         "Name": "Specialized Miner",
         "Outfit": "/datum/outfit/job/miner/equipped",
         "BaseOutfit": "",
@@ -115,12 +100,12 @@
         "Equipment": null,
         "Backpack": null,
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/pre_configured": [
       {
-        "ID": "job_9",
+        "ID": "",
         "Name": "Scientist",
         "Outfit": "/datum/outfit/job/scientist",
         "BaseOutfit": "",
@@ -130,12 +115,12 @@
         "Equipment": null,
         "Backpack": null,
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "module/surgical_suite": [
       {
-        "ID": "job_1",
+        "ID": "",
         "Name": "Real Doctor",
         "Outfit": "/datum/outfit/job/doctor",
         "BaseOutfit": "",
@@ -145,12 +130,12 @@
         "Equipment": null,
         "Backpack": null,
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ],
     "theme/freshen_up": [
       {
-        "ID": "job_17",
+        "ID": "",
         "Name": "Captain",
         "Outfit": "/datum/outfit/job/captain",
         "BaseOutfit": "",
@@ -163,7 +148,7 @@
         "Extra": {}
       },
       {
-        "ID": "job_22",
+        "ID": "",
         "Name": "Pomoshchnik",
         "Outfit": "/datum/outfit/job/assistant",
         "BaseOutfit": "",
@@ -280,7 +265,7 @@
     ],
     "theme/trashed": [
       {
-        "ID": "job_16",
+        "ID": "",
         "Name": "Captain",
         "Outfit": "/datum/outfit/job/captain",
         "BaseOutfit": "",
@@ -293,7 +278,7 @@
         "Extra": {}
       },
       {
-        "ID": "job_18",
+        "ID": "",
         "Name": "Pomoshchnik",
         "Outfit": "/datum/outfit/job/assistant",
         "BaseOutfit": "",
@@ -303,7 +288,7 @@
         "Equipment": null,
         "Backpack": null,
         "Belt": null,
-        "Extra": null
+        "Extra": {}
       }
     ]
   }

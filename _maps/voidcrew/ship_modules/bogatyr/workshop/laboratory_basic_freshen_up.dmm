@@ -33,11 +33,6 @@
 "qkj" = (
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
-"uWT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/frame/machine,
-/turf/open/floor/mineral/titanium/purple,
-/area/template_noop)
 "wKF" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/mineral/titanium/purple,
@@ -53,7 +48,7 @@ xsX
 hUp
 "}
 (2,1,1) = {"
-uWT
+qgT
 qkj
 qkj
 "}

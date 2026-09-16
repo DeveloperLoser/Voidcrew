@@ -618,7 +618,7 @@
 	key = "engineering"
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "Kj" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -674,12 +674,6 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
-"NM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/template_noop)
 "NW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -704,7 +698,7 @@
 	dir = 1
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "Pv" = (
 /obj/machinery/airalarm/directional/north,
 /turf/template_noop,
@@ -817,8 +811,8 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/armory)
 "Vs" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "VF" = (
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
@@ -1092,8 +1086,8 @@ xR
 xR
 xR
 VM
-NM
-Vs
+pV
+VM
 Jr
 "}
 (9,1,1) = {"
@@ -1114,8 +1108,8 @@ WX
 rK
 VM
 VM
-Zr
-Zr
+Vs
+Vs
 JP
 "}
 (10,1,1) = {"
@@ -1135,10 +1129,10 @@ dS
 st
 zl
 VM
-Zr
-Zr
-Zr
-Zr
+Vs
+Vs
+Vs
+Vs
 "}
 (11,1,1) = {"
 Zr
@@ -1158,9 +1152,9 @@ Rv
 Ak
 VM
 Pa
-Zr
-Zr
-Zr
+Vs
+Vs
+Vs
 "}
 (12,1,1) = {"
 Zr
@@ -1179,10 +1173,10 @@ xm
 QB
 UX
 VM
-Zr
-Zr
-Zr
-Zr
+Vs
+Vs
+Vs
+Vs
 "}
 (13,1,1) = {"
 Zr
@@ -1201,9 +1195,9 @@ WX
 WX
 WX
 VM
-Zr
-Zr
-Zr
+Vs
+Vs
+Vs
 Zr
 "}
 (14,1,1) = {"

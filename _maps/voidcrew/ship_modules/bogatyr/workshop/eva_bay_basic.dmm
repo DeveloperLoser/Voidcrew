@@ -58,10 +58,11 @@
 /obj/structure/closet/crate/radiation{
 	name = "fuel crate"
 	},
-/obj/item/stack/sheet/mineral/uranium/five,
-/obj/item/stack/sheet/mineral/uranium/five,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/template_noop)
 "upn" = (
