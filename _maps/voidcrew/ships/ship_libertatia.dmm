@@ -2,7 +2,7 @@
 "au" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/box,
-/obj/machinery/modular_computer/console/preset/id,
+/obj/machinery/modular_computer/preset/id,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/bridge)
 "az" = (
@@ -71,9 +71,6 @@
 /area/shuttle/voidcrew/libertatia/bridge)
 "bG" = (
 /obj/structure/table/reinforced,
-/obj/item/areaeditor/shuttle{
-	pixel_y = 10
-	},
 /obj/item/megaphone/command{
 	pixel_x = 10;
 	pixel_y = 10
@@ -93,9 +90,10 @@
 	pixel_x = 5;
 	pixel_y = -5
 	},
-/obj/item/storage/belt/sabre,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/gun/ballistic/revolver/c38,
+/obj/item/melee/sabre,
+/obj/item/storage/belt/sheath/sabre,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/bridge)
 "ci" = (
@@ -500,17 +498,15 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/libertatia/bridge)
 "ui" = (
-/obj/machinery/door/airlock/hatch,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "uo" = (
 /obj/machinery/light/small,
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/layer2{
-	dir = 4
-	},
 /obj/structure/sign/warning/vacuum/external/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/stripes{
@@ -519,24 +515,15 @@
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "ut" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
-/turf/open/floor/pod/light,
-/area/shuttle/voidcrew/libertatia/crew_lounge)
-"vo" = (
-/obj/machinery/door/airlock/hatch,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "vx" = (
@@ -601,7 +588,9 @@
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "wZ" = (
-/obj/machinery/vending/boozeomat/all_access,
+/obj/machinery/vending/boozeomat{
+	all_products_free = 1
+	},
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "xv" = (
@@ -632,7 +621,6 @@
 /obj/machinery/vending/wallmed{
 	pixel_y = 30
 	},
-/obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/suit/apron/surgical,
 /obj/structure/sign/departments/medbay/alt/directional/west,
@@ -715,9 +703,9 @@
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "By" = (
-/obj/structure/bed/roller,
 /obj/machinery/iv_drip,
 /obj/effect/decal/cleanable/blood/old,
+/obj/structure/bed/medical/emergency,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "Ce" = (
@@ -817,6 +805,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot_white,
+/obj/item/storage/backpack/duffelbag/sec/surgery,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/crew_lounge)
 "Ef" = (
@@ -967,9 +956,9 @@
 /area/shuttle/voidcrew/libertatia/maintenance/starboard)
 "Jx" = (
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high,
-/obj/item/stock_parts/cell/high,
 /obj/structure/table,
+/obj/item/stock_parts/power_store/cell/high/empty,
+/obj/item/stock_parts/power_store/cell/high,
 /turf/open/floor/pod/light,
 /area/shuttle/voidcrew/libertatia/cargo_bay)
 "Ko" = (
@@ -1651,7 +1640,7 @@ pm
 pW
 sc
 ci
-vo
+DG
 wZ
 zR
 Ce
