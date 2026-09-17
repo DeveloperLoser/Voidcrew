@@ -3147,6 +3147,230 @@
    ],
    "png": "test_modular_engine_advanced.png",
    "src_md5": "826b53cc70a57d98f8b71faef71165e2"
+  },
+  "bogatyr/workshop/eva_bay_basic.dmm": {
+   "width": 7,
+   "height": 4,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_eva_bay_basic.png",
+   "src_md5": "46e89fd3de64b971314148fb9c24a216",
+   "themes": {
+    "freshen_up": {
+     "width": 7,
+     "height": 4,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_eva_bay_basic_freshen_up.png",
+     "src_md5": "792f98257502979f3fc077eca4c9b291"
+    },
+    "nightclub": {
+     "width": 7,
+     "height": 4,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_eva_bay_basic_nightclub.png",
+     "src_md5": "33380c64bb12b9ea497be19552450b56"
+    }
+   }
+  },
+  "bogatyr/workshop/laboratory_basic.dmm": {
+   "width": 5,
+   "height": 3,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_laboratory_basic.png",
+   "src_md5": "8793d152fe0add27880fc13c7ac3606d",
+   "themes": {
+    "freshen_up": {
+     "width": 5,
+     "height": 3,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_laboratory_basic_freshen_up.png",
+     "src_md5": "bf4e823964a650b4dfc0e83bcad8ef65"
+    },
+    "nightclub": {
+     "width": 5,
+     "height": 3,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_laboratory_basic_nightclub.png",
+     "src_md5": "1233c9c83dcc3c42cc4d06841cfb5674"
+    }
+   }
+  },
+  "bogatyr/workshop/medical_bay_basic.dmm": {
+   "width": 3,
+   "height": 5,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_medical_bay_basic.png",
+   "src_md5": "270b4f5d2cff63d52c110625cd462eb6",
+   "themes": {
+    "freshen_up": {
+     "width": 3,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_medical_bay_basic_freshen_up.png",
+     "src_md5": "8ee3fc68a74a38664d250a8a8713c77a"
+    },
+    "nightclub": {
+     "width": 3,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_medical_bay_basic_nightclub.png",
+     "src_md5": "dca639efd7c71f1eb4b58a493a11ee6c"
+    }
+   }
+  },
+  "bogatyr/workshop/engineering_basic.dmm": {
+   "width": 5,
+   "height": 5,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_engineering_basic.png",
+   "src_md5": "79827d794870dba5513d6fc15a729409",
+   "themes": {
+    "freshen_up": {
+     "width": 5,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_engineering_basic_freshen_up.png",
+     "src_md5": "968ab15c2c34d6f3dbe68351452f8f9e"
+    },
+    "nightclub": {
+     "width": 5,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_engineering_basic_nightclub.png",
+     "src_md5": "cdd4033aa5ba3656b7a6e403df08abc4"
+    }
+   }
+  },
+  "bogatyr/workshop/microbiological_lab.dmm": {
+   "width": 3,
+   "height": 5,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_microbiological_lab.png",
+   "src_md5": "d6202ca87ee0d7d2a1bf14f1f74db6b8",
+   "themes": {
+    "nightclub": {
+     "width": 3,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_microbiological_lab_nightclub.png",
+     "src_md5": "1a021125cc61ee3f66ff1d4b08de744b"
+    }
+   }
+  },
+  "bogatyr/workshop/pre_configured.dmm": {
+   "width": 5,
+   "height": 3,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_pre_configured.png",
+   "src_md5": "5e63347a23afcde020028eb6d041c209",
+   "themes": {
+    "nightclub": {
+     "width": 5,
+     "height": 3,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_pre_configured_nightclub.png",
+     "src_md5": "173347c4e5ce547877c30c9e03b53452"
+    }
+   }
+  },
+  "bogatyr/workshop/mining_bay.dmm": {
+   "width": 7,
+   "height": 4,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_mining_bay.png",
+   "src_md5": "a72dfa38592d67243184fa092edf0ba3",
+   "themes": {
+    "nightclub": {
+     "width": 7,
+     "height": 4,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_mining_bay_nightclub.png",
+     "src_md5": "03cb76fe6a967b53f9a4ea4bc78f4f09"
+    }
+   }
+  },
+  "bogatyr/workshop/surgical_suite.dmm": {
+   "width": 3,
+   "height": 5,
+   "connector": [
+    1,
+    1
+   ],
+   "themes": {
+    "nightclub": {
+     "width": 3,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_surgical_suite_nightclub.png",
+     "src_md5": "834b1e69b63531016620bd2ee73bf28c"
+    },
+    "trashed": {
+     "width": 3,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_surgical_suite_trashed.png",
+     "src_md5": "f9ca095bc3b2194219e6906acdb779ad"
+    }
+   }
   }
  }
 }
