@@ -23,7 +23,7 @@
      8
     ]
    },
-   "src_md5": "320ed99c03738361b5a14d9203ff7192"
+   "src_md5": "c2c14c12863d0792b121685b0f039a13"
   },
   "bogatyr_freshen_up": {
    "png": "ship_bogatyr_freshen_up.png",
@@ -47,7 +47,7 @@
      8
     ]
    },
-   "src_md5": "2fab503a55a3e60de714023a66397dc1"
+   "src_md5": "a4fd0d250c4c4a0173ec209c646fe3e4"
   },
   "bogatyr_nightclub": {
    "png": "ship_bogatyr_nightclub.png",
@@ -71,7 +71,7 @@
      8
     ]
    },
-   "src_md5": "cfe6e3d88fa332c49224c9d026192754"
+   "src_md5": "d987e38029ded55a2813589e9ad63a5f"
   },
   "delta_a": {
    "png": "ship_delta_a.png",
@@ -3156,7 +3156,7 @@
     1
    ],
    "png": "bogatyr_workshop_eva_bay_basic.png",
-   "src_md5": "46e89fd3de64b971314148fb9c24a216",
+   "src_md5": "42e9d0473b1534c9da7066e2070ff51c",
    "themes": {
     "freshen_up": {
      "width": 7,
@@ -3166,7 +3166,7 @@
       1
      ],
      "png": "bogatyr_workshop_eva_bay_basic_freshen_up.png",
-     "src_md5": "792f98257502979f3fc077eca4c9b291"
+     "src_md5": "ffa9bfab04361d6c3fc5e84b68dd4bff"
     },
     "nightclub": {
      "width": 7,
@@ -3176,7 +3176,7 @@
       1
      ],
      "png": "bogatyr_workshop_eva_bay_basic_nightclub.png",
-     "src_md5": "33380c64bb12b9ea497be19552450b56"
+     "src_md5": "00a992a98674439c7bfeab5972e4cfe3"
     }
    }
   },
@@ -3188,7 +3188,7 @@
     1
    ],
    "png": "bogatyr_workshop_laboratory_basic.png",
-   "src_md5": "8793d152fe0add27880fc13c7ac3606d",
+   "src_md5": "2092e29630ed4fc3420c04133576a4cc",
    "themes": {
     "freshen_up": {
      "width": 5,
@@ -3198,7 +3198,7 @@
       1
      ],
      "png": "bogatyr_workshop_laboratory_basic_freshen_up.png",
-     "src_md5": "bf4e823964a650b4dfc0e83bcad8ef65"
+     "src_md5": "56a3799ddd33055c87f2b1be2fee617e"
     },
     "nightclub": {
      "width": 5,
@@ -3208,7 +3208,7 @@
       1
      ],
      "png": "bogatyr_workshop_laboratory_basic_nightclub.png",
-     "src_md5": "1233c9c83dcc3c42cc4d06841cfb5674"
+     "src_md5": "14bf3f47d64edbde55b6ecbf1917e464"
     }
    }
   },
@@ -3220,7 +3220,7 @@
     1
    ],
    "png": "bogatyr_workshop_medical_bay_basic.png",
-   "src_md5": "270b4f5d2cff63d52c110625cd462eb6",
+   "src_md5": "0890483f136f2f54c416a3aee143705f",
    "themes": {
     "freshen_up": {
      "width": 3,
@@ -3230,7 +3230,7 @@
       1
      ],
      "png": "bogatyr_workshop_medical_bay_basic_freshen_up.png",
-     "src_md5": "8ee3fc68a74a38664d250a8a8713c77a"
+     "src_md5": "ddb6b4d23506a603cbed031d49e50134"
     },
     "nightclub": {
      "width": 3,
@@ -3240,7 +3240,7 @@
       1
      ],
      "png": "bogatyr_workshop_medical_bay_basic_nightclub.png",
-     "src_md5": "dca639efd7c71f1eb4b58a493a11ee6c"
+     "src_md5": "2346b2b22f903ae904c7e33f446057ac"
     }
    }
   },
@@ -3272,7 +3272,7 @@
       1
      ],
      "png": "bogatyr_workshop_engineering_basic_nightclub.png",
-     "src_md5": "cdd4033aa5ba3656b7a6e403df08abc4"
+     "src_md5": "f4bc8e60e04d48e4c9027a14f751d4d2"
     }
    }
   },
@@ -3284,7 +3284,7 @@
     1
    ],
    "png": "bogatyr_workshop_microbiological_lab.png",
-   "src_md5": "d6202ca87ee0d7d2a1bf14f1f74db6b8",
+   "src_md5": "0ec6274787a390b02deafed0e58bf2e7",
    "themes": {
     "nightclub": {
      "width": 3,
@@ -3294,7 +3294,7 @@
       1
      ],
      "png": "bogatyr_workshop_microbiological_lab_nightclub.png",
-     "src_md5": "1a021125cc61ee3f66ff1d4b08de744b"
+     "src_md5": "c3a72b3cc8408000add93d5b1ddaef02"
     }
    }
   },
@@ -3306,7 +3306,7 @@
     1
    ],
    "png": "bogatyr_workshop_pre_configured.png",
-   "src_md5": "5e63347a23afcde020028eb6d041c209",
+   "src_md5": "b0aa27febb97d82945a1cd61fdf58adb",
    "themes": {
     "nightclub": {
      "width": 5,
@@ -3316,7 +3316,7 @@
       1
      ],
      "png": "bogatyr_workshop_pre_configured_nightclub.png",
-     "src_md5": "173347c4e5ce547877c30c9e03b53452"
+     "src_md5": "a43cdeef53789374a8825d9ce4553120"
     }
    }
   },
@@ -3338,7 +3338,7 @@
       1
      ],
      "png": "bogatyr_workshop_mining_bay_nightclub.png",
-     "src_md5": "03cb76fe6a967b53f9a4ea4bc78f4f09"
+     "src_md5": "1e1d0175ad7e105daf437fb672c53050"
     }
    }
   },
@@ -3358,7 +3358,7 @@
       1
      ],
      "png": "bogatyr_workshop_surgical_suite_nightclub.png",
-     "src_md5": "834b1e69b63531016620bd2ee73bf28c"
+     "src_md5": "2cbf4f55c0978ea3ca1af6346ebb202a"
     },
     "trashed": {
      "width": 3,

@@ -9,7 +9,6 @@
 /obj/item/toy/plush/moth{
 	name = "emotional support moth plushie"
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "ceN" = (
@@ -37,19 +36,11 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "qCe" = (
-/obj/machinery/light/small/broken{
-	dir = 4;
-	name = "light fixture"
-	},
 /obj/structure/bed,
-/obj/machinery/airalarm/directional/east,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "qST" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
 /obj/structure/bed,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)

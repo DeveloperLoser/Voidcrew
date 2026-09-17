@@ -862,12 +862,6 @@
 "XL" = (
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
-"Yr" = (
-/obj/machinery/light/broken{
-	dir = 1
-	},
-/turf/template_noop,
-/area/shuttle/voidcrew/bogatyr/laboratory)
 "YI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm/directional/north,
@@ -1160,7 +1154,7 @@ Vs
 (12,1,1) = {"
 Zr
 iN
-Yr
+Ks
 ri
 la
 iN

@@ -17,7 +17,7 @@
 /area/template_noop)
 "icv" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
-/turf/template_noop,
+/turf/open/floor/mineral/titanium/tiled/blue,
 /area/template_noop)
 "jhK" = (
 /turf/template_noop,

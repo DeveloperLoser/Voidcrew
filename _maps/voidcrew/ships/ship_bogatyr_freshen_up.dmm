@@ -493,11 +493,10 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/laboratory)
 "pCt" = (
-/obj/machinery/light/small/broken{
-	dir = 4;
-	name = "light fixture"
-	},
 /obj/machinery/airalarm/directional/east,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "pHQ" = (

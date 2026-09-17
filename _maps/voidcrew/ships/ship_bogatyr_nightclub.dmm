@@ -11,29 +11,26 @@
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/central)
 "bcS" = (
-/obj/structure/rack,
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = 8
+/obj/structure/chair/sofa/corp{
+	dir = 8
 	},
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = -7
-	},
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
 "bfE" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/rifle/boltaction{
-	pixel_x = -7;
-	pixel_y = 2
-	},
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/chair/sofa/corp{
+	dir = 4
+	},
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
+"bAP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/light/colour_cycle,
+/area/shuttle/voidcrew/bogatyr/central)
 "bVH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -68,7 +65,6 @@
 /turf/open/floor/holofloor/hyperspace,
 /area/shuttle/voidcrew/bogatyr/central)
 "cTt" = (
-/obj/structure/rack,
 /obj/item/knife/hunting{
 	pixel_y = -1
 	},
@@ -78,7 +74,15 @@
 /obj/item/knife/hunting{
 	pixel_y = -9
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/closet{
+	anchored = 1
+	},
+/obj/item/melee/chainofcommand,
+/obj/item/gun/ballistic/rifle/boltaction{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
 "dqS" = (
 /obj/modular_map_root/ship_upgrade{
@@ -97,6 +101,7 @@
 	pixel_y = 5;
 	pixel_x = 3
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "dUu" = (
@@ -116,7 +121,7 @@
 "elP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/light/colour_cycle/dancefloor_b,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/central)
 "esk" = (
 /turf/open/floor/holofloor/hyperspace,
@@ -139,7 +144,6 @@
 	pixel_x = -24;
 	pixel_y = -5
 	},
-/obj/machinery/light/small,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "ePH" = (
@@ -166,7 +170,8 @@
 	dir = 1
 	},
 /obj/machinery/light/blacklight,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/armory)
 "fhy" = (
 /obj/structure/table/reinforced/plasmarglass,
@@ -225,7 +230,7 @@
 /area/shuttle/voidcrew/bogatyr/laboratory)
 "fQS" = (
 /obj/effect/decal/cleanable/food/squid_ink,
-/turf/open/floor/light/colour_cycle/dancefloor_b,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/central)
 "fSc" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -274,6 +279,10 @@
 "gHC" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/laboratory)
+"gKW" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/light/colour_cycle,
+/area/shuttle/voidcrew/bogatyr/central)
 "gUU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -288,12 +297,27 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/gun/ballistic/automatic/pistol/m1911,
+/obj/item/storage/bag/money,
+/obj/item/reagent_containers/hypospray/medipen/methamphetamine,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/armory)
 "hPA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/cargo)
+"ihZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/light/colour_cycle,
+/area/shuttle/voidcrew/bogatyr/central)
+"ith" = (
+/obj/machinery/light/blacklight,
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "itN" = (
@@ -311,6 +335,7 @@
 /obj/item/reagent_containers/cup/glass/flask/gold{
 	list_reagents = list(/datum/reagent/consumable/ethanol/sbiten=30)
 	},
+/obj/effect/spawner/costume/waiter,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "iGV" = (
@@ -434,16 +459,15 @@
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/blacklight{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "lxE" = (
 /obj/structure/sign/poster/random,
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/bridge)
-"lyY" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/light/colour_cycle/dancefloor_b,
-/area/shuttle/voidcrew/bogatyr/central)
 "lAk" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -480,12 +504,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "mfG" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/doublebarrel{
-	name = "\improper TOZ-1"
-	},
 /obj/machinery/airalarm/directional/north,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/chair/sofa/corp/corner{
+	dir = 4
+	},
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
 "mgJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -495,19 +518,12 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "miz" = (
-/obj/structure/rack,
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/chair/sofa/corp/corner{
+	dir = 3
+	},
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
 "mNi" = (
 /obj/effect/decal/cleanable/dirt,
@@ -536,13 +552,15 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/infirmary)
-"nWx" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+"nVY" = (
+/turf/open/floor/light/colour_cycle,
+/area/shuttle/voidcrew/bogatyr/central)
+"nWu" = (
+/obj/machinery/light/blacklight{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/light/colour_cycle/dancefloor_b,
-/area/shuttle/voidcrew/bogatyr/central)
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/laboratory)
 "nYo" = (
 /obj/structure/chair/comfy/carp{
 	dir = 4
@@ -558,6 +576,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
+"oOS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/light/colour_cycle,
+/area/shuttle/voidcrew/bogatyr/central)
 "pdl" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /obj/machinery/airalarm/directional/west,
@@ -581,7 +605,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "qjF" = (
-/obj/machinery/door/airlock/grunge,
+/obj/machinery/light/blacklight{
+	dir = 1
+	},
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "qxa" = (
@@ -630,9 +656,9 @@
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "szv" = (
-/obj/machinery/door/airlock/grunge,
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/maintenance)
+/obj/machinery/light/blacklight,
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/infirmary)
 "sEe" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -646,6 +672,12 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
+"sGh" = (
+/obj/machinery/light/blacklight{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
 "sRE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -661,9 +693,32 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "tUC" = (
-/obj/structure/rack,
-/obj/item/melee/chainofcommand,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/obj/effect/spawner/costume/nyangirl,
+/obj/effect/spawner/costume/imperium_monk,
+/obj/effect/spawner/costume/plaguedoctor,
+/obj/effect/spawner/costume/wizard,
+/obj/item/clothing/suit/armor/vest/russian{
+	pixel_x = -7
+	},
+/obj/item/clothing/suit/armor/vest/russian{
+	pixel_x = 1
+	},
+/obj/item/clothing/suit/armor/vest/russian{
+	pixel_x = 8
+	},
+/obj/structure/closet{
+	anchored = 1
+	},
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
 "urU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -683,17 +738,14 @@
 "uNO" = (
 /obj/machinery/jukebox/disco,
 /obj/machinery/holopad,
-/turf/open/floor/light/colour_cycle/dancefloor_a,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/central)
 "uOM" = (
-/obj/machinery/light/small{
+/obj/machinery/light/blacklight{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/holofloor/hyperspace,
-/area/shuttle/voidcrew/bogatyr/central)
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/infirmary)
 "uQb" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/infirmary)
@@ -772,7 +824,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
 "xov" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -868,9 +920,9 @@ lxE
 cSN
 fQS
 dUu
+nVY
 iTN
-iTN
-iTN
+nVY
 cSN
 xIg
 sRE
@@ -889,9 +941,9 @@ eJS
 fhy
 bVH
 iTN
+nVY
 uMp
-uMp
-uMp
+nVY
 iTN
 cSN
 voc
@@ -899,7 +951,7 @@ fjI
 klz
 ssQ
 ssQ
-szv
+jof
 lkf
 jof
 knM
@@ -910,17 +962,17 @@ fWL
 xsH
 dTW
 sqM
-nWx
+ihZ
 uMp
 uNO
 uMp
-lyY
+gKW
 cSN
 voc
+qjF
 ssQ
 ssQ
-ssQ
-ssQ
+ith
 jof
 tzq
 jof
@@ -933,9 +985,9 @@ kzr
 sEe
 gFc
 iTN
+nVY
 uMp
-uMp
-uMp
+nVY
 iTN
 clE
 gFN
@@ -954,9 +1006,9 @@ iAV
 bZP
 fGP
 cSN
+oOS
 rnq
-rnq
-kIE
+bAP
 kIE
 elP
 cSN
@@ -964,7 +1016,7 @@ voc
 ssQ
 ssQ
 ssQ
-qjF
+ssQ
 jof
 tzq
 jof
@@ -1025,13 +1077,13 @@ mgJ
 pxV
 jxv
 tkC
-uOM
+clE
 wxO
 xkh
 gWH
 fcu
 jof
-knM
+sGh
 knM
 knM
 knM
@@ -1039,7 +1091,7 @@ knM
 (12,1,1) = {"
 knM
 gHC
-kYj
+nWu
 wih
 urU
 gHC
@@ -1111,11 +1163,11 @@ gHC
 gHC
 knM
 uQb
-mPB
+uOM
 fSc
 iHk
 iVx
-mPB
+szv
 uQb
 knM
 knM

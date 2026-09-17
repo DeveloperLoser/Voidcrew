@@ -1,21 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"cJe" = (
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/mineral/titanium/purple,
-/area/template_noop)
 "fJB" = (
 /obj/structure/table_frame,
-/turf/open/floor/mineral/titanium/purple,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "geu" = (
 /obj/modular_map_connector,
-/turf/open/floor/mineral/titanium/purple,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "jqx" = (
 /obj/item/radio/intercom/directional/north,
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
 "jRk" = (
@@ -26,13 +19,7 @@
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
 "qUy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/frame/machine,
-/turf/open/floor/mineral/titanium/purple,
-/area/template_noop)
-"qWP" = (
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/mineral/titanium/purple,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "tJM" = (
 /obj/structure/frame/computer,
@@ -47,16 +34,16 @@
 	desc = "A box containing a gift for worthy russians.";
 	name = "\proper russian science program"
 	},
-/turf/open/floor/mineral/titanium/purple,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 
 (1,1,1) = {"
-cJe
+qUy
 tJM
 geu
 "}
 (2,1,1) = {"
-qUy
+lmM
 jRk
 jRk
 "}
@@ -72,6 +59,6 @@ lmM
 "}
 (5,1,1) = {"
 fJB
-qWP
+jRk
 wEo
 "}

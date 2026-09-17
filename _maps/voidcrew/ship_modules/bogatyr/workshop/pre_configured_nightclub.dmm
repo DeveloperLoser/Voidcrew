@@ -1,25 +1,22 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ayv" = (
 /obj/machinery/computer/rdconsole,
-/turf/open/floor/mineral/titanium/tiled/blue,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "bsA" = (
 /obj/machinery/rnd/production/circuit_imprinter,
-/turf/open/floor/mineral/titanium/tiled/blue,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "gGf" = (
 /obj/item/circuitboard/machine/rdserver,
 /obj/item/computer_disk/ship_disk,
 /obj/structure/frame,
 /obj/item/stack/cable_coil/five,
-/turf/open/floor/mineral/titanium/tiled/blue,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "hzv" = (
 /obj/machinery/rnd/production/protolathe,
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/tiled/blue,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "hQX" = (
 /turf/open/floor/mineral/titanium/tiled/blue,
@@ -46,7 +43,7 @@
 /obj/item/stack/sheet/glass{
 	amount = 30
 	},
-/turf/open/floor/mineral/titanium/tiled/blue,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "xSJ" = (
 /obj/structure/table,

@@ -11,16 +11,16 @@
 "gCj" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/effect/turf_decal/stripes/corner,
+/obj/machinery/button/door{
+	id = "blastdoors";
+	name = "Cargo Bay Blast Doors";
+	pixel_x = -24
+	},
 /turf/open/floor/engine,
 /area/template_noop)
 "huX" = (
 /obj/machinery/recharge_station,
-/turf/open/floor/mineral/plastitanium/red,
-/area/template_noop)
-"jOt" = (
-/obj/structure/table,
-/obj/machinery/light/blacklight,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 "kpE" = (
 /obj/effect/turf_decal/stripes/line{
@@ -30,7 +30,7 @@
 /area/template_noop)
 "oed" = (
 /obj/structure/table,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 "qpH" = (
 /obj/structure/closet/crate/miningcar,
@@ -41,11 +41,11 @@
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /obj/item/gps/mining,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 "qQx" = (
 /obj/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 "rjp" = (
 /obj/structure/closet/crate/radiation{
@@ -54,10 +54,7 @@
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 20
 	},
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 "sML" = (
 /obj/effect/turf_decal/stripes/line,
@@ -75,10 +72,10 @@
 /area/template_noop)
 "vGz" = (
 /obj/machinery/suit_storage_unit/mining/eva,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 "yjw" = (
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/glass/reinforced/plasma,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -103,7 +100,7 @@ yjw
 rjp
 yjw
 yjw
-jOt
+oed
 "}
 (5,1,1) = {"
 qpH

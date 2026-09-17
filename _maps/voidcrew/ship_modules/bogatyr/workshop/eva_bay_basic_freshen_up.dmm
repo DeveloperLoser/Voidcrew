@@ -31,10 +31,6 @@
 /mob/living/basic/pet/dog/corgi,
 /turf/open/floor/mineral/titanium/yellow,
 /area/template_noop)
-"jGD" = (
-/obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/mineral/plastitanium,
-/area/template_noop)
 "jKP" = (
 /turf/open/floor/mineral/titanium/yellow,
 /area/template_noop)
@@ -77,7 +73,6 @@
 /turf/open/floor/mineral/titanium/yellow,
 /area/template_noop)
 "prF" = (
-/obj/machinery/airalarm/directional/north,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/mineral/titanium/yellow,
 /area/template_noop)
@@ -112,7 +107,7 @@ dlC
 uWE
 jKP
 jKP
-jGD
+uWE
 "}
 (3,1,1) = {"
 jKP

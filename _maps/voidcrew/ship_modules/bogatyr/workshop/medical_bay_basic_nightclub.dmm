@@ -5,15 +5,11 @@
 /area/template_noop)
 "cBn" = (
 /obj/structure/bed,
-/obj/machinery/airalarm/directional/east,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "dbh" = (
 /obj/structure/closet/crate/freezer/blood,
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "dsC" = (
@@ -37,7 +33,8 @@
 /obj/item/toy/plush/moth{
 	name = "emotional support moth plushie"
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/item/storage/pill_bottle/happy,
+/obj/item/storage/pill_bottle/lsd,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "qrb" = (
@@ -57,7 +54,6 @@
 /obj/item/storage/medkit/o2{
 	pixel_y = -1
 	},
-/obj/machinery/light/blacklight,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 

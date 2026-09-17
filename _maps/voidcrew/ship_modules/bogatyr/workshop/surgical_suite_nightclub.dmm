@@ -4,45 +4,41 @@
 /area/template_noop)
 "fPe" = (
 /obj/structure/closet/crate/medical,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "khk" = (
 /obj/modular_map_connector,
 /obj/machinery/computer/crew{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "mmT" = (
 /obj/machinery/suit_storage_unit/medical,
-/obj/machinery/light/blacklight,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "nFn" = (
 /obj/structure/closet/secure_closet/medical3,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "tPp" = (
 /obj/item/surgery_tray/full,
 /obj/structure/table/optable,
 /obj/machinery/defibrillator_mount/directional/north,
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "uuz" = (
 /turf/open/floor/mineral/titanium/white,
 /area/template_noop)
 "vXI" = (
 /obj/machinery/computer/operating,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "wIO" = (
 /obj/machinery/vending/medical{
 	all_products_free = 1
 	},
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/light/colour_cycle,
 /area/template_noop)
 
 (1,1,1) = {"

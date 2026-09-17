@@ -73,9 +73,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
+/obj/effect/spawner/costume/sexymime,
+/obj/effect/spawner/costume/sexyclown,
 /turf/open/floor/plating,
 /area/template_noop)
 "xZI" = (

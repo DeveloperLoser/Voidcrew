@@ -13,7 +13,7 @@
 "cHU" = (
 /obj/structure/closet/crate/internals,
 /obj/effect/spawner/random/maintenance/three,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "cWQ" = (
 /obj/structure/closet/crate/radiation{
@@ -22,7 +22,7 @@
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 20
 	},
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "dDx" = (
 /obj/modular_map_connector,
@@ -30,23 +30,19 @@
 /area/template_noop)
 "iTs" = (
 /obj/structure/tank_dispenser,
-/turf/open/floor/mineral/titanium/yellow,
-/area/template_noop)
-"jCM" = (
-/obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "kmp" = (
 /obj/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "lhN" = (
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "mhc" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "nCu" = (
 /obj/structure/closet/crate{
@@ -64,8 +60,7 @@
 /obj/item/reagent_containers/cup/glass/bottle/vodka,
 /obj/item/reagent_containers/cup/glass/bottle/vodka,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
-/obj/machinery/light/blacklight,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "pIb" = (
 /obj/structure/closet/crate/miningcar{
@@ -77,29 +72,25 @@
 /obj/item/mining_scanner,
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "qgJ" = (
 /obj/structure/closet/crate/hydroponics,
 /obj/effect/spawner/random/maintenance/three,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/radio/intercom/directional/north,
-/obj/machinery/light/blacklight{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "wyw" = (
-/obj/machinery/airalarm/directional/north,
 /obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 "wRa" = (
 /obj/structure/closet/crate/critter{
 	name = "rare and exotic russian native animals"
 	},
 /mob/living/basic/pet/dog/corgi,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/holofloor/hyperspace,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -112,7 +103,7 @@ dDx
 cab
 lhN
 lhN
-jCM
+cab
 "}
 (3,1,1) = {"
 lhN

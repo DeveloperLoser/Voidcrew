@@ -18,6 +18,9 @@
 /area/template_noop)
 "iqy" = (
 /obj/machinery/rnd/production/protolathe,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/template_noop)
 "mak" = (

@@ -29,7 +29,6 @@
 	name = "light fixture"
 	},
 /obj/structure/bed,
-/obj/machinery/airalarm/directional/east,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
@@ -43,7 +42,6 @@
 /obj/item/toy/plush/moth{
 	name = "emotional support moth plushie"
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/template_noop)
 "saP" = (

@@ -5,6 +5,9 @@
 /area/template_noop)
 "jGf" = (
 /obj/item/radio/intercom/directional/north,
+/obj/machinery/light/broken{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
 "jKA" = (
@@ -22,19 +25,11 @@
 	},
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
-"nXP" = (
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/mineral/titanium/purple,
-/area/template_noop)
 "qgT" = (
 /obj/structure/frame/machine,
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
 "qkj" = (
-/turf/open/floor/mineral/titanium/purple,
-/area/template_noop)
-"wKF" = (
-/obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/mineral/titanium/purple,
 /area/template_noop)
 "xsX" = (
@@ -43,7 +38,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-nXP
+qkj
 xsX
 hUp
 "}
@@ -64,6 +59,6 @@ qgT
 "}
 (5,1,1) = {"
 jKA
-wKF
+qkj
 kmB
 "}
