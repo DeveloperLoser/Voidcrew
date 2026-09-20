@@ -146,9 +146,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
-"ePH" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
 "eWR" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -420,7 +417,7 @@
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "khk" = (
 /obj/item/radio/intercom/directional/north,
 /obj/effect/turf_decal/stripes/line{
@@ -441,10 +438,15 @@
 "kqQ" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/bridge)
+"kwc" = (
+/obj/machinery/computer/mission_board,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/bogatyr/bridge)
 "kzr" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/mission_pad,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "kIE" = (
@@ -614,7 +616,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/computer/communications{
+/obj/machinery/computer/bank_machine{
 	dir = 8
 	},
 /turf/open/floor/holofloor/hyperspace,
@@ -788,7 +790,7 @@
 "vKl" = (
 /obj/modular_map_connector,
 /turf/closed/wall/r_wall,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "wih" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/template_noop,
@@ -978,11 +980,11 @@ ith
 jof
 tzq
 jof
-ePH
+jof
 "}
 (7,1,1) = {"
 xov
-fGP
+kwc
 kzr
 sEe
 gFc

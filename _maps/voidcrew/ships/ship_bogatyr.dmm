@@ -52,7 +52,7 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "cL" = (
-/obj/machinery/computer/communications,
+/obj/machinery/computer/mission_board,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "dm" = (
@@ -668,6 +668,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/mission_pad,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "Ot" = (
@@ -858,6 +859,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "XL" = (
+/obj/machinery/computer/bank_machine,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "YI" = (

@@ -23,7 +23,7 @@
      8
     ]
    },
-   "src_md5": "d96c8fbfd2c1e9d48147854e9e1a66ed"
+   "src_md5": "c8f3adaf361ec0aa3fd29c341b06ebbd"
   },
   "bogatyr_freshen_up": {
    "png": "ship_bogatyr_freshen_up.png",
@@ -47,7 +47,7 @@
      8
     ]
    },
-   "src_md5": "219e691ed13a05fc36b7263fadd3c528"
+   "src_md5": "890873d6771903a81dbbbb2a9895b216"
   },
   "bogatyr_nightclub": {
    "png": "ship_bogatyr_nightclub.png",
@@ -71,7 +71,7 @@
      8
     ]
    },
-   "src_md5": "f75e1dae124f166acf8055f2e01421da"
+   "src_md5": "da8e6adeb097630fb1be41fa60b8beee"
   },
   "delta_a": {
    "png": "ship_delta_a.png",
@@ -3188,7 +3188,7 @@
     1
    ],
    "png": "bogatyr_workshop_laboratory_basic.png",
-   "src_md5": "2092e29630ed4fc3420c04133576a4cc",
+   "src_md5": "13df39c1c772322fe0c16632eb252136",
    "themes": {
     "freshen_up": {
      "width": 5,
@@ -3198,7 +3198,7 @@
       1
      ],
      "png": "bogatyr_workshop_laboratory_basic_freshen_up.png",
-     "src_md5": "56a3799ddd33055c87f2b1be2fee617e"
+     "src_md5": "f54de37db1368850756de197a44f2ba0"
     },
     "nightclub": {
      "width": 5,
@@ -3208,7 +3208,7 @@
       1
      ],
      "png": "bogatyr_workshop_laboratory_basic_nightclub.png",
-     "src_md5": "14bf3f47d64edbde55b6ecbf1917e464"
+     "src_md5": "e6e86c4920b896b873e358ff964cccb4"
     }
    }
   },
@@ -3306,7 +3306,7 @@
     1
    ],
    "png": "bogatyr_workshop_pre_configured.png",
-   "src_md5": "452001013f86ca18f3c674355d525d4f",
+   "src_md5": "1ce4aafd6c4532f3068bc685d54e454e",
    "themes": {
     "nightclub": {
      "width": 5,
@@ -3316,7 +3316,7 @@
       1
      ],
      "png": "bogatyr_workshop_pre_configured_nightclub.png",
-     "src_md5": "4b2cec4da5da27eaccd1b41ff4ecfcbf"
+     "src_md5": "ae4b521a3f88ee626519704233d7875d"
     }
    }
   },

@@ -30,10 +30,7 @@
 /obj/item/stack/cable_coil,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/glass/fifty,
-/obj/item/storage/box/rndboards{
-	desc = "A box containing a gift for worthy russians.";
-	name = "\proper russian science program"
-	},
+/obj/item/storage/box/rndboards/all,
 /turf/open/floor/light/colour_cycle,
 /area/template_noop)
 

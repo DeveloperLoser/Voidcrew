@@ -47,12 +47,13 @@
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/template_noop)
 "xLK" = (
-/obj/item/circuitboard/machine/rdserver,
 /obj/item/computer_disk/ship_disk,
 /obj/structure/frame/machine/secured,
 /obj/item/stock_parts/scanning_module,
 /obj/item/screwdriver,
 /obj/item/multitool,
+/obj/item/circuitboard/machine/rdserver/ship,
+/obj/item/stack/cable_coil/five,
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/template_noop)
 

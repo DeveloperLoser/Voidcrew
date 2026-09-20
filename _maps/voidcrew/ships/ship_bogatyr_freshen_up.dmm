@@ -73,9 +73,6 @@
 	},
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
-"fcr" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
 "feK" = (
 /obj/modular_map_root/ship_upgrade{
 	key = "eva_bay"
@@ -162,6 +159,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/mission_pad,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "gFH" = (
@@ -349,7 +347,7 @@
 "lqb" = (
 /obj/modular_map_connector,
 /turf/closed/wall/r_wall,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "lwN" = (
 /obj/structure/table,
 /obj/item/food/meat/slab/bear,
@@ -370,7 +368,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "lHH" = (
-/obj/machinery/computer/communications,
+/obj/machinery/computer/mission_board,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "lMk" = (
@@ -412,6 +410,7 @@
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "nnY" = (
+/obj/machinery/computer/bank_machine,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "nqB" = (
@@ -462,7 +461,7 @@
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "pox" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -927,7 +926,7 @@ qCN
 ivi
 klB
 ivi
-fcr
+ivi
 "}
 (7,1,1) = {"
 njs
