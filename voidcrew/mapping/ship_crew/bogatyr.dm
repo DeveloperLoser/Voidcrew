@@ -39,7 +39,7 @@
 	backpack_contents = list()
 
 /datum/outfit/job/workshop_bogatyr_job_2
-	parent_type = /datum/outfit/centcom/ert/marine/medic
+	parent_type = /datum/outfit/job/scientist
 	name = "Bogatyr-class Explorator — Plauge Master"
 	suit = null
 	head = null
