@@ -131,8 +131,8 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "fVY" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "fZL" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -244,7 +244,7 @@
 	key = "engineering"
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "jka" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -303,7 +303,7 @@
 	dir = 1
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "kwX" = (
 /obj/structure/sign/poster/random,
 /turf/closed/wall/r_wall,
@@ -449,11 +449,6 @@
 /area/shuttle/voidcrew/bogatyr/armory)
 "oOj" = (
 /turf/template_noop,
-/area/template_noop)
-"paP" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
 /area/template_noop)
 "pjz" = (
 /obj/structure/sign/poster/random,
@@ -965,8 +960,8 @@ qCN
 qCN
 qCN
 ivi
-paP
-fVY
+klB
+ivi
 lqb
 "}
 (9,1,1) = {"
@@ -987,8 +982,8 @@ kXU
 fjq
 ivi
 ivi
-oOj
-oOj
+fVY
+fVY
 iVz
 "}
 (10,1,1) = {"
@@ -1008,10 +1003,10 @@ srU
 xPQ
 fif
 ivi
-oOj
-oOj
-oOj
-oOj
+fVY
+fVY
+fVY
+fVY
 "}
 (11,1,1) = {"
 oOj
@@ -1031,9 +1026,9 @@ nHX
 vob
 ivi
 kns
-oOj
-oOj
-oOj
+fVY
+fVY
+fVY
 "}
 (12,1,1) = {"
 oOj
@@ -1052,10 +1047,10 @@ vrq
 tZN
 oDC
 ivi
-oOj
-oOj
-oOj
-oOj
+fVY
+fVY
+fVY
+fVY
 "}
 (13,1,1) = {"
 oOj
@@ -1074,9 +1069,9 @@ kXU
 kXU
 kXU
 ivi
-oOj
-oOj
-oOj
+fVY
+fVY
+fVY
 oOj
 "}
 (14,1,1) = {"

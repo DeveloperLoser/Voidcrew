@@ -90,7 +90,7 @@
 	key = "engineering"
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "dTW" = (
 /obj/structure/table/reinforced/plasmarglass,
 /obj/item/reagent_containers/cup/glass/drinkingglass{
@@ -677,7 +677,7 @@
 	dir = 1
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "sRE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -691,6 +691,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
+"tBi" = (
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "tUC" = (
 /obj/item/clothing/under/costume/soviet{
@@ -1040,8 +1043,8 @@ opC
 gmo
 jof
 jof
-knM
-knM
+tBi
+tBi
 dqS
 "}
 (10,1,1) = {"
@@ -1061,10 +1064,10 @@ mfG
 bfE
 cTt
 jof
-knM
-knM
-knM
-knM
+tBi
+tBi
+tBi
+tBi
 "}
 (11,1,1) = {"
 knM
@@ -1084,9 +1087,9 @@ gWH
 fcu
 jof
 sGh
-knM
-knM
-knM
+tBi
+tBi
+tBi
 "}
 (12,1,1) = {"
 knM
@@ -1105,10 +1108,10 @@ miz
 bcS
 tUC
 jof
-knM
-knM
-knM
-knM
+tBi
+tBi
+tBi
+tBi
 "}
 (13,1,1) = {"
 knM
@@ -1127,9 +1130,9 @@ opC
 opC
 opC
 jof
-knM
-knM
-knM
+tBi
+tBi
+tBi
 knM
 "}
 (14,1,1) = {"
