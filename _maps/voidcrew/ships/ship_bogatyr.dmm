@@ -311,7 +311,7 @@
 /obj/machinery/mineral/ore_redemption{
 	req_access = null
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "wt" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -793,7 +793,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "Ut" = (
 /obj/machinery/door/airlock/science{

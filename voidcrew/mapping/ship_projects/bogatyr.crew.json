@@ -164,7 +164,7 @@
     "theme/nightclub": [
       {
         "ID": "job_10",
-        "Name": "The DJ",
+        "Name": "The Disc Jockey",
         "Outfit": "/datum/outfit/job/workshop_bogatyr_job_10",
         "BaseOutfit": "/datum/outfit/job/captain",
         "Category": "Command",

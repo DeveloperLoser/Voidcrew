@@ -43,7 +43,7 @@
 
 /datum/outfit/job/workshop_bogatyr_job_10
 	parent_type = /datum/outfit/job/captain
-	name = "Bogatyr-class Explorator — The DJ"
+	name = "Bogatyr-class Explorator — The Disc Jockey"
 	glasses = /obj/item/clothing/glasses/sunglasses/reagent
 	neck = /obj/item/bedsheet/cosmos
 	gloves = /obj/item/clothing/gloves/combat

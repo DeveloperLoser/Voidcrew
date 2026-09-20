@@ -31,7 +31,9 @@
 /area/template_noop)
 "lSb" = (
 /obj/structure/tank_dispenser/oxygen,
-/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/engine,
 /area/template_noop)
 "mho" = (
@@ -49,13 +51,6 @@
 /area/template_noop)
 "qjJ" = (
 /turf/open/floor/mineral/plastitanium/red,
-/area/template_noop)
-"rkx" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/engine,
 /area/template_noop)
 "sqD" = (
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -80,7 +75,7 @@ bVV
 ygm
 "}
 (2,1,1) = {"
-rkx
+qjJ
 qjJ
 qjJ
 mho

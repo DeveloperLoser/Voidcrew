@@ -23,7 +23,7 @@
      8
     ]
    },
-   "src_md5": "c2c14c12863d0792b121685b0f039a13"
+   "src_md5": "b5711624d4894d6febc371ba19cf9de9"
   },
   "bogatyr_freshen_up": {
    "png": "ship_bogatyr_freshen_up.png",
@@ -47,7 +47,7 @@
      8
     ]
    },
-   "src_md5": "e17a6e4efc54716427d5cf2cbac2fc96"
+   "src_md5": "747f962196756b019628bfe195864c46"
   },
   "bogatyr_nightclub": {
    "png": "ship_bogatyr_nightclub.png",
@@ -3328,7 +3328,7 @@
     1
    ],
    "png": "bogatyr_workshop_mining_bay.png",
-   "src_md5": "a72dfa38592d67243184fa092edf0ba3",
+   "src_md5": "47115fe26f95165e547464f221702910",
    "themes": {
     "nightclub": {
      "width": 7,

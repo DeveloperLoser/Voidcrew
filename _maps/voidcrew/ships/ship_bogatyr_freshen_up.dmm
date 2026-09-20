@@ -110,7 +110,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "fjq" = (
 /obj/structure/sign/poster/contraband/syndicate_recruitment{
@@ -125,9 +125,9 @@
 /area/shuttle/voidcrew/bogatyr/bridge)
 "fzT" = (
 /obj/item/radio/intercom/directional/north,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
+/obj/structure/mop_bucket/janitorialcart,
+/obj/item/mop,
+/obj/item/soap/syndie,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "fVY" = (
@@ -574,7 +574,7 @@
 /obj/machinery/mineral/ore_redemption{
 	req_access = null
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "sTz" = (
 /obj/effect/spawner/structure/window/reinforced,
