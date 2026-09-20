@@ -71,7 +71,7 @@
      8
     ]
    },
-   "src_md5": "c9c19b1bd8c92ed5be9d927fb1c844a9"
+   "src_md5": "06c743cad6e32bfa77abfe8a6670f0ce"
   },
   "delta_a": {
    "png": "ship_delta_a.png",
@@ -3306,7 +3306,7 @@
     1
    ],
    "png": "bogatyr_workshop_pre_configured.png",
-   "src_md5": "b0aa27febb97d82945a1cd61fdf58adb",
+   "src_md5": "60974bb5a415b903521a117ba14d750a",
    "themes": {
     "nightclub": {
      "width": 5,
@@ -3316,7 +3316,7 @@
       1
      ],
      "png": "bogatyr_workshop_pre_configured_nightclub.png",
-     "src_md5": "a43cdeef53789374a8825d9ce4553120"
+     "src_md5": "1e03fd9d042a53cbe6d82c62b4452e5f"
     }
    }
   },
@@ -3349,6 +3349,8 @@
     1,
     1
    ],
+   "png": "bogatyr_workshop_surgical_suite.png",
+   "src_md5": "f9ca095bc3b2194219e6906acdb779ad",
    "themes": {
     "nightclub": {
      "width": 3,

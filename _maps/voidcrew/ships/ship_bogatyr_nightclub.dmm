@@ -521,7 +521,7 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /obj/structure/chair/sofa/corp/corner{
-	dir = 3
+	dir = 8
 	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/shuttle/voidcrew/bogatyr/armory)
@@ -550,7 +550,7 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Dirty Ass Door"
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/holofloor/hyperspace,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "nVY" = (
 /turf/open/floor/light/colour_cycle,
@@ -805,7 +805,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/holofloor/hyperspace,
 /area/shuttle/voidcrew/bogatyr/armory)
 "wBI" = (
 /obj/structure/sign/poster/random,

@@ -20,6 +20,7 @@
 	is_default = TRUE
 
 /datum/ship_upgrade_module/workshop_bogatyr_medical_bay_basic
+	desc = "A standard medical bay. Two beds, surgical gear, and some medkits."
 	job_slots_add = list(list(name = "New job", officer = FALSE, outfit = /datum/outfit/job/doctor, category = "Medical", slots = 1))
 	id = "medical_bay_basic"
 	name = "Medical Bay"
@@ -30,6 +31,7 @@
 	is_default = TRUE
 
 /datum/ship_upgrade_module/workshop_bogatyr_engineering_basic
+	desc = "\"Engineering\"... Pathetic."
 	job_slots_add = list(list(name = "Engines Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_8, category = "Engineering", slots = 1))
 	id = "engineering_basic"
 	name = "Engineering"
@@ -108,10 +110,10 @@
 	for_theme = list("trashed", "freshen_up", "nightclub")
 	map_file = "bogatyr/workshop/surgical_suite.dmm"
 	is_default = FALSE
-	desc = "Comes with all the equipment needed to revive your dead corpse. Including a doctor!"
+	desc = "Comes with all the equipment needed to revive your dead corpse. Includes a doctor!"
 
 /datum/ship_theme/bogatyr/nightclub
-	job_slots = list(list(name = "The DJ", officer = TRUE, outfit = /datum/outfit/job/workshop_bogatyr_job_10, category = "Command", slots = 1), list(name = "The Lights and Sound Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_11, category = "Science", slots = 1), list(name = "Urbexer's", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_12, category = "Cargo", slots = 2), list(name = "The Drug Dealer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_13, category = "Medical", slots = 1), list(name = "The Supplier", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_14, category = "Cargo", slots = 1), list(name = "Clubber", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_15, category = "Assistant", slots = 20))
+	job_slots = list(list(name = "The DJ", officer = TRUE, outfit = /datum/outfit/job/workshop_bogatyr_job_10, category = "Command", slots = 1), list(name = "The Lights and Sound Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_11, category = "Science", slots = 1), list(name = "Urbexer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_12, category = "Cargo", slots = 2), list(name = "The Drug Dealer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_13, category = "Medical", slots = 1), list(name = "The Supplier", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_14, category = "Cargo", slots = 1), list(name = "Clubber", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_15, category = "Assistant", slots = 20))
 	part_cost = list(PART_CLASS_TRADE = 2, PART_CLASS_MISC = 3)
 	id = "nightclub"
 	name = "Nightclub"

@@ -172,8 +172,11 @@
         "Officer": true,
         "Equipment": {
           "belt": "/obj/item/modular_computer/pda/clear",
+          "glasses": "/obj/item/clothing/glasses/sunglasses/reagent",
+          "gloves": "/obj/item/clothing/gloves/combat",
           "id": "/obj/item/card/id/advanced/rainbow",
-          "neck": "/obj/item/bedsheet/cosmos"
+          "neck": "/obj/item/bedsheet/cosmos",
+          "shoes": "/obj/item/clothing/shoes/wheelys"
         },
         "Backpack": null,
         "Belt": null,
@@ -197,7 +200,7 @@
       },
       {
         "ID": "job_12",
-        "Name": "Urbexer's",
+        "Name": "Urbexer",
         "Outfit": "/datum/outfit/job/workshop_bogatyr_job_12",
         "BaseOutfit": "/datum/outfit/job/miner",
         "Category": "Cargo",

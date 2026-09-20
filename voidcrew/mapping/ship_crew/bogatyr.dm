@@ -44,13 +44,19 @@
 /datum/outfit/job/workshop_bogatyr_job_10
 	parent_type = /datum/outfit/job/captain
 	name = "Bogatyr-class Explorator — The DJ"
+	glasses = /obj/item/clothing/glasses/sunglasses/reagent
 	neck = /obj/item/bedsheet/cosmos
+	gloves = /obj/item/clothing/gloves/combat
+	shoes = /obj/item/clothing/shoes/wheelys
 	belt = /obj/item/modular_computer/pda/clear
 	id = /obj/item/card/id/advanced/rainbow
 
 /datum/outfit/job/workshop_bogatyr_job_10/pre_equip(mob/living/carbon/human/H, visuals_only = FALSE)
 	. = ..()
+	glasses = /obj/item/clothing/glasses/sunglasses/reagent
 	neck = /obj/item/bedsheet/cosmos
+	gloves = /obj/item/clothing/gloves/combat
+	shoes = /obj/item/clothing/shoes/wheelys
 	belt = /obj/item/modular_computer/pda/clear
 	id = /obj/item/card/id/advanced/rainbow
 
@@ -67,7 +73,7 @@
 
 /datum/outfit/job/workshop_bogatyr_job_12
 	parent_type = /datum/outfit/job/miner
-	name = "Bogatyr-class Explorator — Urbexer's"
+	name = "Bogatyr-class Explorator — Urbexer"
 	belt = /obj/item/modular_computer/pda/clear
 	id = /obj/item/card/id/advanced/rainbow
 
