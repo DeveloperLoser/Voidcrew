@@ -74,15 +74,8 @@
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "fcr" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "blastdoors"
-	},
-/obj/docking_port/mobile/voidcrew/bogatyr{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/voidcrew/bogatyr/cargo)
+/turf/closed/wall/r_wall,
+/area/template_noop)
 "feK" = (
 /obj/modular_map_root/ship_upgrade{
 	key = "eva_bay"
@@ -250,6 +243,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
+"juX" = (
+/obj/machinery/button/door{
+	id = "blastdoors";
+	name = "Cargo Bay Blast Doors";
+	pixel_x = -24
+	},
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/cargo)
 "jzW" = (
 /obj/machinery/vending/cigarette,
 /obj/structure/cable,
@@ -289,8 +290,6 @@
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "klA" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "klB" = (
@@ -349,7 +348,7 @@
 /area/shuttle/voidcrew/bogatyr/bridge)
 "lqb" = (
 /obj/modular_map_connector,
-/turf/template_noop,
+/turf/closed/wall/r_wall,
 /area/template_noop)
 "lwN" = (
 /obj/structure/table,
@@ -454,6 +453,16 @@
 /obj/structure/sign/poster/random,
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/dormitories)
+"pmd" = (
+/obj/docking_port/mobile/voidcrew/bogatyr{
+	dir = 1;
+	port_direction = 2;
+	preferred_direction = 4
+	},
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/template_noop)
 "pox" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -803,7 +812,7 @@ mIr
 onQ
 onQ
 ajO
-fcr
+ajO
 ajO
 onQ
 oOj
@@ -823,7 +832,7 @@ uAC
 uAC
 oiJ
 mXe
-qCN
+juX
 qCN
 qCN
 feK
@@ -918,7 +927,7 @@ qCN
 ivi
 klB
 ivi
-oOj
+fcr
 "}
 (7,1,1) = {"
 njs
@@ -940,7 +949,7 @@ qCN
 ivi
 klB
 klA
-oOj
+pmd
 "}
 (8,1,1) = {"
 njs

@@ -10,8 +10,10 @@
 "gGf" = (
 /obj/item/circuitboard/machine/rdserver,
 /obj/item/computer_disk/ship_disk,
-/obj/item/stack/cable_coil/five,
 /obj/structure/frame/machine/secured,
+/obj/item/screwdriver,
+/obj/item/stock_parts/scanning_module,
+/obj/item/multitool,
 /turf/open/floor/light/colour_cycle,
 /area/template_noop)
 "hzv" = (

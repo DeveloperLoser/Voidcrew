@@ -113,7 +113,7 @@
 	desc = "Comes with all the equipment needed to revive your dead corpse. Includes a doctor!"
 
 /datum/ship_theme/bogatyr/nightclub
-	job_slots = list(list(name = "The Disc Jockey", officer = TRUE, outfit = /datum/outfit/job/workshop_bogatyr_job_10, category = "Command", slots = 1), list(name = "The Lights and Sound Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_11, category = "Science", slots = 1), list(name = "Urbexer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_12, category = "Cargo", slots = 2), list(name = "The Drug Dealer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_13, category = "Medical", slots = 1), list(name = "The Supplier", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_14, category = "Cargo", slots = 1), list(name = "Clubber", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_15, category = "Assistant", slots = 20))
+	job_slots = list(list(name = "The DJ", officer = TRUE, outfit = /datum/outfit/job/workshop_bogatyr_job_10, category = "Command", slots = 1), list(name = "The Lights and Sound Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_11, category = "Science", slots = 1), list(name = "Urbexer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_12, category = "Cargo", slots = 2), list(name = "The Drug Dealer", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_13, category = "Medical", slots = 1), list(name = "The Supplier", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_14, category = "Cargo", slots = 1), list(name = "Clubber", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_15, category = "Assistant", slots = 20))
 	part_cost = list(PART_CLASS_TRADE = 2, PART_CLASS_MISC = 3)
 	id = "nightclub"
 	name = "Nightclub"
@@ -122,3 +122,27 @@
 	is_default = FALSE
 	desc = "Haters don't like me, 'cause I'm the spotlight, sorry for party rocking!"
 	upgrade_slot_ids = list("eva_bay", "laboratory", "medical_bay", "engineering")
+
+/datum/ship_upgrade_module/workshop_bogatyr_advanced_engineering_bay
+	part_cost = list(PART_CLASS_SCIENCE = 2, PART_CLASS_TRADE = 1, PART_CLASS_MISC = 1)
+	job_slots_add = list(list(name = "Engines Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_1, category = "Engineering", slots = 1))
+	id = "advanced_engineering_bay"
+	name = "Advanced Engineering Bay"
+	slot = "engineering"
+	for_ship = /datum/map_template/shuttle/voidcrew/bogatyr
+	for_theme = list("trashed", "freshen_up", "nightclub")
+	map_file = "bogatyr/workshop/advanced_engineering_bay.dmm"
+	is_default = FALSE
+	desc = "Ditches the Ion thrusters for plasma powered ones, keeping the power grid more stable. Also comes with more supplies."
+
+/datum/ship_upgrade_module/workshop_bogatyr_expansion_bay
+	part_cost = list(PART_CLASS_SCIENCE = 1, PART_CLASS_TRADE = 1, PART_CLASS_MISC = 1)
+	job_slots_add = list(list(name = "Engines Guy", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_3, category = "Engineering", slots = 1))
+	id = "expansion_bay"
+	name = "Expansion Bay"
+	slot = "engineering"
+	for_ship = /datum/map_template/shuttle/voidcrew/bogatyr
+	for_theme = list("trashed", "freshen_up", "nightclub")
+	map_file = "bogatyr/workshop/expansion_bay.dmm"
+	is_default = FALSE
+	desc = "Comes with the standard engine setup, plus some materials, tools, and an airlock to expand from."

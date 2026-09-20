@@ -1,5 +1,20 @@
 {
   "Rosters": {
+    "module/advanced_engineering_bay": [
+      {
+        "ID": "job_1",
+        "Name": "Engines Guy",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_1",
+        "BaseOutfit": "/datum/outfit/job/engineer/syndicate",
+        "Category": "Engineering",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": {},
+        "Belt": null,
+        "Extra": {}
+      }
+    ],
     "module/engineering_basic": [
       {
         "ID": "job_8",
@@ -30,6 +45,21 @@
         "Backpack": {
           "/obj/item/knife/combat/survival": 1
         },
+        "Belt": null,
+        "Extra": {}
+      }
+    ],
+    "module/expansion_bay": [
+      {
+        "ID": "job_3",
+        "Name": "Engines Guy",
+        "Outfit": "/datum/outfit/job/workshop_bogatyr_job_3",
+        "BaseOutfit": "/datum/outfit/job/engineer/syndicate",
+        "Category": "Engineering",
+        "Slots": 1,
+        "Officer": false,
+        "Equipment": null,
+        "Backpack": {},
         "Belt": null,
         "Extra": {}
       }
@@ -164,7 +194,7 @@
     "theme/nightclub": [
       {
         "ID": "job_10",
-        "Name": "The Disc Jockey",
+        "Name": "The DJ",
         "Outfit": "/datum/outfit/job/workshop_bogatyr_job_10",
         "BaseOutfit": "/datum/outfit/job/captain",
         "Category": "Command",

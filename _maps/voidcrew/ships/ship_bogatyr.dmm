@@ -416,16 +416,6 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
-"AH" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "blastdoors"
-	},
-/obj/docking_port/mobile/voidcrew/bogatyr{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/voidcrew/bogatyr/cargo)
 "AQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -611,8 +601,8 @@
 /area/shuttle/voidcrew/bogatyr/cargo)
 "Jr" = (
 /obj/modular_map_connector,
-/turf/template_noop,
-/area/template_noop)
+/turf/closed/wall/r_wall,
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "JP" = (
 /obj/modular_map_root/ship_upgrade{
 	footprint = "#####/#####/#####/#####/####.";
@@ -671,8 +661,6 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/central)
 "NC" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "NW" = (
@@ -833,6 +821,16 @@
 /obj/structure/cable,
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
+"Wv" = (
+/obj/docking_port/mobile/voidcrew/bogatyr{
+	dir = 1;
+	port_direction = 2;
+	preferred_direction = 4
+	},
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/bogatyr/maintenance)
 "WR" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor{
@@ -924,7 +922,7 @@ aE
 Xh
 Xh
 Jl
-AH
+Jl
 Jl
 Xh
 Zr
@@ -1039,7 +1037,7 @@ xR
 VM
 pV
 VM
-Zr
+VM
 "}
 (7,1,1) = {"
 WR
@@ -1061,7 +1059,7 @@ xR
 VM
 pV
 NC
-Zr
+Wv
 "}
 (8,1,1) = {"
 WR

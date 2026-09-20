@@ -23,7 +23,7 @@
      8
     ]
    },
-   "src_md5": "b5711624d4894d6febc371ba19cf9de9"
+   "src_md5": "d96c8fbfd2c1e9d48147854e9e1a66ed"
   },
   "bogatyr_freshen_up": {
    "png": "ship_bogatyr_freshen_up.png",
@@ -47,7 +47,7 @@
      8
     ]
    },
-   "src_md5": "747f962196756b019628bfe195864c46"
+   "src_md5": "559537dad4dd599d18136e104ea5ac15"
   },
   "bogatyr_nightclub": {
    "png": "ship_bogatyr_nightclub.png",
@@ -3166,7 +3166,7 @@
       1
      ],
      "png": "bogatyr_workshop_eva_bay_basic_freshen_up.png",
-     "src_md5": "ffa9bfab04361d6c3fc5e84b68dd4bff"
+     "src_md5": "e55431b3ebb160182135814ae5290802"
     },
     "nightclub": {
      "width": 7,
@@ -3306,7 +3306,7 @@
     1
    ],
    "png": "bogatyr_workshop_pre_configured.png",
-   "src_md5": "60974bb5a415b903521a117ba14d750a",
+   "src_md5": "452001013f86ca18f3c674355d525d4f",
    "themes": {
     "nightclub": {
      "width": 5,
@@ -3316,7 +3316,7 @@
       1
      ],
      "png": "bogatyr_workshop_pre_configured_nightclub.png",
-     "src_md5": "1e03fd9d042a53cbe6d82c62b4452e5f"
+     "src_md5": "4b2cec4da5da27eaccd1b41ff4ecfcbf"
     }
    }
   },
@@ -3371,6 +3371,50 @@
      ],
      "png": "bogatyr_workshop_surgical_suite_trashed.png",
      "src_md5": "f9ca095bc3b2194219e6906acdb779ad"
+    }
+   }
+  },
+  "bogatyr/workshop/advanced_engineering_bay.dmm": {
+   "width": 5,
+   "height": 5,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_advanced_engineering_bay.png",
+   "src_md5": "bd339f99cad28d3784284e5f4c58b3fa",
+   "themes": {
+    "trashed": {
+     "width": 5,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_advanced_engineering_bay_trashed.png",
+     "src_md5": "fb7b9c36a8ac48655bd43549f76d3093"
+    }
+   }
+  },
+  "bogatyr/workshop/expansion_bay.dmm": {
+   "width": 5,
+   "height": 5,
+   "connector": [
+    1,
+    1
+   ],
+   "png": "bogatyr_workshop_expansion_bay.png",
+   "src_md5": "9e93631adbf552f4562deec4308afefb",
+   "themes": {
+    "trashed": {
+     "width": 5,
+     "height": 5,
+     "connector": [
+      1,
+      1
+     ],
+     "png": "bogatyr_workshop_expansion_bay_trashed.png",
+     "src_md5": "68dc8cf559f03847fe1dfd3f6e1dc767"
     }
    }
   }

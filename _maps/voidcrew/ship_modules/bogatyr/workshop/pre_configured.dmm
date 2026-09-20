@@ -49,8 +49,10 @@
 "xLK" = (
 /obj/item/circuitboard/machine/rdserver,
 /obj/item/computer_disk/ship_disk,
-/obj/item/stack/cable_coil/five,
 /obj/structure/frame/machine/secured,
+/obj/item/stock_parts/scanning_module,
+/obj/item/screwdriver,
+/obj/item/multitool,
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/template_noop)
 

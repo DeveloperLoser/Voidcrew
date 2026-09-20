@@ -147,17 +147,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "ePH" = (
-/obj/docking_port/mobile/voidcrew/bogatyr{
-	dir = 4;
-	port_direction = 8;
-	preferred_direction = 4
-	},
-/obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "blastdoors"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/voidcrew/bogatyr/cargo)
+/turf/closed/wall/r_wall,
+/area/template_noop)
 "eWR" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -420,6 +411,16 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
+"jWn" = (
+/obj/docking_port/mobile/voidcrew/bogatyr{
+	dir = 1;
+	port_direction = 2;
+	preferred_direction = 4
+	},
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/template_noop)
 "khk" = (
 /obj/item/radio/intercom/directional/north,
 /obj/effect/turf_decal/stripes/line{
@@ -539,8 +540,6 @@
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "nih" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "nqe" = (
@@ -788,7 +787,7 @@
 /area/shuttle/voidcrew/bogatyr/cargo)
 "vKl" = (
 /obj/modular_map_connector,
-/turf/template_noop,
+/turf/closed/wall/r_wall,
 /area/template_noop)
 "wih" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -864,7 +863,7 @@ aCQ
 voc
 voc
 lYd
-ePH
+lYd
 lYd
 voc
 knM
@@ -979,7 +978,7 @@ ith
 jof
 tzq
 jof
-knM
+ePH
 "}
 (7,1,1) = {"
 xov
@@ -1001,7 +1000,7 @@ ssQ
 jof
 tzq
 nih
-knM
+jWn
 "}
 (8,1,1) = {"
 xov

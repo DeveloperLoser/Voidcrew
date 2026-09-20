@@ -1,5 +1,14 @@
 // Ship Workshop crew outfits. Edit these through the crew editor.
 
+/datum/outfit/job/workshop_bogatyr_job_1
+	parent_type = /datum/outfit/job/engineer/syndicate
+	name = "Bogatyr-class Explorator — Engines Guy"
+	backpack_contents = list()
+
+/datum/outfit/job/workshop_bogatyr_job_1/pre_equip(mob/living/carbon/human/H, visuals_only = FALSE)
+	. = ..()
+	backpack_contents = list()
+
 /datum/outfit/job/workshop_bogatyr_job_8
 	parent_type = /datum/outfit/job/engineer/syndicate
 	name = "Bogatyr-class Explorator — Engines Guy"
@@ -19,6 +28,15 @@
 	. = ..()
 	r_pocket = null
 	backpack_contents = list(/obj/item/knife/combat/survival = 1)
+
+/datum/outfit/job/workshop_bogatyr_job_3
+	parent_type = /datum/outfit/job/engineer/syndicate
+	name = "Bogatyr-class Explorator — Engines Guy"
+	backpack_contents = list()
+
+/datum/outfit/job/workshop_bogatyr_job_3/pre_equip(mob/living/carbon/human/H, visuals_only = FALSE)
+	. = ..()
+	backpack_contents = list()
 
 /datum/outfit/job/workshop_bogatyr_job_2
 	parent_type = /datum/outfit/centcom/ert/marine/medic
@@ -43,7 +61,7 @@
 
 /datum/outfit/job/workshop_bogatyr_job_10
 	parent_type = /datum/outfit/job/captain
-	name = "Bogatyr-class Explorator — The Disc Jockey"
+	name = "Bogatyr-class Explorator — The DJ"
 	glasses = /obj/item/clothing/glasses/sunglasses/reagent
 	neck = /obj/item/bedsheet/cosmos
 	gloves = /obj/item/clothing/gloves/combat

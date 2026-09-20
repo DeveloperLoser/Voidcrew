@@ -1,12 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ate" = (
-/obj/machinery/button/door{
-	id = "blastdoors";
-	name = "Cargo Bay Blast Doors";
-	pixel_x = -24
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/template_noop)
 "dlC" = (
 /obj/modular_map_connector,
 /turf/open/floor/mineral/plastitanium,
@@ -98,7 +90,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-ate
+uWE
 uWE
 uWE
 dlC
