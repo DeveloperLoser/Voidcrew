@@ -42,6 +42,7 @@
 	is_default = TRUE
 
 /datum/ship_upgrade_module/workshop_bogatyr_microbiological_lab
+	job_slots_add_by_theme = list("freshen_up" = list(list(name = "Plauge Master", officer = FALSE, outfit = /datum/outfit/job/scientist, category = "Medical", slots = 1)), "nightclub" = list(list(name = "Plauge Master", officer = FALSE, outfit = /datum/outfit/job/scientist, category = "Medical", slots = 1)), "trashed" = list(list(name = "Plauge Master", officer = FALSE, outfit = /datum/outfit/job/scientist, category = "Medical", slots = 1)))
 	job_slots_add = list(list(name = "Plauge Master", officer = FALSE, outfit = /datum/outfit/job/workshop_bogatyr_job_2, category = "Medical", slots = 1))
 	part_cost = list(PART_CLASS_SCIENCE = 3, PART_CLASS_MISC = 1)
 	id = "microbiological_lab"

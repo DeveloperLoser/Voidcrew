@@ -324,5 +324,54 @@
         "Extra": {}
       }
     ]
+  },
+  "ModuleThemes": {
+    "microbiological_lab": {
+      "freshen_up": [
+        {
+          "ID": "job_6",
+          "Name": "Plauge Master",
+          "Outfit": "/datum/outfit/job/scientist",
+          "BaseOutfit": "",
+          "Category": "Medical",
+          "Slots": 1,
+          "Officer": false,
+          "Equipment": null,
+          "Backpack": null,
+          "Belt": null,
+          "Extra": {}
+        }
+      ],
+      "nightclub": [
+        {
+          "ID": "job_7",
+          "Name": "Plauge Master",
+          "Outfit": "/datum/outfit/job/scientist",
+          "BaseOutfit": "",
+          "Category": "Medical",
+          "Slots": 1,
+          "Officer": false,
+          "Equipment": null,
+          "Backpack": null,
+          "Belt": null,
+          "Extra": {}
+        }
+      ],
+      "trashed": [
+        {
+          "ID": "job_4",
+          "Name": "Plauge Master",
+          "Outfit": "/datum/outfit/job/scientist",
+          "BaseOutfit": "",
+          "Category": "Medical",
+          "Slots": 1,
+          "Officer": false,
+          "Equipment": null,
+          "Backpack": null,
+          "Belt": null,
+          "Extra": {}
+        }
+      ]
+    }
   }
 }
