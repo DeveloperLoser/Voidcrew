@@ -1,4 +1,5 @@
 import contextlib
+from collections import Counter
 import io
 import json
 from pathlib import Path
@@ -13,8 +14,9 @@ from tools.ci.check_modularization import (
 
 
 class MarkerTests(unittest.TestCase):
-    def violations(self, before, after, additions=None):
-        return check_source("code/example.dm", analyze(before), analyze(after), additions or [])
+    def violations(self, before, after, additions=None, *, frontend=False):
+        return check_source("code/example.dm", analyze(before, frontend=frontend), analyze(after, frontend=frontend),
+                            [Counter(lines) for lines in additions or []])
 
     def test_unmarked_edit_fails(self):
         self.assertTrue(self.violations('/obj/example\n\tvalue = 1\n', '/obj/example\n\tvalue = 2\n'))
@@ -74,6 +76,77 @@ class MarkerTests(unittest.TestCase):
     def test_marker_after_escaped_quote_is_recognized(self):
         self.assertFalse(self.violations('', 'name = "a \\"b" // VOIDCREW EDIT: label\n'.replace('\\\\', '\\')))
 
+    def test_interpolated_strings_do_not_create_fake_markers(self):
+        values = ['"[call("// VOIDCREW EDIT")]"',
+                  '"[items["key"]] // VOIDCREW EDIT"',
+                  '`outer ${call(`// VOIDCREW EDIT`)} text`']
+        for value in values:
+            with self.subTest(value=value):
+                source = f'value = {value}\n'
+                self.assertTrue(self.violations('', source))
+                self.assertFalse(self.violations('', source.rstrip() + ' // VOIDCREW EDIT: value\n'))
+
+    def test_dm_multiline_string_keeps_literal_quotes_and_interpolation(self):
+        source = 'value = {"\n<a href="url">\n[call("name")]\n// VOIDCREW EDIT\n"}\n'
+        self.assertFalse(any(analyze(source).comments))
+        self.assertTrue(self.violations('', source))
+        self.assertFalse(self.violations('', '// VOIDCREW EDIT START\n' + source + '// VOIDCREW EDIT END\n'))
+
+    def test_continued_string_does_not_create_fake_marker(self):
+        source = 'value = "hello\\\n// VOIDCREW EDIT"\n'
+        for frontend in (False, True):
+            with self.subTest(frontend=frontend):
+                self.assertTrue(self.violations('', source, frontend=frontend))
+                self.assertFalse(any(analyze(source, frontend=frontend).comments))
+
+    def test_frontend_quoted_object_key_is_not_a_dm_multiline_string(self):
+        source = 'const value = {"key": 1}; // VOIDCREW EDIT: setting\nunmarked();\n'
+        self.assertEqual([f.line for f in self.violations('', source, frontend=True)], [2])
+
+    def test_frontend_regex_does_not_create_fake_marker(self):
+        for prefix in ['const pattern = ', 'const pattern = () => ', 'return ']:
+            source = prefix + '/[//] VOIDCREW EDIT/;\n'
+            with self.subTest(prefix=prefix):
+                self.assertTrue(self.violations('', source, frontend=True))
+                self.assertFalse(self.violations('', source.rstrip() + ' // VOIDCREW EDIT: pattern\n', frontend=True))
+        self.assertFalse(self.violations('', 'const value = a / b; // VOIDCREW EDIT: ratio\n', frontend=True))
+
+    def test_dm_raw_strings_do_not_create_fake_markers(self):
+        for value in ['@"[// VOIDCREW EDIT]"', '@#"[// VOIDCREW EDIT]"#',
+                      '@{"\n[// VOIDCREW EDIT]\n"}']:
+            with self.subTest(value=value):
+                source = f'value = {value}\n'
+                self.assertFalse(any(analyze(source).comments))
+                self.assertTrue(self.violations('', source))
+
+    def test_jsx_apostrophes_do_not_hide_inline_comments(self):
+        for prose in ["don't hide this", "the players' ship"]:
+            with self.subTest(prose=prose):
+                source = '<Box>' + prose + '</Box> {/* VOIDCREW EDIT: text */}\n'
+                self.assertFalse(self.violations('', source, frontend=True))
+
+    def test_same_line_boundaries_are_paired(self):
+        self.assertFalse(self.violations('', '/* VOIDCREW EDIT START */ one(); /* VOIDCREW EDIT END */\n'))
+
+    def test_commenting_out_code_requires_marker(self):
+        before = 'one()\ntwo()\n'
+        self.assertTrue(self.violations(before, '/*\n' + before + '*/\n'))
+        self.assertFalse(self.violations(before, '/* VOIDCREW EDIT: removed hooks\n' + before + '*/\n'))
+
+    def test_uncommenting_code_requires_marker(self):
+        after = 'one()\ntwo()\n'
+        self.assertTrue(self.violations('/*\n' + after + '*/\n', after))
+        self.assertFalse(self.violations('/*\n' + after + '*/\n', '// VOIDCREW EDIT START\n' + after + '// VOIDCREW EDIT END\n'))
+
+    def test_multiline_literal_whitespace_is_code(self):
+        before = 'value = {"\n \n"}\n'
+        self.assertTrue(self.violations(before, before.replace('\n \n', '\n  \n')))
+
+    def test_deletion_explanation_uses_full_comment_context(self):
+        before = '/* note\n */ one()\n'
+        after = '/* note\n * VOIDCREW EDIT: removed hook\n */\n'
+        self.assertFalse(self.violations(before, after))
+
     def test_comment_only_change_needs_no_marker(self):
         self.assertFalse(self.violations('call()\n', '// Clarification\ncall()\n'))
         self.assertFalse(self.violations('call() // old explanation\n', 'call() // clearer explanation\n'))
@@ -118,6 +191,10 @@ class MarkerTests(unittest.TestCase):
     def test_module_move_must_preserve_duplicate_lines(self):
         self.assertTrue(self.violations('one()\none()\n', '', [['one()']] ))
 
+    def test_one_module_addition_cannot_excuse_two_deleted_hunks(self):
+        before = 'one()\nkeep()\none()\n'
+        self.assertEqual(len(self.violations(before, 'keep()\n', [['one()']])), 1)
+
 
 class PolicyTests(unittest.TestCase):
     def test_upstream_new_files_need_modular_locations(self):
@@ -136,6 +213,11 @@ class PolicyTests(unittest.TestCase):
         for path in paths:
             with self.subTest(path=path):
                 self.assertIsNone(placement_destination(path))
+
+    def test_case_variant_source_suffixes_still_need_modular_locations(self):
+        for path in ['code/feature.DM', '_maps/shuttles/feature.DMM']:
+            with self.subTest(path=path):
+                self.assertIsNotNone(placement_destination(path))
 
     def test_exception_requires_exact_path_reason_and_known_rules(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -189,6 +271,13 @@ class GitIntegrationTests(unittest.TestCase):
         findings = check(self.root, self.base, self.commit())
         self.assertEqual([(f.path, f.line, f.rule) for f in findings], [('code/example.dm', 2, 'markers')])
 
+    def test_frontend_lexer_selected_for_committed_tgui_sources(self):
+        path = 'tgui/packages/tgui/interfaces/Example.tsx'
+        self.write(path, 'const pattern = /old/;\n')
+        base = self.commit()
+        self.write(path, 'const pattern = /[//] VOIDCREW EDIT/;\n')
+        self.assertEqual([(f.path, f.rule) for f in check(self.root, base, self.commit())], [(path, 'markers')])
+
     def test_uncommitted_edits_are_not_in_the_pr_diff(self):
         self.write('code/example.dm', '/obj/example\n\tvalue = 2\n')
         self.assertEqual(check(self.root, self.base, 'HEAD'), [])
@@ -216,6 +305,14 @@ class GitIntegrationTests(unittest.TestCase):
         base = self.commit()
         (self.root / 'code/example.dm').unlink()
         self.assertEqual(check(self.root, base, self.commit())[0].rule, 'markers')
+
+    def test_one_module_addition_cannot_excuse_deletions_in_two_files(self):
+        self.write('code/another.dm', '/obj/another\n\tvalue = 1\n')
+        base = self.commit()
+        self.write('voidcrew/modules/example/main.dm', '/obj/example\n\tvalue = 1\n')
+        self.write('code/example.dm', '/obj/example\n')
+        self.write('code/another.dm', '/obj/another\n')
+        self.assertEqual(len(check(self.root, base, self.commit())), 1)
 
     def test_move_from_module_into_upstream_fails(self):
         self.write('voidcrew/modules/example/main.dm', '/obj/module_example\n')
