@@ -410,7 +410,7 @@
 #include "voidcrew_shop_catalog.dm"
 #include "voidcrew_silicon_ship_systems.dm"
 #include "voidcrew_simple_mob_ai.dm"
-#include "voidcrew_slime_extract_piles.dm"
+#include "../../../voidcrew/modules/unit_tests/voidcrew_slime_extract_piles.dm" // VOIDCREW EDIT ADDITION
 #include "voidcrew_smart_locker.dm"
 #include "voidcrew_vestige.dm"
 #include "voidcrew_vestige_abductor.dm"
