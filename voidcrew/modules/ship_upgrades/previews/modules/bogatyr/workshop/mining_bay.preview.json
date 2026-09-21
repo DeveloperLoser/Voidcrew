@@ -1,0 +1,28 @@
+{
+ "hulls": {},
+ "modules": {
+  "bogatyr/workshop/mining_bay.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 4,
+   "png": "bogatyr_workshop_mining_bay.png",
+   "src_md5": "47115fe26f95165e547464f221702910",
+   "themes": {
+    "nightclub": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 4,
+     "png": "bogatyr_workshop_mining_bay_nightclub.png",
+     "src_md5": "1e1d0175ad7e105daf437fb672c53050",
+     "width": 7
+    }
+   },
+   "width": 7
+  }
+ },
+ "tile_px": 32
+}

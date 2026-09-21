@@ -1,0 +1,28 @@
+{
+ "hulls": {},
+ "modules": {
+  "bogatyr/workshop/expansion_bay.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 5,
+   "png": "bogatyr_workshop_expansion_bay.png",
+   "src_md5": "9e93631adbf552f4562deec4308afefb",
+   "themes": {
+    "trashed": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 5,
+     "png": "bogatyr_workshop_expansion_bay_trashed.png",
+     "src_md5": "68dc8cf559f03847fe1dfd3f6e1dc767",
+     "width": 5
+    }
+   },
+   "width": 5
+  }
+ },
+ "tile_px": 32
+}

@@ -1,0 +1,38 @@
+{
+ "hulls": {},
+ "modules": {
+  "bogatyr/workshop/engineering_basic.dmm": {
+   "connector": [
+    1,
+    1
+   ],
+   "height": 5,
+   "png": "bogatyr_workshop_engineering_basic.png",
+   "src_md5": "79827d794870dba5513d6fc15a729409",
+   "themes": {
+    "freshen_up": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 5,
+     "png": "bogatyr_workshop_engineering_basic_freshen_up.png",
+     "src_md5": "968ab15c2c34d6f3dbe68351452f8f9e",
+     "width": 5
+    },
+    "nightclub": {
+     "connector": [
+      1,
+      1
+     ],
+     "height": 5,
+     "png": "bogatyr_workshop_engineering_basic_nightclub.png",
+     "src_md5": "f4bc8e60e04d48e4c9027a14f751d4d2",
+     "width": 5
+    }
+   },
+   "width": 5
+  }
+ },
+ "tile_px": 32
+}
