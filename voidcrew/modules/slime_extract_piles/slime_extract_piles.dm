@@ -32,11 +32,32 @@
 
 /// Only extract chemistry and use state affect eligibility; stored items retain their health and appearance.
 /obj/item/slime_extract/proc/is_stackable_extract()
-	if(QDELETED(src) || extract_modified || recurring || qdel_timer || length(contents))
+	if(QDELETED(src) || extract_modified || recurring || qdel_timer || length(contents) || anchored)
 		return FALSE
 	if(extract_uses != initial(extract_uses) || crossbreed_modification != initial(crossbreed_modification))
 		return FALSE
+	// initial() cannot read list defaults. Cache one pristine reference's values per concrete extract type.
+	var/static/list/initial_behaviour_by_type = list()
+	var/list/initial_behaviour = initial_behaviour_by_type[type]
+	if(!initial_behaviour)
+		var/obj/item/slime_extract/reference = new type(null)
+		initial_behaviour = list("grind_results" = reference.grind_results?.Copy(), "activate_reagents" = reference.activate_reagents?.Copy())
+		initial_behaviour_by_type[type] = initial_behaviour
+		qdel(reference)
+	if(!deep_compare_list(grind_results, initial_behaviour["grind_results"]) || !deep_compare_list(activate_reagents, initial_behaviour["activate_reagents"]))
+		return FALSE
 	return reagents && !reagents.total_volume && !length(reagents.reagent_list) && !reagents.is_reacting
+
+/obj/item/slime_extract/grind_atom(datum/reagents/target_holder, mob/user)
+	. = ..()
+	if(.)
+		mark_extract_modified()
+
+/obj/item/slime_extract/experience_pressure_difference(pressure_difference, direction, pressure_resistance_prob_delta = 0)
+	if(istype(loc, /obj/structure/slime_extract_pile))
+		var/obj/structure/slime_extract_pile/pile = loc
+		pile.take_extract(get_turf(pile), src)
+	return ..()
 
 /obj/item/slime_extract/bluespace/is_stackable_extract()
 	return ..() && !teleport_ready && !teleport_x && !teleport_y && !teleport_z
@@ -46,6 +67,9 @@
 	if(!isturf(loc) || loc == extract_pile_excluded_turf || throwing || !is_stackable_extract())
 		return
 	var/turf/floor = loc
+	// Keep moving/processing stock available to machinery as individual items.
+	if((locate(/obj/machinery/conveyor) in floor) || (locate(/obj/machinery/plumbing/grinder_chemical) in floor))
+		return
 	var/obj/structure/slime_extract_pile/pile
 	for(var/obj/structure/slime_extract_pile/candidate in floor)
 		if(!QDELETED(candidate) && candidate.extract_type == type)
@@ -95,12 +119,16 @@
 
 /obj/structure/slime_extract_pile/atom_deconstruct(disassembled = TRUE)
 	// Breaking the pile scatters its stock. Direct deletion still cleans up its contents normally.
+	scatter_extracts()
+	return ..()
+
+/// Release stock for physical handling without immediately gathering it again.
+/obj/structure/slime_extract_pile/proc/scatter_extracts()
 	var/turf/floor = get_turf(src)
 	if(floor)
-		for(var/obj/item/slime_extract/core in contents)
+		for(var/obj/item/slime_extract/core in contents.Copy())
 			core.extract_pile_excluded_turf = floor
 			core.forceMove(floor)
-	return ..()
 
 /obj/structure/slime_extract_pile/Exited(atom/movable/gone, direction)
 	. = ..()
@@ -126,8 +154,10 @@
 	queue_pile_update()
 	return TRUE
 
-/obj/structure/slime_extract_pile/proc/take_extract(atom/destination)
-	for(var/obj/item/slime_extract/core in contents)
+/obj/structure/slime_extract_pile/proc/take_extract(atom/destination, obj/item/slime_extract/selected)
+	if(selected && selected.loc != src)
+		return
+	for(var/obj/item/slime_extract/core in (selected ? list(selected) : contents.Copy()))
 		if(QDELETED(core))
 			continue
 		// Recheck on use in case code changed a stored core directly rather than through a signal.
@@ -142,6 +172,7 @@
 /obj/structure/slime_extract_pile/examine(mob/user)
 	. = ..()
 	. += span_notice("It contains [length(contents)] extracts. Take one by hand, or use a syringe on the pile to inject one.")
+	. += span_notice("Right-click with an empty hand to choose a specific extract.")
 
 /obj/structure/slime_extract_pile/attack_hand(mob/living/user, list/modifiers)
 	if(..())
@@ -154,6 +185,38 @@
 /obj/structure/slime_extract_pile/attack_paw(mob/living/user, list/modifiers)
 	return attack_hand(user, modifiers)
 
+/// Only the requesting player sees the individual appearances, on a paginated menu.
+/obj/structure/slime_extract_pile/attack_hand_secondary(mob/living/user, list/modifiers)
+	if(!user.can_perform_action(src, NEED_DEXTERITY | FORBID_TELEKINESIS_REACH))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+	var/list/options = list()
+	var/list/extracts = list()
+	for(var/obj/item/slime_extract/core in contents)
+		var/label = "[core.name] ([length(options) + 1])"
+		var/image/preview = image(core)
+		preview.pixel_x = 0
+		preview.pixel_y = 0
+		options[label] = preview
+		extracts[label] = core
+	var/choice = show_radial_menu(user, src, options, require_near = TRUE, tooltips = TRUE)
+	if(!choice || QDELETED(src) || !user.can_perform_action(src, NEED_DEXTERITY | FORBID_TELEKINESIS_REACH))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+	var/obj/item/slime_extract/selected = extracts[choice]
+	if(!QDELETED(selected))
+		var/obj/item/slime_extract/core = take_extract(drop_location(), selected)
+		core?.attack_hand(user, modifiers)
+	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+
+/obj/structure/slime_extract_pile/attack_tk(mob/user)
+	if(user.stat || !tkMaxRangeCheck(user, src))
+		return
+	var/obj/item/slime_extract/core = take_extract(drop_location())
+	return core?.attack_tk(user)
+
+/obj/structure/slime_extract_pile/attack_alien(mob/living/carbon/alien/user, list/modifiers)
+	var/obj/item/slime_extract/core = take_extract(drop_location())
+	return core?.attack_alien(user, modifiers)
+
 /obj/structure/slime_extract_pile/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
 	if(istype(tool, /obj/item/slime_extract))
 		var/obj/item/slime_extract/core = tool
@@ -163,11 +226,6 @@
 		if(!user.transferItemToLoc(core, src))
 			return ITEM_INTERACT_BLOCKING
 		queue_pile_update()
-		return ITEM_INTERACT_SUCCESS
-	if(istype(tool, /obj/item/storage/bag/xeno))
-		for(var/obj/item/slime_extract/core in contents.Copy())
-			if(!tool.atom_storage.attempt_insert(core, user))
-				break
 		return ITEM_INTERACT_SUCCESS
 	var/obj/item/slime_extract/core = take_extract(drop_location())
 	if(!core)
@@ -195,3 +253,15 @@
 			SSexplosions.med_mov_atom += contents
 		if(EXPLODE_LIGHT)
 			SSexplosions.low_mov_atom += contents
+
+/// Floor item searches see the actual stock, without opening unrelated containers or rendering the cores.
+/proc/expand_slime_extract_piles(list/atoms)
+	var/list/expanded
+	for(var/obj/structure/slime_extract_pile/pile in atoms)
+		if(QDELETED(pile) || !isturf(pile.loc))
+			continue
+		if(!expanded)
+			expanded = atoms.Copy()
+		expanded -= pile
+		expanded += pile.contents
+	return expanded || atoms
