@@ -18,7 +18,7 @@
 		TEST_ASSERT_EQUAL(length(pile.vis_contents), 0, "Piles must not display their individual contents")
 		for(var/obj/item/slime_extract/core in pile)
 			TEST_ASSERT_EQUAL(core.type, pile.extract_type, "Mixed colours entered one pile")
-			TEST_ASSERT(core.is_pristine_extract(), "A modified core entered a pile")
+			TEST_ASSERT(core.is_stackable_extract(), "A modified core entered a pile")
 	for(var/obj/item/slime_extract/core in floor)
 		loose++
 		TEST_ASSERT(core.recurring, "A fresh core failed to auto-pile")
@@ -30,10 +30,10 @@
 	var/mob/living/carbon/human/user = allocate(/mob/living/carbon/human/consistent)
 	var/obj/structure/slime_extract_pile/pile = allocate(/obj/structure/slime_extract_pile)
 	var/obj/item/slime_extract/grey/core = allocate(/obj/item/slime_extract/grey, user)
-	TEST_ASSERT(core.is_pristine_extract(), "A new grey extract was not pristine")
+	TEST_ASSERT(core.is_stackable_extract(), "A new grey extract was not pristine")
 	core.reagents.add_reagent(/datum/reagent/consumable/sugar, 5)
 	core.reagents.clear_reagents()
-	TEST_ASSERT(!core.is_pristine_extract(), "An injected and emptied extract became pristine again")
+	TEST_ASSERT(!core.is_stackable_extract(), "An injected and emptied extract became pristine again")
 	TEST_ASSERT(!pile.add_extract(core), "An injected and emptied extract entered a pile")
 	user.put_in_active_hand(core)
 	core.melee_attack_chain(user, pile, list())
@@ -56,23 +56,8 @@
 	core.recurring = TRUE
 	TEST_ASSERT(!pile.add_extract(core), "A recurring extract entered a pile")
 	core = allocate(/obj/item/slime_extract/grey, user)
-	core.name = "labelled core"
-	TEST_ASSERT(!pile.add_extract(core), "A renamed extract entered a pile")
-	core = allocate(/obj/item/slime_extract/grey, user)
-	ADD_TRAIT(core, TRAIT_HAS_LABEL, "test label")
-	REMOVE_TRAIT(core, TRAIT_HAS_LABEL, "test label")
-	TEST_ASSERT(!pile.add_extract(core), "Removing a label made a modified core pristine again")
-	core = allocate(/obj/item/slime_extract/grey, user)
-	core.transform = matrix().Scale(2)
-	TEST_ASSERT(!pile.add_extract(core), "A transformed extract entered a pile")
-	core = allocate(/obj/item/slime_extract/grey, user)
-	core.add_atom_colour(COLOR_RED, FIXED_COLOUR_PRIORITY)
-	core.remove_atom_colour(FIXED_COLOUR_PRIORITY)
-	TEST_ASSERT(!pile.add_extract(core), "A recoloured then restored extract entered a pile")
-	core = allocate(/obj/item/slime_extract/grey, user)
-	core.take_damage(1, sound_effect = FALSE)
-	core.repair_damage(1)
-	TEST_ASSERT(!pile.add_extract(core), "A damaged and repaired extract entered a pile")
+	core.crossbreed_modification = "burning"
+	TEST_ASSERT(!pile.add_extract(core), "An extract with altered crossbreeding behaviour entered a pile")
 	core = allocate(/obj/item/slime_extract/grey, user)
 	core.qdel_timer = "pending reaction"
 	TEST_ASSERT(!pile.add_extract(core), "An extract with a delayed reaction entered a pile")
@@ -83,7 +68,7 @@
 	TEST_ASSERT(!pile.add_extract(blue), "A different-colour extract entered a grey pile")
 	var/obj/item/slime_extract/bluespace/bluespace = allocate(/obj/item/slime_extract/bluespace, user)
 	bluespace.teleport_x = 1
-	TEST_ASSERT(!bluespace.is_pristine_extract(), "An extract with a teleport anchor was treated as pristine")
+	TEST_ASSERT(!bluespace.is_stackable_extract(), "An extract with a teleport anchor was treated as pristine")
 	user.set_species(/datum/species/jelly/luminescent)
 	core = allocate(/obj/item/slime_extract/grey, user)
 	user.put_in_active_hand(core)
@@ -91,7 +76,36 @@
 	TEST_ASSERT_NOTNULL(integrate, "Luminescent test user has no extract integration action")
 	integrate.Activate()
 	integrate.Activate()
-	TEST_ASSERT(!core.is_pristine_extract(), "An integrated and ejected extract was treated as pristine")
+	TEST_ASSERT(core.is_stackable_extract(), "Integrating and ejecting an unused core changed its eligibility")
+
+/// Cosmetic changes and physical damage survive grouping and retrieval without excluding unused cores.
+/datum/unit_test/voidcrew_slime_extract_piles_cosmetic_damage/Run()
+	var/turf/floor = run_loc_floor_bottom_left
+	var/list/health_by_core = list()
+	for(var/index in 1 to 3)
+		var/obj/item/slime_extract/core = allocate(/obj/item/slime_extract/grey, floor)
+		core.take_damage(index, sound_effect = FALSE)
+		core.repair_damage(1)
+		health_by_core[core] = core.get_integrity()
+	var/obj/item/slime_extract/custom_core = health_by_core[1]
+	custom_core.name = "labelled grey core"
+	ADD_TRAIT(custom_core, TRAIT_HAS_LABEL, "test label")
+	custom_core.add_atom_colour(COLOR_RED, FIXED_COLOUR_PRIORITY)
+	var/original_colour = custom_core.color
+	custom_core.transform = matrix().Scale(2)
+	sleep(1 SECONDS)
+	var/obj/structure/slime_extract_pile/pile = locate() in floor
+	TEST_ASSERT_NOTNULL(pile, "Damage and cosmetics prevented unused cores from stacking")
+	TEST_ASSERT_EQUAL(length(pile.contents), 3, "Damaged or cosmetically changed cores were excluded")
+	for(var/index in 1 to 3)
+		var/obj/item/slime_extract/retrieved = pile.take_extract(floor)
+		TEST_ASSERT_NOTNULL(retrieved, "Could not retrieve a damaged or cosmetically changed core")
+		TEST_ASSERT_EQUAL(retrieved.get_integrity(), health_by_core[retrieved], "Piling changed a core's health")
+	TEST_ASSERT_EQUAL(custom_core.name, "labelled grey core", "Piling erased a core's name")
+	TEST_ASSERT(HAS_TRAIT(custom_core, TRAIT_HAS_LABEL), "Piling erased a core's label")
+	TEST_ASSERT_EQUAL(custom_core.color, original_colour, "Piling erased a core's colour")
+	var/matrix/custom_transform = custom_core.transform
+	TEST_ASSERT_EQUAL(custom_transform.a, 2, "Piling erased a core's cosmetic transform")
 
 /// Real item interactions consume or modify exactly one core and preserve the remaining stock.
 /datum/unit_test/voidcrew_slime_extract_piles_interactions/Run()
@@ -124,7 +138,7 @@
 	var/obj/item/slime_extract/injected = locate() in floor
 	TEST_ASSERT_NOTNULL(injected, "The injected core was not placed on the floor")
 	TEST_ASSERT_EQUAL(injected.reagents.total_volume, 5, "Injected reagents were lost")
-	TEST_ASSERT(!injected.is_pristine_extract(), "Injection did not mark the core modified")
+	TEST_ASSERT(!injected.is_stackable_extract(), "Injection did not mark the core modified")
 	syringe.melee_attack_chain(user, injected, list(RIGHT_CLICK = "1"))
 	TEST_ASSERT_EQUAL(injected.reagents.total_volume, 0, "The injected core could not be drawn from normally")
 	injected.forceMove(get_step(floor, EAST))
@@ -139,7 +153,7 @@
 	var/obj/item/food/monkeycube/cube = locate() in floor
 	TEST_ASSERT_NOTNULL(cube, "Injecting a grey pile with blood did not run its normal reaction on the floor")
 	for(var/obj/item/slime_extract/core in pile)
-		TEST_ASSERT(core.is_pristine_extract(), "A reaction contaminated another core in the pile")
+		TEST_ASSERT(core.is_stackable_extract(), "A reaction contaminated another core in the pile")
 
 	// Direct modification of a contained core must eject it immediately.
 	var/obj/item/slime_extract/changed_in_pile = pile.contents[1]
@@ -191,7 +205,7 @@
 	for(var/obj/item/slime_extract/core as anything in scattered)
 		TEST_ASSERT(QDELETED(core), "Direct cleanup of a pile leaked a stored extract")
 
-/// Piles must not shield their contents from hazards or retain cores changed by exposure.
+/// Piles must not shield their contents from hazards, and damage alone does not affect extract behaviour.
 /datum/unit_test/voidcrew_slime_extract_piles_exposure/Run()
 	var/turf/floor = run_loc_floor_bottom_left
 	var/list/cores = list()
@@ -201,9 +215,52 @@
 	var/obj/structure/slime_extract_pile/pile = locate() in floor
 	TEST_ASSERT_NOTNULL(pile, "Extracts did not auto-pile before exposure")
 	pile.fire_act(100, 1)
+	var/list/health_by_core = list()
 	for(var/obj/item/slime_extract/core as anything in cores)
 		TEST_ASSERT(core.get_integrity() < core.max_integrity, "The pile shielded an extract from fire")
-		TEST_ASSERT(!core.is_pristine_extract(), "A burned extract stayed pristine")
-		TEST_ASSERT_EQUAL(core.loc, floor, "A burned extract remained inside the pile")
+		TEST_ASSERT(core.is_stackable_extract(), "Fire damage alone disqualified an unused extract")
+		TEST_ASSERT_EQUAL(core.loc, pile, "Fire damage alone ejected an unused extract")
+		health_by_core[core] = core.get_integrity()
+	var/obj/item/slime_extract/retrieved = pile.take_extract(floor)
+	TEST_ASSERT(retrieved in cores, "Could not retrieve a fire-damaged extract")
+	TEST_ASSERT_EQUAL(retrieved.get_integrity(), health_by_core[retrieved], "Retrieving a fire-damaged extract repaired it")
+
+/// Undamaged stock released by a destroyed fridge must still auto-pile.
+/datum/unit_test/voidcrew_slime_extract_piles_fridge_spill/Run()
+	var/turf/floor = run_loc_floor_bottom_left
+	var/obj/machinery/smartfridge/extract/fridge = allocate(/obj/machinery/smartfridge/extract, floor)
+	for(var/index in 1 to 10)
+		allocate(/obj/item/slime_extract/grey, fridge)
+	fridge.ex_act(EXPLODE_DEVASTATE)
+	TEST_ASSERT(QDELETED(fridge), "The explosion did not destroy the fridge")
 	sleep(1 SECONDS)
-	TEST_ASSERT(QDELETED(pile), "The empty burned pile did not disappear")
+	var/obj/structure/slime_extract_pile/pile = locate() in floor
+	TEST_ASSERT_NOTNULL(pile, "Undamaged extracts released from a destroyed fridge did not stack")
+	TEST_ASSERT_EQUAL(length(pile.contents), 10, "The fridge spill lost fresh extracts")
+
+/// An actual blast destroys the fridge and damages its contents without making unused cores ineligible.
+/datum/unit_test/voidcrew_slime_extract_piles_fridge_blast/Run()
+	var/turf/floor = run_loc_floor_bottom_left
+	var/obj/machinery/smartfridge/extract/fridge = allocate(/obj/machinery/smartfridge/extract, floor)
+	var/list/cores = list()
+	for(var/index in 1 to 10)
+		cores += allocate(/obj/item/slime_extract/grey, fridge)
+	var/obj/item/slime_extract/used_core = allocate(/obj/item/slime_extract/grey, fridge)
+	used_core.reagents.add_reagent(/datum/reagent/consumable/sugar, 1)
+	used_core.reagents.clear_reagents()
+	// Guarantee the fridge breaks in one light blast while its cores survive with ordinary health.
+	fridge.update_integrity(1)
+	explosion(fridge, light_impact_range = 1, flame_range = 0, flash_range = 0, adminlog = FALSE, silent = TRUE, smoke = FALSE)
+	sleep(3 SECONDS)
+	TEST_ASSERT(QDELETED(fridge), "The light blast did not destroy the weakened fridge")
+	var/obj/item/slime_extract/first_core = cores[1]
+	var/obj/structure/slime_extract_pile/pile = first_core.loc
+	TEST_ASSERT(istype(pile), "Blast-damaged unused cores released from the fridge did not stack")
+	TEST_ASSERT_EQUAL(length(pile.contents), length(cores), "The blast pile lost fresh cores or accepted a used core")
+	for(var/obj/item/slime_extract/core as anything in cores)
+		TEST_ASSERT(!QDELETED(core), "One light blast unexpectedly destroyed a test core")
+		TEST_ASSERT(core.get_integrity() < core.max_integrity, "The blast did not damage a stored extract")
+		TEST_ASSERT(core.is_stackable_extract(), "Blast damage disqualified an unused extract")
+		TEST_ASSERT_EQUAL(core.loc, pile, "A surviving unused core did not join the blast pile")
+		TEST_ASSERT_EQUAL(core.extract_uses, initial(core.extract_uses), "The blast changed the core's uses")
+	TEST_ASSERT(isturf(used_core.loc), "A previously injected core joined the blast pile")

@@ -605,7 +605,6 @@
 			return
 		if(!human_owner.temporarilyRemoveItemFromInventory(to_integrate))
 			return
-		to_integrate.mark_extract_modified() // VOIDCREW: integrated extracts are no longer fresh pile stock.
 		to_integrate.forceMove(human_owner)
 		species.current_extract = to_integrate
 		human_owner.balloon_alert(human_owner, "[to_integrate.name] consumed")

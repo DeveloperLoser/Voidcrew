@@ -1,18 +1,11 @@
 /obj/item/slime_extract
-	/// Remembers modifications even after reagents are emptied or damage is repaired.
+	/// Remembers chemical use or enhancement even after reagents are emptied or uses are restored.
 	var/extract_modified = FALSE
 	/// A core taken out for use stays separate until moved away from this turf.
 	var/turf/extract_pile_excluded_turf
 
 /obj/item/slime_extract/proc/initialize_extract_piling()
 	RegisterSignals(reagents, list(COMSIG_REAGENTS_HOLDER_UPDATED, COMSIG_REAGENTS_TEMP_CHANGE), PROC_REF(mark_extract_modified))
-	RegisterSignals(src, list(
-		COMSIG_ATOM_INTEGRITY_CHANGED,
-		COMSIG_ATOM_COLOR_UPDATED,
-		COMSIG_ATOM_EXPOSE_REAGENTS,
-		SIGNAL_ADDTRAIT(TRAIT_WAS_RENAMED),
-		SIGNAL_ADDTRAIT(TRAIT_HAS_LABEL),
-	), PROC_REF(mark_extract_modified))
 	RegisterSignal(src, COMSIG_MOVABLE_THROW_LANDED, PROC_REF(queue_extract_piling))
 	queue_extract_piling()
 
@@ -37,35 +30,20 @@
 	if(isturf(loc) && loc != extract_pile_excluded_turf && !extract_modified)
 		addtimer(CALLBACK(src, PROC_REF(try_extract_piling)), 0, TIMER_UNIQUE)
 
-/// All ordinary extract colours use this same eligibility check; piles never erase per-core state.
-/obj/item/slime_extract/proc/is_pristine_extract()
+/// Only extract chemistry and use state affect eligibility; stored items retain their health and appearance.
+/obj/item/slime_extract/proc/is_stackable_extract()
 	if(QDELETED(src) || extract_modified || recurring || qdel_timer || length(contents))
 		return FALSE
 	if(extract_uses != initial(extract_uses) || crossbreed_modification != initial(crossbreed_modification))
 		return FALSE
-	if(name != initial(name) || desc != initial(desc) || icon != initial(icon) || icon_state != initial(icon_state))
-		return FALSE
-	if(color != initial(color) || alpha != initial(alpha) || length(filters) || length(underlays))
-		return FALSE
-	// Every ordinary item has one engine-generated emissive blocker, even when completely untouched.
-	if(length(overlays) != 1)
-		return FALSE
-	var/mutable_appearance/blocker = overlays[1]
-	if(blocker.plane != GET_NEW_PLANE(EMISSIVE_PLANE, PLANE_TO_OFFSET(plane)))
-		return FALSE
-	var/matrix/core_transform = transform
-	if(core_transform.a != 1 || core_transform.b || core_transform.c || core_transform.d || core_transform.e != 1 || core_transform.f)
-		return FALSE
-	if(max_integrity != initial(max_integrity) || get_integrity() != max_integrity || resistance_flags != initial(resistance_flags))
-		return FALSE
 	return reagents && !reagents.total_volume && !length(reagents.reagent_list) && !reagents.is_reacting
 
-/obj/item/slime_extract/bluespace/is_pristine_extract()
+/obj/item/slime_extract/bluespace/is_stackable_extract()
 	return ..() && !teleport_ready && !teleport_x && !teleport_y && !teleport_z
 
 /// Only scan when a core arrives on a turf, never periodically or for cores already stored in a pile.
 /obj/item/slime_extract/proc/try_extract_piling()
-	if(!isturf(loc) || loc == extract_pile_excluded_turf || throwing || !is_pristine_extract())
+	if(!isturf(loc) || loc == extract_pile_excluded_turf || throwing || !is_stackable_extract())
 		return
 	var/turf/floor = loc
 	var/obj/structure/slime_extract_pile/pile
@@ -78,7 +56,7 @@
 		return
 
 	for(var/obj/item/slime_extract/other in floor)
-		if(other == src || other.type != type || other.throwing || other.extract_pile_excluded_turf == floor || !other.is_pristine_extract())
+		if(other == src || other.type != type || other.throwing || other.extract_pile_excluded_turf == floor || !other.is_stackable_extract())
 			continue
 		pile = new(floor, type)
 		pile.add_extract(src)
@@ -142,7 +120,7 @@
 	maptext = MAPTEXT("<span style='color: white;'>[length(contents)]</span>")
 
 /obj/structure/slime_extract_pile/proc/add_extract(obj/item/slime_extract/core)
-	if(QDELETED(src) || QDELETED(core) || core.type != extract_type || !core.is_pristine_extract())
+	if(QDELETED(src) || QDELETED(core) || core.type != extract_type || !core.is_stackable_extract())
 		return FALSE
 	core.forceMove(src)
 	queue_pile_update()
@@ -153,7 +131,7 @@
 		if(QDELETED(core))
 			continue
 		// Recheck on use in case code changed a stored core directly rather than through a signal.
-		if(!core.is_pristine_extract())
+		if(!core.is_stackable_extract())
 			core.mark_extract_modified()
 			continue
 		if(isturf(destination))
@@ -179,7 +157,7 @@
 /obj/structure/slime_extract_pile/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
 	if(istype(tool, /obj/item/slime_extract))
 		var/obj/item/slime_extract/core = tool
-		if(core.type != extract_type || !core.is_pristine_extract())
+		if(core.type != extract_type || !core.is_stackable_extract())
 			balloon_alert(user, "only matching unused extracts!")
 			return ITEM_INTERACT_BLOCKING
 		if(!user.transferItemToLoc(core, src))
