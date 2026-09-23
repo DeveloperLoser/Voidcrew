@@ -196,6 +196,7 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "fGP" = (
+/obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "fNf" = (
@@ -845,7 +846,10 @@
 /area/shuttle/voidcrew/bogatyr/bridge)
 "xIg" = (
 /obj/machinery/mineral/ore_redemption{
-	req_access = null
+	req_access = null;
+	dir = 4;
+	input_dir = 8;
+	output_dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/cargo)

@@ -309,7 +309,8 @@
 /area/shuttle/voidcrew/bogatyr/central)
 "vX" = (
 /obj/machinery/mineral/ore_redemption{
-	req_access = null
+	req_access = null;
+	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
@@ -428,6 +429,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/machinery/mission_pad,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "AV" = (
@@ -668,7 +670,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/mission_pad,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "Ot" = (
@@ -1021,7 +1022,7 @@ Zr
 "}
 (6,1,1) = {"
 WR
-XL
+cL
 AR
 qo
 Sl
@@ -1043,7 +1044,7 @@ VM
 "}
 (7,1,1) = {"
 WR
-cL
+XL
 NW
 To
 xb

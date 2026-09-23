@@ -580,7 +580,8 @@
 /area/shuttle/voidcrew/bogatyr/armory)
 "sSi" = (
 /obj/machinery/mineral/ore_redemption{
-	req_access = null
+	req_access = null;
+	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)

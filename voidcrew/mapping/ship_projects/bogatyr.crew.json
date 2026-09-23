@@ -329,7 +329,7 @@
     "microbiological_lab": {
       "freshen_up": [
         {
-          "ID": "job_6",
+          "ID": "",
           "Name": "Plauge Master",
           "Outfit": "/datum/outfit/job/scientist",
           "BaseOutfit": "",
@@ -344,7 +344,7 @@
       ],
       "nightclub": [
         {
-          "ID": "job_7",
+          "ID": "",
           "Name": "Plauge Master",
           "Outfit": "/datum/outfit/job/scientist",
           "BaseOutfit": "",
@@ -359,7 +359,7 @@
       ],
       "trashed": [
         {
-          "ID": "job_4",
+          "ID": "",
           "Name": "Plauge Master",
           "Outfit": "/datum/outfit/job/scientist",
           "BaseOutfit": "",
