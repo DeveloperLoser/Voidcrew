@@ -7203,6 +7203,7 @@
 #include "voidcrew\modules\overmap\code\modules\overmap\_overmap.dm"
 #include "voidcrew\modules\overmap\code\modules\overmap\dynamic_object_defines.dm"
 #include "voidcrew\modules\overmap\code\modules\overmap\events.dm"
+#include "voidcrew\modules\overmap\code\modules\overmap\generation.dm"
 #include "voidcrew\modules\overmap\code\modules\overmap\planet.dm"
 #include "voidcrew\modules\overmap\code\modules\overmap\ship.dm"
 #include "voidcrew\modules\overmap\code\modules\overmap\ship_autopilot.dm"
