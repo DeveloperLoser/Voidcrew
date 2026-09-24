@@ -5,7 +5,7 @@
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
 	pixel_y = 5
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "aCQ" = (
 /turf/closed/wall/r_wall,
@@ -27,7 +27,6 @@
 /turf/open/floor/holofloor/hyperspace,
 /area/shuttle/voidcrew/bogatyr/central)
 "bZP" = (
-/obj/machinery/light/small,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -185,7 +184,7 @@
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
 	pixel_y = 5
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "gdo" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -343,7 +342,7 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Dirty Ass Door"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "jWn" = (
 /obj/docking_port/mobile/voidcrew/bogatyr{
@@ -353,7 +352,7 @@
 	},
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny,
-/turf/open/floor/plating,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "khk" = (
 /obj/item/radio/intercom/directional/north,
@@ -377,7 +376,7 @@
 /area/shuttle/voidcrew/bogatyr/bridge)
 "kwc" = (
 /obj/machinery/computer/mission_board,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/voidcrew/bogatyr/bridge)
 "kzr" = (
 /obj/structure/cable,
@@ -475,7 +474,7 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Dirty Ass Door"
 	},
-/turf/open/floor/holofloor/hyperspace,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/cargo)
 "mPB" = (
 /turf/template_noop,
@@ -490,7 +489,7 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Dirty Ass Door"
 	},
-/turf/open/floor/holofloor/hyperspace,
+/turf/open/floor/light/colour_cycle,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "nVY" = (
 /turf/open/floor/light/colour_cycle,
