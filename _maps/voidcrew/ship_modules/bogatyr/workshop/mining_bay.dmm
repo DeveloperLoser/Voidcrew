@@ -14,6 +14,8 @@
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /obj/item/gps/mining,
+/obj/item/t_scanner/adv_mining_scanner/lesser,
+/obj/item/t_scanner/adv_mining_scanner/lesser,
 /turf/open/floor/mineral/plastitanium/red,
 /area/template_noop)
 "eNT" = (

@@ -2,14 +2,6 @@
 "cab" = (
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
-"cCQ" = (
-/obj/machinery/button/door{
-	id = "blastdoors";
-	name = "Cargo Bay Blast Doors";
-	pixel_x = -24
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/template_noop)
 "cHU" = (
 /obj/structure/closet/crate/internals,
 /obj/effect/spawner/random/maintenance/three,
@@ -94,7 +86,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-cCQ
+cab
 cab
 cab
 dDx

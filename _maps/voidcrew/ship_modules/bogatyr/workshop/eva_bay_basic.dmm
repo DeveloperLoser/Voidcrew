@@ -90,15 +90,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/template_noop)
-"xlC" = (
-/obj/machinery/button/door{
-	id = "blastdoors";
-	name = "Cargo Bay Blast Doors";
-	pixel_x = -24
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/template_noop)
 "xzp" = (
 /obj/structure/closet/crate/miningcar{
 	name = "traditional russian storage apparatus"
@@ -118,7 +109,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-xlC
+vPU
 gKw
 gKw
 ijz

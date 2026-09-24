@@ -67,13 +67,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "dS" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/doublebarrel{
-	name = "\improper TOZ-1"
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm/directional/north,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "en" = (
 /obj/structure/table,
@@ -192,10 +187,6 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/central)
-"pO" = (
-/obj/structure/sign/poster/official/twelve_gauge,
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/armory)
 "pV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -242,29 +233,16 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/laboratory)
-"rK" = (
-/obj/structure/sign/poster/contraband/syndicate_recruitment{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/armory)
 "rO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "st" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/rifle/boltaction{
-	pixel_x = -7;
-	pixel_y = 2
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "sx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -310,7 +288,9 @@
 "vX" = (
 /obj/machinery/mineral/ore_redemption{
 	req_access = null;
-	dir = 1
+	dir = 4;
+	input_dir = 8;
+	output_dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
@@ -336,21 +316,9 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "xm" = (
-/obj/structure/rack,
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "xy" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -374,18 +342,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "zl" = (
-/obj/structure/rack,
-/obj/item/knife/hunting{
-	pixel_y = -1
-	},
-/obj/item/knife/hunting{
-	pixel_y = 7
-	},
-/obj/item/knife/hunting{
-	pixel_y = -9
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "zL" = (
 /obj/structure/table,
@@ -400,14 +357,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/central)
-"Ak" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 "AD" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -607,7 +556,6 @@
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "JP" = (
 /obj/modular_map_root/ship_upgrade{
-	footprint = "#####/#####/#####/#####/####.";
 	key = "engineering"
 	},
 /turf/template_noop,
@@ -684,12 +632,6 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/bridge)
-"Pa" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/template_noop,
-/area/shuttle/voidcrew/bogatyr/maintenance)
 "Pv" = (
 /obj/machinery/airalarm/directional/north,
 /turf/template_noop,
@@ -708,39 +650,10 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "QB" = (
-/obj/structure/rack,
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = 8
-	},
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = -7
-	},
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = 1
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
-"Rv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
-"RN" = (
-/obj/machinery/door/airlock/vault{
-	name = "Armory"
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "Sg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -795,12 +708,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/laboratory)
-"UX" = (
-/obj/structure/rack,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/melee/chainofcommand,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 "Vs" = (
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/maintenance)
@@ -840,9 +747,6 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/bridge)
-"WX" = (
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/armory)
 "Xh" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/cargo)
@@ -880,10 +784,13 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/central)
 "YY" = (
-/obj/machinery/light,
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/central)
+/obj/machinery/button/door{
+	id = "blastdoors";
+	name = "Cargo Bay Blast Doors";
+	pixel_x = -24
+	},
+/turf/template_noop,
+/area/shuttle/voidcrew/bogatyr/cargo)
 "Zr" = (
 /turf/template_noop,
 /area/template_noop)
@@ -902,13 +809,6 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
-"ZZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 
 (1,1,1) = {"
 Zr
@@ -945,7 +845,7 @@ qQ
 mM
 EK
 cD
-xR
+YY
 xR
 xR
 TD
@@ -1009,7 +909,7 @@ CY
 br
 Ho
 CP
-YY
+Ie
 Xh
 ix
 xy
@@ -1098,12 +998,12 @@ LY
 LY
 SB
 xb
-WX
-pO
-WX
-rK
-VM
-VM
+zl
+zl
+zl
+zl
+Vs
+Vs
 Vs
 Vs
 JP
@@ -1120,11 +1020,11 @@ Qr
 Xx
 LY
 sx
-WX
+zl
 dS
 st
 zl
-VM
+Vs
 Vs
 Vs
 Vs
@@ -1142,12 +1042,12 @@ dH
 bl
 LY
 AD
-RN
-ZZ
-Rv
-Ak
-VM
-Pa
+zl
+zl
+zl
+zl
+Vs
+Vs
 Vs
 Vs
 Vs
@@ -1164,11 +1064,11 @@ AQ
 bl
 LY
 aL
-WX
+zl
 xm
 QB
-UX
-VM
+zl
+Vs
 Vs
 Vs
 Vs
@@ -1186,15 +1086,15 @@ SB
 LY
 LY
 oq
-WX
-WX
-WX
-WX
-VM
+zl
+zl
+zl
+zl
 Vs
 Vs
 Vs
-Zr
+Vs
+Vs
 "}
 (14,1,1) = {"
 Zr

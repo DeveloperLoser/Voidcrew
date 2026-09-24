@@ -17,13 +17,10 @@
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/laboratory)
 "amC" = (
-/obj/machinery/door/airlock/vault{
-	name = "Armory"
-	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "aZa" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -79,19 +76,6 @@
 	},
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/cargo)
-"fif" = (
-/obj/structure/rack,
-/obj/item/knife/hunting{
-	pixel_y = -1
-	},
-/obj/item/knife/hunting{
-	pixel_y = 7
-	},
-/obj/item/knife/hunting{
-	pixel_y = -9
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 "fiP" = (
 /obj/machinery/door/airlock/mining/glass{
 	name = "Cargo"
@@ -102,13 +86,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
-"fjq" = (
-/obj/structure/sign/poster/contraband/syndicate_recruitment{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/armory)
 "fvi" = (
 /obj/machinery/computer/helm,
 /turf/open/floor/mineral/plastitanium,
@@ -138,12 +115,6 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
-"gkl" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 "guf" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/item/clothing/head/helmet/rus_ushanka,
@@ -231,7 +202,6 @@
 /area/shuttle/voidcrew/bogatyr/maintenance)
 "iVz" = (
 /obj/modular_map_root/ship_upgrade{
-	footprint = "#####/#####/#####/#####/####.";
 	key = "engineering"
 	},
 /turf/template_noop,
@@ -295,20 +265,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/bogatyr/maintenance)
-"kns" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/template_noop,
-/area/shuttle/voidcrew/bogatyr/maintenance)
 "kwX" = (
 /obj/structure/sign/poster/random,
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/cargo)
-"kJT" = (
-/obj/structure/sign/poster/official/twelve_gauge,
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/armory)
 "kPI" = (
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -321,9 +281,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/central)
-"kXU" = (
-/turf/closed/wall/r_wall,
-/area/shuttle/voidcrew/bogatyr/armory)
 "lgD" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -423,7 +380,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "nJO" = (
 /obj/structure/sign/poster/random,
@@ -440,11 +397,6 @@
 "onQ" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/voidcrew/bogatyr/cargo)
-"oDC" = (
-/obj/structure/rack,
-/obj/item/melee/chainofcommand,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 "oOj" = (
 /turf/template_noop,
 /area/template_noop)
@@ -571,17 +523,15 @@
 /turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/infirmary)
 "srU" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/doublebarrel{
-	name = "\improper TOZ-1"
-	},
 /obj/machinery/airalarm/directional/north,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "sSi" = (
 /obj/machinery/mineral/ore_redemption{
 	req_access = null;
-	dir = 1
+	dir = 4;
+	input_dir = 8;
+	output_dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/cargo)
@@ -624,22 +574,6 @@
 /obj/machinery/cryopod,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
-"tZN" = (
-/obj/structure/rack,
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = 8
-	},
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = -7
-	},
-/obj/item/clothing/suit/armor/vest/russian{
-	pixel_x = 1
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/voidcrew/bogatyr/armory)
 "ueU" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -664,7 +598,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "vpr" = (
 /obj/machinery/power/apc/auto_name/directional/west,
@@ -672,19 +606,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/bogatyr/dormitories)
 "vrq" = (
-/obj/structure/rack,
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
-/obj/item/clothing/under/costume/soviet{
-	pixel_x = 2
-	},
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "vuV" = (
 /obj/machinery/computer/cryopod{
@@ -776,15 +700,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/bogatyr/central)
 "xPQ" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/rifle/boltaction{
-	pixel_x = -7;
-	pixel_y = 2
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/template_noop,
 /area/shuttle/voidcrew/bogatyr/armory)
 "xQB" = (
 /obj/structure/sign/poster/random,
@@ -985,12 +901,12 @@ wdR
 wdR
 pjz
 xqi
-kXU
-kJT
-kXU
-fjq
-ivi
-ivi
+xPQ
+xPQ
+xPQ
+xPQ
+fVY
+fVY
 fVY
 fVY
 iVz
@@ -1007,11 +923,11 @@ vpr
 lMk
 wdR
 xqi
-kXU
+xPQ
 srU
 xPQ
-fif
-ivi
+xPQ
+fVY
 fVY
 fVY
 fVY
@@ -1030,11 +946,11 @@ xvh
 wdR
 pSp
 amC
-gkl
+amC
 nHX
 vob
-ivi
-kns
+fVY
+fVY
 fVY
 fVY
 fVY
@@ -1051,11 +967,11 @@ pHQ
 xvh
 wdR
 xqi
-kXU
+xPQ
 vrq
-tZN
-oDC
-ivi
+xPQ
+xPQ
+fVY
 fVY
 fVY
 fVY
@@ -1073,15 +989,15 @@ pjz
 wdR
 wdR
 tyD
-kXU
-kXU
-kXU
-kXU
-ivi
+xPQ
+xPQ
+xPQ
+xPQ
 fVY
 fVY
 fVY
-oOj
+fVY
+fVY
 "}
 (14,1,1) = {"
 oOj
