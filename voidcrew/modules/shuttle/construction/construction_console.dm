@@ -567,10 +567,23 @@ GLOBAL_LIST_INIT(ship_rcd_hull_designs, list(
 		return FALSE
 	return ship_console?.is_in_shuttle_area(target)
 
+/**
+ * What a floor build costs on this tile. A titanium or plastitanium floor over space or
+ * hangar deck is laid on new plating, and that plating is charged at the Plating price.
+ * Deconstructing the plating refunds iron, so laying it for free was an iron farm.
+ */
+/obj/item/construction/rcd/internal/ship/proc/floor_build_materials(turf/target, floor_path)
+	var/list/materials = get_selected_floor_materials().Copy()
+	if(floor_path != /turf/open/floor/plating && can_build_floor(target))
+		var/list/plating_materials = floor_types["Plating"]["materials"]
+		for(var/material in plating_materials)
+			materials[material] += plating_materials[material]
+	return materials
+
 /// Build a floor of the selected type at the target turf
 /obj/item/construction/rcd/internal/ship/proc/build_floor(turf/target, mob/user)
 	var/floor_path = get_selected_floor_path()
-	var/list/materials = get_selected_floor_materials()
+	var/list/materials = floor_build_materials(target, floor_path)
 	if(!(can_build_floor(target) || can_refloor(target, floor_path)) || !check_materials(materials, user))
 		return FALSE
 
@@ -585,6 +598,7 @@ GLOBAL_LIST_INIT(ship_rcd_hull_designs, list(
 		return FALSE
 
 	// Double check materials after delay
+	materials = floor_build_materials(target, floor_path)
 	if(!(can_build_floor(target) || can_refloor(target, floor_path)) || !use_materials(materials, user))
 		qdel(rcd_effect)
 		return FALSE
