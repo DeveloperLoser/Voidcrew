@@ -337,7 +337,11 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "ddE" = (
-/turf/open/floor/plating/airless,
+/obj/machinery/power/shuttle_engine/ship/electric{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "dkX" = (
 /obj/structure/cable,
@@ -485,13 +489,8 @@
 /turf/open/floor/wood,
 /area/shuttle/voidcrew/starfury/recreation_area)
 "fjK" = (
-/obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 1
-	},
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "fmv" = (
@@ -1233,10 +1232,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "kNq" = (
-/obj/structure/window/reinforced/spawner,
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 1
-	},
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/machinery/power/smes/magical,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "kPl" = (
@@ -1800,13 +1798,8 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/starfury/armory)
 "ooZ" = (
-/obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 1
-	},
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "oqj" = (
@@ -1930,6 +1923,10 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/starfury/armory)
+"pct" = (
+/obj/machinery/power/terminal,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "pcN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3195,7 +3192,7 @@ fYm
 fYm
 fYm
 fYm
-fYm
+pct
 kNq
 ddE
 cPo
@@ -3466,7 +3463,7 @@ ixK
 ixK
 ixK
 fYm
-fYm
+pct
 kNq
 ddE
 cPo
@@ -3737,7 +3734,7 @@ haH
 ixK
 fYm
 fYm
-fYm
+pct
 kNq
 ddE
 cPo
@@ -3954,7 +3951,7 @@ qoI
 fYm
 fYm
 fYm
-fYm
+pct
 kNq
 ddE
 "}
@@ -4169,7 +4166,7 @@ haH
 ixK
 ixK
 fYm
-fYm
+pct
 kNq
 ddE
 cPo
@@ -4438,7 +4435,7 @@ juk
 kww
 npq
 ixK
-fYm
+pct
 kNq
 ddE
 cPo
@@ -4707,7 +4704,7 @@ fYm
 fYm
 fYm
 fYm
-fYm
+pct
 kNq
 ddE
 cPo
