@@ -1262,6 +1262,10 @@
 "kxN" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/starfury/holding_cells)
+"kyi" = (
+/obj/machinery/porta_turret/ship_defense,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/fore_compartments)
 "kAX" = (
 /obj/machinery/light{
 	dir = 1
@@ -1296,8 +1300,8 @@
 /area/shuttle/voidcrew/starfury/central_engineering)
 "kNq" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/south,
-/obj/machinery/power/smes/magical,
 /obj/structure/cable,
+/obj/machinery/power/smes/super/full,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "kPl" = (
@@ -1763,7 +1767,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "nEn" = (
-/obj/machinery/porta_turret/syndicate,
+/obj/machinery/porta_turret/ship_defense,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/starfury/cargo_dock)
 "nEu" = (
@@ -1773,7 +1777,7 @@
 /turf/open/floor/plastic,
 /area/shuttle/voidcrew/starfury/surgery)
 "nFl" = (
-/obj/machinery/porta_turret/syndicate,
+/obj/machinery/porta_turret/ship_defense,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "nGs" = (
@@ -3005,7 +3009,7 @@
 /turf/open/floor/engine,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "xeC" = (
-/obj/machinery/porta_turret/syndicate,
+/obj/machinery/porta_turret/ship_defense,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/starfury/recreation_area)
 "xfI" = (
@@ -3473,7 +3477,7 @@ fYm
 fYm
 fYm
 ixK
-nFl
+ixK
 cPo
 cPo
 "}
@@ -3645,7 +3649,7 @@ cPo
 cPo
 bUr
 snh
-snh
+kyi
 snh
 snh
 eJR
@@ -4401,7 +4405,7 @@ cPo
 cPo
 bUr
 snh
-snh
+kyi
 snh
 snh
 eJR
@@ -4661,7 +4665,7 @@ fYm
 fYm
 fYm
 ixK
-nFl
+ixK
 cPo
 cPo
 "}
