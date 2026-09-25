@@ -92,6 +92,12 @@
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /turf/open/floor/engine/air,
 /area/shuttle/voidcrew/starfury/central_engineering)
+"aIb" = (
+/obj/machinery/porta_turret/ship_defense{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/recreation_area)
 "aKO" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syringes,
@@ -146,6 +152,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/voidcrew/starfury/fore_compartments)
+"bcW" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "bkx" = (
 /obj/structure/window/reinforced/spawner{
@@ -229,6 +241,10 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_compartment)
+"bUr" = (
+/obj/machinery/ship_combat/laser_turret,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/fore_compartments)
 "bVq" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
@@ -312,6 +328,12 @@
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_compartment)
+"cSe" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/starfury/central_engineering)
 "cUi" = (
 /obj/machinery/firealarm{
 	pixel_y = -28
@@ -323,7 +345,7 @@
 /turf/open/floor/pod/dark,
 /area/shuttle/voidcrew/starfury/cargo_dock)
 "cYy" = (
-/obj/machinery/computer,
+/obj/machinery/computer/camera_advanced/ship_combat,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "cZK" = (
@@ -411,10 +433,19 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/voidcrew/starfury/central_compartment)
+"erC" = (
+/obj/machinery/porta_turret/ship_defense{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/holding_cells)
 "exf" = (
-/obj/machinery/shieldgen,
-/turf/open/floor/plating,
-/area/shuttle/voidcrew/starfury/aft_compartment)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/ship_missile/armed/heavy,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/voidcrew/starfury/fore_compartments)
 "eHY" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/space/syndicate,
@@ -444,6 +475,7 @@
 /area/shuttle/voidcrew/starfury/central_engineering)
 "ePr" = (
 /obj/machinery/shieldgen,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "eQd" = (
@@ -562,6 +594,12 @@
 	},
 /turf/open/floor/carpet/donk,
 /area/shuttle/voidcrew/starfury/captains_quarters)
+"fOx" = (
+/obj/machinery/porta_turret/ship_defense{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/power_storage)
 "fQH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -716,6 +754,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/red,
 /area/shuttle/voidcrew/starfury/armory)
+"gvk" = (
+/obj/machinery/porta_turret/ship_defense{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/fore_compartments)
 "gwf" = (
 /obj/machinery/door/airlock/engineering/glass,
 /obj/effect/turf_decal/stripes/full,
@@ -811,6 +855,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_compartment)
+"hfb" = (
+/obj/machinery/computer/mission_board,
+/obj/item/gps,
+/obj/item/gps,
+/obj/item/gps,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/starfury/fore_compartments)
 "hfW" = (
 /obj/machinery/door/airlock/medical{
 	name = "Surgery";
@@ -829,6 +880,9 @@
 /area/shuttle/voidcrew/starfury/surgery)
 "hlO" = (
 /obj/machinery/airalarm/directional/south,
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "hpc" = (
@@ -954,6 +1008,9 @@
 /obj/structure/chair/comfy/black{
 	dir = 1
 	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "iod" = (
@@ -1005,6 +1062,12 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/fore_compartments)
+"iEP" = (
+/obj/machinery/porta_turret/ship_defense{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/engineering_storage)
 "iGQ" = (
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/holding_cells)
@@ -1420,6 +1483,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "lGh" = (
@@ -1549,6 +1613,7 @@
 	name = "Syndicate Ship Airlock";
 	req_one_access_txt = "150"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "mtw" = (
@@ -1570,6 +1635,7 @@
 /area/shuttle/voidcrew/starfury/central_compartment)
 "mIK" = (
 /obj/machinery/shieldgen,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/engineering_storage)
 "mJu" = (
@@ -1627,6 +1693,10 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/shuttle/voidcrew/starfury/recreation_area)
+"nbp" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "ndv" = (
 /obj/structure/table/reinforced,
 /obj/item/radio/intercom,
@@ -1692,12 +1762,20 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
+"nEn" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/cargo_dock)
 "nEu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/plastic,
 /area/shuttle/voidcrew/starfury/surgery)
+"nFl" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "nGs" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/structure/cable,
@@ -1750,6 +1828,11 @@
 /obj/item/organ/tail/cat,
 /turf/open/floor/plastic,
 /area/shuttle/voidcrew/starfury/surgery)
+"nWs" = (
+/obj/machinery/ship_combat/shield_generator,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/power_storage)
 "nXz" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor{
@@ -1818,6 +1901,7 @@
 /area/shuttle/voidcrew/starfury/armory)
 "oqU" = (
 /obj/machinery/shieldgen,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "orM" = (
@@ -1863,6 +1947,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "oHs" = (
@@ -2040,16 +2125,29 @@
 	name = "Syndicate Ship Airlock";
 	req_one_access_txt = "150"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "pCP" = (
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/engineering_storage)
+"pEl" = (
+/obj/machinery/shieldgen,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "pMo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/starfury/central_engineering)
+"pNI" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/engine,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "pPO" = (
 /obj/machinery/airalarm/directional/west,
@@ -2146,6 +2244,12 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/holding_cells)
+"rgu" = (
+/obj/machinery/ship_combat/missile_launcher{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/fore_compartments)
 "riM" = (
 /obj/effect/turf_decal/arrows/red{
 	color = "red";
@@ -2680,6 +2784,7 @@
 /obj/machinery/atmospherics/components/binary/pump/on,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "uMl" = (
@@ -2865,6 +2970,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_compartment)
+"wUr" = (
+/obj/machinery/porta_turret/ship_defense{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "xad" = (
 /obj/structure/table/reinforced,
 /obj/item/pizzabox/meat,
@@ -2893,6 +3004,10 @@
 	},
 /turf/open/floor/engine,
 /area/shuttle/voidcrew/starfury/central_engineering)
+"xeC" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/recreation_area)
 "xfI" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/starfury/captains_quarters)
@@ -2905,11 +3020,12 @@
 /turf/open/floor/pod/dark,
 /area/shuttle/voidcrew/starfury/central_compartment)
 "xuu" = (
-/obj/machinery/light{
-	dir = 8
+/obj/machinery/light/small{
+	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/voidcrew/starfury/central_engineering)
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "xyj" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -3017,9 +3133,9 @@ cPo
 cPo
 cPo
 cPo
+fOx
 tVs
-tVs
-tVs
+fOx
 cPo
 cPo
 gtu
@@ -3059,7 +3175,7 @@ cPo
 cPo
 cPo
 cPo
-dZA
+aIb
 mtw
 mtw
 mtw
@@ -3086,7 +3202,7 @@ ixK
 ixK
 ixK
 ixK
-ixK
+wUr
 cPo
 cPo
 cPo
@@ -3111,7 +3227,7 @@ cPo
 cPo
 cPo
 cPo
-dZA
+xeC
 dZA
 dZA
 xnw
@@ -3125,16 +3241,16 @@ tVs
 fsq
 gUt
 kEa
-lHx
-lHx
+nWs
+nWs
 tVs
 cPo
 cPo
 kBb
 cPo
+nFl
 ixK
-ixK
-exf
+pEl
 ixK
 fTU
 vKU
@@ -3157,7 +3273,7 @@ cPo
 cPo
 cPo
 cPo
-wMQ
+nEn
 jWZ
 jWZ
 jWZ
@@ -3180,7 +3296,7 @@ lHx
 ucb
 ucb
 lHx
-lHx
+nWs
 tVs
 cPo
 ixK
@@ -3188,7 +3304,7 @@ hSQ
 ixK
 ixK
 mVZ
-fYm
+nbp
 fYm
 fYm
 fYm
@@ -3234,7 +3350,7 @@ lHx
 kEa
 kEa
 lHx
-lHx
+nWs
 tVs
 dNT
 uBE
@@ -3242,7 +3358,7 @@ fYm
 ixK
 ixK
 fYm
-fYm
+nbp
 fYm
 fYm
 fYm
@@ -3296,7 +3412,7 @@ fYm
 oDV
 fYm
 fYm
-fYm
+nbp
 fYm
 fYm
 fYm
@@ -3311,7 +3427,7 @@ cPo
 cPo
 cPo
 cPo
-snh
+bUr
 snh
 snh
 snh
@@ -3348,22 +3464,22 @@ ixK
 ixK
 ixK
 ixK
-laA
-fYm
-fYm
+xuu
+nbp
+nbp
 fYm
 fYm
 fYm
 fYm
 fYm
 ixK
-ixK
+nFl
 cPo
 cPo
 "}
 (8,1,1) = {"
 cPo
-snh
+bUr
 snh
 snh
 wpe
@@ -3455,8 +3571,8 @@ nrd
 wok
 wok
 wok
-xuu
-juk
+nrd
+wok
 juk
 ucq
 ixK
@@ -3471,7 +3587,7 @@ cPo
 "}
 (10,1,1) = {"
 cPo
-snh
+bUr
 snh
 snh
 nKF
@@ -3527,7 +3643,7 @@ cPo
 cPo
 cPo
 cPo
-snh
+bUr
 snh
 snh
 snh
@@ -3585,8 +3701,8 @@ cPo
 cPo
 cPo
 cPo
-snh
-tuV
+rgu
+exf
 xMr
 pmW
 sYg
@@ -3628,7 +3744,7 @@ fYm
 fYm
 fYm
 ixK
-ixK
+wUr
 cPo
 "}
 (13,1,1) = {"
@@ -3639,8 +3755,8 @@ cPo
 cPo
 cPo
 cPo
-snh
-tuV
+rgu
+exf
 xMr
 sYg
 sYg
@@ -3908,7 +4024,7 @@ cPo
 cPo
 iEe
 nfw
-xMr
+bcW
 gJy
 bay
 hJE
@@ -3961,7 +4077,7 @@ cPo
 cPo
 cPo
 iEe
-xMr
+hfb
 xMr
 uhC
 jtu
@@ -4019,7 +4135,7 @@ iEe
 ndv
 lmt
 pgr
-xMr
+bcW
 bad
 bad
 moN
@@ -4179,8 +4295,8 @@ cPo
 cPo
 cPo
 cPo
-snh
-tuV
+rgu
+exf
 xMr
 bad
 bad
@@ -4233,8 +4349,8 @@ cPo
 cPo
 cPo
 cPo
-snh
-tuV
+rgu
+exf
 xMr
 unt
 bad
@@ -4276,14 +4392,14 @@ ixK
 fYm
 fYm
 ixK
-ixK
+wUr
 cPo
 "}
 (25,1,1) = {"
 cPo
 cPo
 cPo
-snh
+bUr
 snh
 snh
 snh
@@ -4318,7 +4434,7 @@ gkO
 eNr
 eNr
 eNr
-eNr
+pNI
 qzu
 juk
 juk
@@ -4335,7 +4451,7 @@ cPo
 "}
 (26,1,1) = {"
 cPo
-snh
+bUr
 snh
 snh
 ipE
@@ -4372,12 +4488,12 @@ pMo
 aWn
 aWn
 aWn
-aWn
-aWn
+cSe
+cSe
 uFU
-aWn
-aWn
-aWn
+cSe
+cSe
+cSe
 aWn
 cKF
 ixK
@@ -4431,7 +4547,7 @@ nrE
 gdP
 jQr
 juk
-juk
+wok
 kww
 npq
 ixK
@@ -4443,7 +4559,7 @@ cPo
 "}
 (28,1,1) = {"
 cPo
-snh
+bUr
 snh
 snh
 wpe
@@ -4499,6 +4615,7 @@ cPo
 cPo
 cPo
 cPo
+bUr
 snh
 snh
 snh
@@ -4506,8 +4623,7 @@ snh
 snh
 snh
 snh
-snh
-snh
+gvk
 cPo
 cPo
 cPo
@@ -4539,13 +4655,13 @@ ixK
 laA
 fYm
 fYm
-fYm
+nbp
 fYm
 fYm
 fYm
 fYm
 ixK
-ixK
+nFl
 cPo
 cPo
 "}
@@ -4593,7 +4709,7 @@ sYH
 fYm
 fYm
 fYm
-fYm
+nbp
 fYm
 fYm
 gtK
@@ -4624,7 +4740,7 @@ cPo
 cPo
 cPo
 cPo
-kxN
+erC
 kxN
 kxN
 kxN
@@ -4647,7 +4763,7 @@ ixK
 ixK
 fYm
 fYm
-fYm
+nbp
 fYm
 fYm
 fYm
@@ -4700,8 +4816,8 @@ gJg
 ixK
 ixK
 mVZ
-fYm
-fYm
+nbp
+nbp
 fYm
 fYm
 pct
@@ -4746,15 +4862,15 @@ lIt
 fpM
 acC
 pCP
-pCP
+qoC
 fpM
 cPo
 cPo
 cPo
 cPo
+nFl
 ixK
-ixK
-exf
+pEl
 ixK
 hcd
 daJ
@@ -4814,7 +4930,7 @@ ixK
 ixK
 ixK
 ixK
-ixK
+wUr
 cPo
 cPo
 cPo
@@ -4855,7 +4971,7 @@ cPo
 cPo
 fpM
 fpM
-fpM
+iEP
 cPo
 cPo
 cPo
