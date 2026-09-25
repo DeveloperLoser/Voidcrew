@@ -155,8 +155,6 @@
 	for(var/mob/living/player in view(captain))
 		if(player == captain)
 			continue
-		if(!can_receive_ship_invite(player))
-			continue
 		if(!player.client)
 			continue
 		if(!player.mind)
@@ -307,10 +305,6 @@
 
 // ===== INVITE SYSTEM =====
 
-/// Humans, cyborgs and AIs can crew a ship. pAIs belong to whoever holds their card.
-/proc/can_receive_ship_invite(mob/living/player)
-	return ishuman(player) || iscyborg(player) || isAI(player)
-
 /// Send an invite to a living player
 /datum/captain_management_ui/proc/send_ship_invite(ckey)
 	if(!COOLDOWN_FINISHED(ship, invite_cooldown))
@@ -319,7 +313,7 @@
 
 	var/mob/living/target_player
 	for(var/mob/living/player in GLOB.player_list)
-		if(player.ckey == ckey && player.client && can_receive_ship_invite(player))
+		if(player.ckey == ckey && player.client)
 			target_player = player
 			break
 
@@ -375,8 +369,8 @@
 	if(ckey)
 		ship.password_cleared_ckeys[ckey] = TRUE
 
-	// Crew humans can pick up a ship headset. A silicon's radio is built in, so point it
-	// at this ship's channel the way a silicon crew spawn does.
+	// Humans can pick up a ship headset. A silicon's radio is built in, so point it at
+	// this ship's channel the way a silicon crew spawn does.
 	if(issilicon(player))
 		var/mob/living/silicon/silicon_player = player
 		silicon_player.radio?.bind_comms_to_ship(ship.shuttle)
