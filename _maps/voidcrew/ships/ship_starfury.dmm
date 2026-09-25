@@ -11,17 +11,13 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/table/reinforced,
-/obj/item/gun/energy/e_gun/mini{
-	desc = "A small energy gun commonly used by syndicate officers, produced by Cybersun. It has two settings: disable and kill.";
-	name = "cybersun officer pistol"
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/machinery/ship_combat/ew_suite,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "acC" = (
@@ -299,6 +295,10 @@
 /obj/item/pen/fountain/captain,
 /turf/open/floor/carpet/donk,
 /area/shuttle/voidcrew/starfury/captains_quarters)
+"ctE" = (
+/obj/machinery/porta_turret/ship_defense,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/central_engineering)
 "czJ" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -464,6 +464,11 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/voidcrew/starfury/fore_compartments)
+"eMf" = (
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "eMC" = (
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/fore_compartments)
@@ -546,6 +551,7 @@
 "fsq" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/smes/super/full,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "fwa" = (
@@ -658,6 +664,10 @@
 /obj/structure/cable,
 /turf/open/floor/pod/dark,
 /area/shuttle/voidcrew/starfury/recreation_area)
+"gbj" = (
+/obj/machinery/porta_turret/ship_defense,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/starfury/central_compartment)
 "gdP" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/visible,
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
@@ -836,6 +846,7 @@
 	pixel_x = -26
 	},
 /obj/structure/cable,
+/obj/machinery/power/smes/super/full,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "haH" = (
@@ -980,6 +991,13 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/engineering_storage)
+"igG" = (
+/obj/structure/cable,
+/obj/machinery/power/shuttle_engine/ship/void{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "ihH" = (
 /obj/structure/window/reinforced,
 /obj/item/clothing/under/syndicate/camo,
@@ -1490,6 +1508,11 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
+"lFT" = (
+/obj/machinery/light/small,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/aft_compartment)
 "lGh" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -1741,8 +1764,7 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/holding_cells)
 "nou" = (
-/obj/machinery/power/port_gen/pacman,
-/obj/item/stack/sheet/mineral/plasma/five,
+/obj/machinery/ship_combat/shield_generator,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "npq" = (
@@ -1833,8 +1855,11 @@
 /turf/open/floor/plastic,
 /area/shuttle/voidcrew/starfury/surgery)
 "nWs" = (
-/obj/machinery/ship_combat/shield_generator,
 /obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/machinery/power/rtg/debug,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "nXz" = (
@@ -2014,6 +2039,7 @@
 /area/shuttle/voidcrew/starfury/armory)
 "pct" = (
 /obj/machinery/power/terminal,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
 "pcN" = (
@@ -2089,6 +2115,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/obj/machinery/ship_combat/shield_generator,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "pnp" = (
@@ -2140,6 +2167,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/aft_compartment)
+"pIK" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/super/full,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/power_storage)
 "pMo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2495,6 +2527,7 @@
 "tth" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
+/obj/machinery/ship_combat/shield_generator,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/engineering_storage)
 "tuC" = (
@@ -2611,6 +2644,11 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/engineering_storage)
+"tMs" = (
+/obj/structure/cable,
+/obj/machinery/ship_combat/cloak_device,
+/turf/open/floor/plating,
+/area/shuttle/voidcrew/starfury/power_storage)
 "tVs" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/starfury/power_storage)
@@ -2628,7 +2666,7 @@
 /area/shuttle/voidcrew/starfury/central_engineering)
 "ucb" = (
 /obj/structure/cable,
-/obj/machinery/power/rtg/advanced,
+/obj/machinery/power/rtg/debug,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "ucq" = (
@@ -2690,6 +2728,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/machinery/ship_combat/shield_generator,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "uny" = (
@@ -2963,7 +3002,7 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "wJu" = (
-/obj/structure/table/reinforced,
+/obj/machinery/ship_combat/interdictor,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/fore_compartments)
 "wMQ" = (
@@ -3244,9 +3283,9 @@ aXO
 tVs
 fsq
 gUt
+pIK
+pIK
 kEa
-nWs
-nWs
 tVs
 cPo
 cPo
@@ -3296,11 +3335,11 @@ snE
 aXO
 bNe
 tVs
-lHx
-ucb
-ucb
-lHx
 nWs
+nWs
+nWs
+nWs
+kEa
 tVs
 cPo
 ixK
@@ -3350,11 +3389,11 @@ snE
 aXO
 oOG
 tVs
+tMs
+lHx
+lHx
 lHx
 kEa
-kEa
-lHx
-nWs
 tVs
 dNT
 uBE
@@ -3366,7 +3405,7 @@ nbp
 fYm
 fYm
 fYm
-fYm
+nbp
 ooZ
 ddE
 cPo
@@ -3404,10 +3443,10 @@ snE
 aXO
 mqh
 tVs
-lHx
 ucb
 ucb
-kEa
+ucb
+ucb
 kEa
 tVs
 ixK
@@ -3420,7 +3459,7 @@ nbp
 fYm
 fYm
 fYm
-gtK
+lFT
 ixK
 ixK
 cPo
@@ -3471,10 +3510,10 @@ ixK
 xuu
 nbp
 nbp
-fYm
-fYm
-fYm
-fYm
+nbp
+nbp
+nbp
+nbp
 fYm
 ixK
 ixK
@@ -3528,10 +3567,10 @@ ixK
 ixK
 ixK
 fYm
-fYm
+nbp
 fYm
 fjK
-ddE
+igG
 cPo
 cPo
 "}
@@ -3582,10 +3621,10 @@ ucq
 ixK
 ixK
 ixK
-fYm
+nbp
 pct
 kNq
-ddE
+igG
 cPo
 cPo
 "}
@@ -3598,7 +3637,7 @@ nKF
 eMC
 eMC
 snh
-snh
+kyi
 xMr
 lGh
 wkK
@@ -3637,9 +3676,9 @@ oHs
 rUj
 ixK
 nGv
-fYm
+nbp
 ooZ
-ddE
+igG
 cPo
 cPo
 "}
@@ -3691,7 +3730,7 @@ eXc
 qDV
 ixK
 uBD
-gtK
+lFT
 ixK
 ixK
 cPo
@@ -3745,7 +3784,7 @@ kvu
 aCy
 ixK
 fYm
-fYm
+nbp
 fYm
 ixK
 wUr
@@ -3799,7 +3838,7 @@ oYx
 kTm
 ixK
 oCE
-fYm
+nbp
 fYm
 fjK
 ddE
@@ -3843,7 +3882,7 @@ wIn
 wIn
 vsn
 vsn
-vsn
+ctE
 ubz
 qyv
 haH
@@ -3853,7 +3892,7 @@ haH
 haH
 ixK
 fYm
-fYm
+nbp
 pct
 kNq
 ddE
@@ -3879,12 +3918,12 @@ sYg
 gPT
 ksF
 ecn
+gbj
 tDK
 tDK
 tDK
 tDK
-tDK
-tDK
+gbj
 rmC
 xDE
 xfI
@@ -3907,7 +3946,7 @@ pkQ
 haH
 rXI
 fYm
-fYm
+nbp
 fYm
 ooZ
 ddE
@@ -3961,7 +4000,7 @@ gfI
 haH
 rXI
 fYm
-fYm
+nbp
 gtK
 ixK
 ixK
@@ -4015,7 +4054,7 @@ gfI
 haH
 aRp
 fYm
-fYm
+nbp
 fYm
 fYm
 fjK
@@ -4069,8 +4108,8 @@ gfI
 haH
 qoI
 fYm
-fYm
-fYm
+eMf
+nbp
 pct
 kNq
 ddE
@@ -4123,7 +4162,7 @@ gfI
 haH
 fYm
 fYm
-fYm
+nbp
 fYm
 fYm
 ooZ
@@ -4177,7 +4216,7 @@ gfI
 haH
 iod
 fYm
-fYm
+nbp
 gtK
 ixK
 ixK
@@ -4231,7 +4270,7 @@ pkQ
 haH
 iod
 fYm
-fYm
+nbp
 fYm
 fjK
 ddE
@@ -4257,12 +4296,12 @@ bad
 bTD
 ksF
 ecn
+gbj
 tDK
 tDK
 tDK
 tDK
-tDK
-tDK
+gbj
 ulh
 tHt
 tDK
@@ -4275,7 +4314,7 @@ wIn
 wIn
 vsn
 vsn
-vsn
+ctE
 ubz
 qyv
 haH
@@ -4285,7 +4324,7 @@ haH
 haH
 ixK
 ixK
-fYm
+nbp
 pct
 kNq
 ddE
@@ -4339,7 +4378,7 @@ bkx
 lqm
 toS
 ixK
-fYm
+nbp
 fYm
 ooZ
 ddE
@@ -4393,7 +4432,7 @@ iuu
 aYz
 lbH
 ixK
-fYm
+nbp
 fYm
 ixK
 wUr
@@ -4447,7 +4486,7 @@ juk
 dwL
 twq
 ixK
-laA
+xuu
 ixK
 ixK
 cPo
@@ -4462,7 +4501,7 @@ ipE
 eMC
 eMC
 snh
-snh
+kyi
 xMr
 tcM
 xMr
@@ -4501,9 +4540,9 @@ cSe
 aWn
 cKF
 ixK
-fYm
+nbp
 fjK
-ddE
+igG
 cPo
 cPo
 "}
@@ -4557,7 +4596,7 @@ npq
 ixK
 pct
 kNq
-ddE
+igG
 cPo
 cPo
 "}
@@ -4609,9 +4648,9 @@ msP
 ixK
 ixK
 ixK
-fYm
+nbp
 ooZ
-ddE
+igG
 cPo
 cPo
 "}
@@ -4660,10 +4699,10 @@ laA
 fYm
 fYm
 nbp
-fYm
-fYm
-fYm
-fYm
+nbp
+nbp
+nbp
+nbp
 ixK
 ixK
 cPo
@@ -4716,7 +4755,7 @@ fYm
 nbp
 fYm
 fYm
-gtK
+lFT
 ixK
 ixK
 cPo
@@ -4770,7 +4809,7 @@ fYm
 nbp
 fYm
 fYm
-fYm
+nbp
 fjK
 ddE
 cPo
