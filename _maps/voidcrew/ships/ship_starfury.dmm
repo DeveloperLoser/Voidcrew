@@ -2144,11 +2144,6 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/holding_cells)
-"rgg" = (
-/obj/structure/cable,
-/obj/machinery/power/smes/full,
-/turf/open/floor/plating,
-/area/shuttle/voidcrew/starfury/power_storage)
 "riM" = (
 /obj/effect/turf_decal/arrows/red{
 	color = "red";
@@ -2522,10 +2517,8 @@
 /turf/open/floor/engine,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "ucb" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/structure/cable,
+/obj/machinery/power/rtg/advanced,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/starfury/power_storage)
 "ucq" = (
@@ -2736,12 +2729,12 @@
 /obj/item/analyzer,
 /obj/item/analyzer,
 /obj/item/analyzer,
-/turf/template_noop,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "viX" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
-/turf/template_noop,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "vsn" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -3180,7 +3173,7 @@ aXO
 bNe
 tVs
 lHx
-rgg
+ucb
 ucb
 lHx
 lHx
@@ -3234,8 +3227,8 @@ aXO
 oOG
 tVs
 lHx
-rgg
-ucb
+kEa
+kEa
 lHx
 lHx
 tVs
@@ -3288,7 +3281,7 @@ aXO
 mqh
 tVs
 lHx
-rgg
+ucb
 ucb
 kEa
 kEa
