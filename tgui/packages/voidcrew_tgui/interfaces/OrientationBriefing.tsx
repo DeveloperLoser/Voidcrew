@@ -102,7 +102,7 @@ const WelcomeTab = () => {
       </Stack>
       <Box color="label">
         You crew a ship on an overmap. Take contracts, mine, trade and explore;
-        fly further in for better pay and worse odds. The other two tabs cover
+        fly further out for better pay and worse odds. The other two tabs cover
         where you are allowed to go and how to arm the ship.
       </Box>
     </Section>
