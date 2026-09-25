@@ -117,6 +117,11 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
+"aWn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/voidcrew/starfury/central_engineering)
 "aXO" = (
 /turf/open/floor/iron/kitchen/small,
 /area/shuttle/voidcrew/starfury/recreation_area)
@@ -2676,6 +2681,8 @@
 /area/shuttle/voidcrew/starfury/surgery)
 "uFU" = (
 /obj/machinery/atmospherics/components/binary/pump/on,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/voidcrew/starfury/central_engineering)
 "uMl" = (
@@ -4365,16 +4372,16 @@ juk
 juk
 juk
 pMo
-juk
-juk
-juk
-juk
-juk
+aWn
+aWn
+aWn
+aWn
+aWn
 uFU
-juk
-juk
-juk
-juk
+aWn
+aWn
+aWn
+aWn
 cKF
 ixK
 fYm
