@@ -28,6 +28,14 @@ class MarkerTests(unittest.TestCase):
         result = self.violations('', '// VOIDCREW EDIT: feature hook\ncall_hook()\nunmarked()\n')
         self.assertEqual([finding.line for finding in result], [3])
 
+    def test_preceding_marker_covers_a_continued_statement(self):
+        before = 'AddElement(\\\n\tforce = 30,\\\n\tmultiplier = 0.3,\\\n)\nunrelated()\n'
+        after = '// VOIDCREW EDIT CHANGE - multiplier was 0.3\n' + before.replace('0.3', '0.75')
+        self.assertFalse(self.violations(before, after))
+        # The statement ends at the first line without a continuation.
+        result = self.violations(before, after.replace('unrelated()', 'changed()'))
+        self.assertEqual([finding.line for finding in result], [6])
+
     def test_reason_words_are_not_marker_boundaries(self):
         self.assertFalse(self.violations('', '// VOIDCREW EDIT: end the round after a win\nfinish_round()\n'))
 

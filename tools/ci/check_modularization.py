@@ -264,8 +264,12 @@ def analyze(text: str, *, frontend=False) -> Source:
             covered.add(i)
             if not code[i]:
                 following = next((j for j in range(i + 1, len(lines)) if code[j]), None)
-                if following is not None:
+                # A trailing backslash joins the next line into the same DM
+                # statement, so a preceding marker covers all of it.
+                while following is not None:
                     covered.add(following)
+                    continued = following + 1 < len(lines) and lines[following].rstrip().endswith("\\")
+                    following = following + 1 if continued else None
     problems.extend((i, signature, "START/BEGIN marker has no matching END.") for i, signature in pending)
     return Source(lines, comments, code, normalized, covered, gaps, problems)
 
