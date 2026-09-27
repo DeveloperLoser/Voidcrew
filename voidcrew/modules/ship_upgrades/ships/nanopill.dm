@@ -4,6 +4,15 @@
 	id = "standard"
 	name = "Standard"
 	for_ship = /datum/map_template/shuttle/voidcrew/ship_nanopill
-	template_suffix = "ship_nanopill"
+	template_suffix = "nanopill"
 	is_default = TRUE
-	upgrade_slot_ids = list()
+	upgrade_slot_ids = list("support_compliment")
+
+/datum/ship_upgrade_module/ship_nanopill_support_compliment_basic
+	id = "support_compliment_basic"
+	name = "Support Compliment"
+	slot = "support_compliment"
+	for_ship = /datum/map_template/shuttle/voidcrew/ship_nanopill
+	for_theme = list("standard")
+	map_file = "nanopill/support_compliment_basic.dmm"
+	is_default = TRUE

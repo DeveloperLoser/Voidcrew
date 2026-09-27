@@ -7,18 +7,35 @@
     "Name": "SYN-C Courage",
     "Prefix": "_maps/voidcrew/ships/",
     "Port": "ship",
-    "Suffix": "ship_courage",
-    "Slots": null,
+    "Suffix": "ship_courage_courage_class",
+    "Slots": [
+      "aft_compartment"
+    ],
     "Themes": [
       {
         "ID": "standard",
-        "Name": "Standard",
-        "Suffix": "ship_courage",
-        "Slots": null,
+        "Name": "Courage Class",
+        "Suffix": "ship_courage_courage_class",
+        "Description": "The courage is made to establish a force in required locations rapidly. Featuring a small crew compliment and the essentials to achieve a foothold in the sector.",
+        "Slots": [
+          "aft_compartment"
+        ],
         "Default": true
       }
     ],
-    "Modules": null
+    "Modules": [
+      {
+        "ID": "aft_compartment_basic",
+        "Name": "Aft Compartment",
+        "Slot": "aft_compartment",
+        "File": "ship_courage/aft_compartment_basic.dmm",
+        "Description": "Standard Compliment.",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      }
+    ]
   },
   "Crew": 4,
   "Hidden": false,

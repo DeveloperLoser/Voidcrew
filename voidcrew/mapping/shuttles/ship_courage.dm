@@ -1,11 +1,11 @@
 /datum/map_template/shuttle/voidcrew/ship_courage
 	name = "SYN-C Courage"
 	catalog_desc = ""
-	suffix = "ship_courage"
+	suffix = "ship_courage_courage_class"
 	short_name = "SYN-C Courage"
 	part_requirements = list(PART_CLASS_MISC = 0)
 	has_upgrade_slots = TRUE
-	upgrade_slot_ids = list()
+	upgrade_slot_ids = list("aft_compartment")
 	player_hidden = FALSE
 	job_slots = list(
 		list(name = "Captain", officer = TRUE, outfit = /datum/outfit/job/captain, category = JOB_CAT_COMMAND, slots = 1),

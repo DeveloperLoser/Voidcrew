@@ -113,7 +113,10 @@
           "suit": "/obj/item/clothing/suit/hooded/explorer/syndicate",
           "uniform": "/obj/item/clothing/under/syndicate/combat"
         },
-        "Backpack": null,
+        "Backpack": {
+          "/obj/item/gun/energy/recharge/kinetic_accelerator": 1,
+          "/obj/item/t_scanner/adv_mining_scanner/lesser": 1
+        },
         "Belt": null,
         "Extra": null
       }

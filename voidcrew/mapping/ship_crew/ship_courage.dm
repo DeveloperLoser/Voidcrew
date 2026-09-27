@@ -119,6 +119,7 @@
 	glasses = /obj/item/clothing/glasses/meson/night
 	belt = /obj/item/storage/belt/military
 	l_pocket = /obj/item/modular_computer/pda/syndicate
+	backpack_contents = list(/obj/item/gun/energy/recharge/kinetic_accelerator = 1, /obj/item/t_scanner/adv_mining_scanner/lesser = 1)
 
 /datum/outfit/job/workshop_ship_courage_job_5/pre_equip(mob/living/carbon/human/H, visuals_only = FALSE)
 	. = ..()
@@ -128,3 +129,4 @@
 	glasses = /obj/item/clothing/glasses/meson/night
 	belt = /obj/item/storage/belt/military
 	l_pocket = /obj/item/modular_computer/pda/syndicate
+	backpack_contents = list(/obj/item/gun/energy/recharge/kinetic_accelerator = 1, /obj/item/t_scanner/adv_mining_scanner/lesser = 1)

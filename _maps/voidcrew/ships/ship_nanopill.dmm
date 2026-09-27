@@ -26,13 +26,16 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
+/obj/machinery/recharger{
+	pixel_x = 11;
+	pixel_y = 10
+	},
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "fMq" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/machinery/autolathe,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -53,11 +56,7 @@
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "gse" = (
-/obj/machinery/recharger{
-	pixel_x = 11;
-	pixel_y = 10
-	},
-/obj/structure/table/reinforced,
+/obj/machinery/computer/bank_machine,
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "hZe" = (
@@ -77,9 +76,7 @@
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "jCd" = (
-/obj/machinery/suit_storage_unit/ert/security,
-/obj/effect/turf_decal/box/white,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/plating,
 /area/shuttle/voidcrew/ship_nanopill)
 "jEk" = (
 /obj/machinery/light{
@@ -134,8 +131,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/mop,
-/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "pcY" = (
@@ -144,13 +139,8 @@
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "puj" = (
-/obj/machinery/suit_storage_unit/ert/security,
-/obj/effect/turf_decal/box/white,
 /obj/machinery/light{
 	dir = 8
-	},
-/obj/structure/sign/poster/official/random{
-	pixel_x = -32
 	},
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
@@ -177,7 +167,9 @@
 /turf/open/floor/carpet/executive,
 /area/shuttle/voidcrew/ship_nanopill)
 "ubC" = (
-/obj/structure/sign/nanotrasen,
+/obj/modular_map_root/ship_upgrade{
+	key = "support_compliment"
+	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/voidcrew/ship_nanopill)
 "uTA" = (
@@ -224,7 +216,7 @@ ykg
 ilm
 ykg
 ykg
-oxy
+jCd
 ubC
 ykg
 rqb
@@ -238,8 +230,8 @@ jEk
 nPv
 bsV
 puj
-jCd
-jCd
+nPv
+nPv
 ykg
 ykg
 rqb
@@ -308,8 +300,8 @@ ykg
 kWb
 qBT
 ykg
-oxy
-ubC
+jCd
+ykg
 ykg
 rqb
 rqb

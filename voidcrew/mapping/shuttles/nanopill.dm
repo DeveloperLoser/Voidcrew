@@ -1,11 +1,11 @@
 /datum/map_template/shuttle/voidcrew/ship_nanopill
 	name = "NT-C Nanopill"
 	catalog_desc = ""
-	suffix = "ship_nanopill"
+	suffix = "nanopill"
 	short_name = "NT-C Nanopill"
 	part_requirements = list()
 	has_upgrade_slots = TRUE
-	upgrade_slot_ids = list()
+	upgrade_slot_ids = list("support_compliment")
 	player_hidden = FALSE
 	job_slots = list(
 		list(name = "Captain", officer = TRUE, outfit = /datum/outfit/job/captain, category = JOB_CAT_COMMAND, slots = 1),
