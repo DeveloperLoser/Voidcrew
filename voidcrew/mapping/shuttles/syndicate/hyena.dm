@@ -1,9 +1,9 @@
 /datum/map_template/shuttle/voidcrew/hyena
 	has_upgrade_slots = TRUE
 	upgrade_slot_ids = list("salvage_bay")
-	name = "Hyena-class Wrecking Tug"
+	name = "SYN-C Hyena-class Wrecking Tug"
 	suffix = "syndicate_hyena"
-	short_name = "Hyena-Class"
+	short_name = "SYN-C Hyena-class Wrecking Tug"
 	part_requirements = list(PART_CLASS_TRADE = 2)
 
 	job_slots = list(
@@ -49,7 +49,7 @@
 /// DOCKING PORT ///
 
 /obj/docking_port/mobile/voidcrew/hyena
-	name = "Hyena-class Wrecking Tug"
+	name = "SYN-C Hyena-class Wrecking Tug"
 	area_type = /area/shuttle/voidcrew/hyena
 	port_direction = 8
 	preferred_direction = 4
