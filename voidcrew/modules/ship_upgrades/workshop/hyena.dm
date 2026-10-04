@@ -7,3 +7,12 @@
 	for_theme = null
 	map_file = "hyena/workshop/salvage_bay_basic.dmm"
 	is_default = TRUE
+
+/datum/ship_upgrade_module/workshop_hyena_rec_room_basic
+	id = "rec_room_basic"
+	name = "Rec-Room"
+	slot = "rec_room"
+	for_ship = /datum/map_template/shuttle/voidcrew/hyena
+	for_theme = null
+	map_file = "hyena/workshop/rec_room_basic.dmm"
+	is_default = TRUE

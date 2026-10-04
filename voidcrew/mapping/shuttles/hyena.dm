@@ -1,50 +1,12 @@
 /datum/map_template/shuttle/voidcrew/hyena
 	has_upgrade_slots = TRUE
-	upgrade_slot_ids = list("salvage_bay")
+	upgrade_slot_ids = list("rec_room")
 	name = "SYN-C Hyena-class Wrecking Tug"
 	suffix = "syndicate_hyena"
 	short_name = "SYN-C Hyena-class Wrecking Tug"
 	part_requirements = list(PART_CLASS_TRADE = 2)
 
-	job_slots = list(
-		list(
-			name = "Captain",
-			officer = TRUE,
-			outfit = /datum/outfit/job/captain/syndicate,
-			category = JOB_CAT_COMMAND,
-			slots = 1,
-		),
-		list(
-			name = "Foreman",
-			outfit = /datum/outfit/job/ce/syndicate,
-			category = JOB_CAT_ENGINEERING,
-			slots = 1,
-		),
-		list(
-			name = "Mechanic",
-			outfit = /datum/outfit/job/engineer/syndicate,
-			category = JOB_CAT_ENGINEERING,
-			slots = 1,
-		),
-		list(
-			name = "Atmospheric Mechanic",
-			outfit = /datum/outfit/job/atmos/syndicate,
-			category = JOB_CAT_ENGINEERING,
-			slots = 1,
-		),
-		list(
-			name = "Wrecker",
-			outfit = /datum/outfit/job/miner/syndicate,
-			category = JOB_CAT_CARGO,
-			slots = 2,
-		),
-		list(
-			name = "Junior Agent",
-			outfit = /datum/outfit/job/assistant/syndicate,
-			category = JOB_CAT_ASSISTANT,
-			slots = 3,
-		),
-	)
+	job_slots = list(list(name = "Captain", officer = TRUE, outfit = /datum/outfit/job/captain/syndicate, category = "Command", slots = 1), list(name = "Foreman", officer = FALSE, outfit = /datum/outfit/job/ce/syndicate, category = "Engineering", slots = 1), list(name = "Mechanic", officer = FALSE, outfit = /datum/outfit/job/engineer/syndicate, category = "Engineering", slots = 1), list(name = "Atmospheric Mechanic", officer = FALSE, outfit = /datum/outfit/job/atmos/syndicate, category = "Engineering", slots = 1), list(name = "Wrecker", officer = FALSE, outfit = /datum/outfit/job/miner/syndicate, category = "Cargo", slots = 2), list(name = "Junior Agent", officer = FALSE, outfit = /datum/outfit/job/assistant/syndicate, category = "Assistant", slots = 2))
 
 /// DOCKING PORT ///
 
