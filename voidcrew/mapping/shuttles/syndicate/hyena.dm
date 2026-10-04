@@ -1,6 +1,4 @@
 /datum/map_template/shuttle/voidcrew/hyena
-	has_upgrade_slots = TRUE
-	upgrade_slot_ids = list("salvage_bay")
 	name = "Hyena-class Wrecking Tug"
 	suffix = "syndicate_hyena"
 	short_name = "Hyena-Class"
