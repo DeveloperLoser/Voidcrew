@@ -7,7 +7,7 @@
     "Name": "SYN-C Hyena-class Wrecking Tug",
     "Prefix": "_maps/voidcrew/ships/",
     "Port": "ship",
-    "Suffix": "hyena",
+    "Suffix": "syndicate_hyena",
     "Slots": [
       "salvage_bay"
     ],
@@ -17,7 +17,7 @@
         "ID": "salvage_bay_basic",
         "Name": "Salvage Bay",
         "Slot": "salvage_bay",
-        "File": "hyena/salvage_bay_basic.dmm",
+        "File": "hyena/workshop/salvage_bay_basic.dmm",
         "Themes": null,
         "Default": true
       }

@@ -4,12 +4,12 @@
    "height": 18,
    "png": "ship_syndicate_hyena.png",
    "slots": {
-    "rec_room": [
-     10,
-     8
+    "salvage_bay": [
+     14,
+     4
     ]
    },
-   "src_md5": "7281f075bf3cdc95bc4592e63e7133a6",
+   "src_md5": "a2b6ccf60b11d81a71dbb14cfd9ebbaa",
    "width": 28
   }
  },

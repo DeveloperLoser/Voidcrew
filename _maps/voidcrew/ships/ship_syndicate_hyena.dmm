@@ -81,6 +81,7 @@
 /turf/open/floor/iron/white,
 /area/shuttle/voidcrew/hyena/cargo_bay)
 "dc" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "de" = (
@@ -204,6 +205,16 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/voidcrew/hyena/armory)
+"gh" = (
+/obj/structure/closet/secure_closet/freezer{
+	anchored = 1;
+	locked = 0;
+	name = "fridge"
+	},
+/obj/item/storage/cans/sixbeer,
+/obj/effect/turf_decal/tile/bar/diagonal_centre,
+/turf/open/floor/iron,
+/area/shuttle/voidcrew/hyena/dorms/commons)
 "gL" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/voidcrew/hyena/maintenance/port)
@@ -234,6 +245,7 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/hyena/dorms)
 "hy" = (
+/obj/effect/turf_decal/tile/bar/diagonal_centre,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
@@ -283,6 +295,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/hyena/maintenance/port)
+"ix" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=bridge";
+	location = "crew"
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/voidcrew/hyena/dorms/commons)
 "iQ" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/power/smes/engineering{
@@ -440,6 +462,7 @@
 "ob" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/dorms/commons)
@@ -601,6 +624,8 @@
 /area/shuttle/voidcrew/hyena/maintenance/port)
 "rP" = (
 /obj/structure/cable,
+/obj/structure/chair/sofa/left,
+/obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/red,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "rR" = (
@@ -746,6 +771,18 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/voidcrew/hyena/equipment)
 "vi" = (
+/obj/structure/table,
+/obj/item/toy/cards/deck/syndicate{
+	pixel_y = 6
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_syndicate{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/lighter{
+	pixel_x = -5;
+	pixel_y = -1
+	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/carpet/red,
 /area/shuttle/voidcrew/hyena/dorms/commons)
@@ -755,6 +792,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/maintenance/port)
+"vN" = (
+/obj/effect/turf_decal/tile/bar/diagonal_centre,
+/turf/open/floor/iron,
+/area/shuttle/voidcrew/hyena/dorms/commons)
 "vR" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Break Room"
@@ -802,13 +843,21 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/equipment)
 "xQ" = (
+/obj/structure/chair/sofa/corner{
+	dir = 4
+	},
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/radio/intercom{
+	pixel_y = 22
+	},
 /turf/open/floor/carpet/red,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "yd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/carpet/red,
 /area/shuttle/voidcrew/hyena/dorms/commons)
@@ -893,12 +942,13 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/hyena/cargo_bay)
 "zv" = (
+/obj/structure/table,
+/obj/machinery/microwave,
 /obj/machinery/firealarm/directional/west{
 	dir = 4
 	},
-/obj/modular_map_root/ship_upgrade{
-	key = "rec_room"
-	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/bar/diagonal_centre,
 /turf/open/floor/iron,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "zA" = (
@@ -936,7 +986,16 @@
 /turf/open/floor/plating,
 /area/shuttle/voidcrew/hyena/maintenance/fore)
 "Ai" = (
+/obj/structure/table,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/obj/item/food/syndicake,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
 /obj/machinery/light/small,
+/obj/effect/turf_decal/tile/bar/diagonal_centre,
 /turf/open/floor/iron,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "Ax" = (
@@ -1142,6 +1201,13 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white,
 /area/shuttle/voidcrew/hyena/hallway)
+"FQ" = (
+/obj/modular_map_root/ship_upgrade{
+	footprint = ".......###/.......###/.......###/##########/##########/##########/......####/......####/......####";
+	key = "salvage_bay"
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/voidcrew/hyena/bridge/foreman)
 "FU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden,
@@ -1210,6 +1276,10 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/dorms)
 "IO" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/food/egg_smudge,
+/obj/effect/turf_decal/tile/bar/diagonal_centre,
 /turf/open/floor/iron,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "Jv" = (
@@ -1344,6 +1414,7 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/maintenance/port)
 "Lg" = (
+/obj/structure/weightmachine/weightlifter,
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "Lj" = (
@@ -1441,6 +1512,14 @@
 /turf/open/floor/catwalk_floor,
 /area/shuttle/voidcrew/hyena/equipment)
 "Oo" = (
+/obj/machinery/status_display/shuttle{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/red,
 /area/shuttle/voidcrew/hyena/dorms/commons)
 "Or" = (
@@ -1638,6 +1717,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
@@ -1837,6 +1919,10 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/maintenance/port)
 "Yv" = (
+/obj/machinery/nuclearbomb/beer{
+	desc = "An evidently-decommissioned nuclear warhead. Sloppy paint on the casing declares 'VICTORY OVER NANOTRASEN,' followed by a badly-smudged date of 25-something. A drink tap has been drilled directly into the metal.";
+	name = "comemmorative nuclear fission explosive"
+	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/shuttle/voidcrew/hyena/dorms/commons)
@@ -2093,7 +2179,7 @@ dc
 rP
 vi
 ec
-IO
+vN
 Ai
 hv
 Ms
@@ -2112,9 +2198,9 @@ Sq
 vR
 yd
 Kn
-ec
+ix
 hy
-IO
+gh
 hv
 Wc
 Az
@@ -2158,7 +2244,7 @@ zt
 De
 CT
 CT
-CT
+FQ
 CT
 nn
 Og
