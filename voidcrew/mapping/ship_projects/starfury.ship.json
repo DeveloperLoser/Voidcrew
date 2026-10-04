@@ -8,17 +8,33 @@
     "Prefix": "_maps/voidcrew/ships/",
     "Port": "ship",
     "Suffix": "starfury",
-    "Slots": null,
+    "Slots": [
+      "engine_configuration"
+    ],
     "Themes": [
       {
         "ID": "standard",
         "Name": "Standard",
         "Suffix": "starfury",
-        "Slots": null,
+        "Slots": [
+          "engine_configuration"
+        ],
         "Default": true
       }
     ],
-    "Modules": null
+    "Modules": [
+      {
+        "ID": "engine_configuration_basic",
+        "Name": "Supermatter Core",
+        "Slot": "engine_configuration",
+        "File": "starfury/supermatter_core.dmm",
+        "Description": "Looted from a plundered NT Station, this full sized shard is bound to blow up eventually.",
+        "Themes": [
+          "standard"
+        ],
+        "Default": true
+      }
+    ]
   },
   "Crew": 4,
   "Hidden": false,
