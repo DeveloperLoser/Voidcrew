@@ -5,7 +5,7 @@
 	short_name = "SYN-C Hyena-class  Wrecking Tug"
 	part_requirements = list(PART_CLASS_MISC = 0)
 	has_upgrade_slots = TRUE
-	upgrade_slot_ids = list()
+	upgrade_slot_ids = list("common_area")
 	player_hidden = FALSE
 	job_slots = list(
 		list(name = "Captain", officer = TRUE, outfit = /datum/outfit/job/captain, category = JOB_CAT_COMMAND, slots = 1),
